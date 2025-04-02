@@ -35,7 +35,7 @@ public sealed class SpawnPointSystem : EntitySystem
             if (args.DesiredSpawnPointType != SpawnPointType.Unset)
             {
                 var isMatchingJob = spawnPoint.SpawnType == SpawnPointType.Job &&
-                    (args.Job == null || spawnPoint.Job?.ID == args.Job.Prototype);
+                    (args.Job == null || spawnPoint.Job?.ID == args.Job);
 
                 switch (args.DesiredSpawnPointType)
                 {
@@ -48,28 +48,28 @@ public sealed class SpawnPointSystem : EntitySystem
                         continue;
                 }
             }
-        }
 
-        if (possibleSpawns.Count == 0)
-        {
-            Log.Error("No valid spawn points found!");
-            return;
-        }
+            if (possibleSpawns.Count == 0)
+            {
+                Log.Error("No valid spawn points found!");
+                return;
+            }
 
-        // Select a random spawn point
-        var (selectedUid, spawnLoc, selectedSpawnPoint) = _random.Pick(possibleSpawns);
+            // Select a random spawn point
+            var (selectedUid, spawnLoc, selectedSpawnPoint) = _random.Pick(possibleSpawns);
 
-        // Spawn the player mob
-        args.SpawnResult = _stationSpawning.SpawnPlayerMob(
-            spawnLoc,
-            args.Job,
-            args.HumanoidCharacterProfile,
-            args.Station);
+            // Spawn the player mob
+            args.SpawnResult = _stationSpawning.SpawnPlayerMob(
+                spawnLoc,
+                args.Job,
+                args.HumanoidCharacterProfile,
+                args.Station);
 
-        // If the spawn was successful and `DeleteOnSpawn` is enabled, delete the entity
-        if (args.SpawnResult != null && selectedSpawnPoint.DeleteOnSpawn)
-        {
-            EntityManager.DeleteEntity(selectedUid);
+            // If the spawn was successful and `DeleteOnSpawn` is enabled, delete the entity
+            if (args.SpawnResult != null && selectedSpawnPoint.DeleteOnSpawn)
+            {
+                EntityManager.DeleteEntity(selectedUid);
+            }
         }
     }
 }

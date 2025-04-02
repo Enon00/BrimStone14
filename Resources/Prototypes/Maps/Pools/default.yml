@@ -1,3 +1,5 @@
+# BrimStone14
+# All Vanilla maps have been hidden for obvious reasons, the below message is from EE
 - type: gameMapPool
   id: DefaultMapPool
   maps:
@@ -19,9 +21,6 @@
 #  - Rad
 #  - Meta
 #  - Europa
-
-# BrimStone14
-# All Vanilla maps have been hidden for obvious reasons, the below message is from EE
 
 # All maps marked as De-rotated are currently receiving no update support due to a shortage of map maintainers.
 # If you want to see these maps return to official rotation, and have any talent with mapping, please feel free to get in contact with Old Dance Jacket.
