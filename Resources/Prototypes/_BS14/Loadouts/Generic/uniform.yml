@@ -1,0 +1,7 @@
+- type: loadout
+  id: LoadoutClothingUniformJumpsuitJester
+  category: Uniform
+  cost: 1
+  exclusive: true
+  items:
+    - ClothingUniformJumpsuitJester

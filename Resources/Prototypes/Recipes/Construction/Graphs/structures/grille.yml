@@ -11,7 +11,7 @@
           steps:
             - material: MetalRod
               amount: 2
-              doAfter: 1
+              doAfter: 4
 
     - node: grille
       entity: Grille

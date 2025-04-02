@@ -2,6 +2,7 @@
   id: MailCarrier
   name: job-name-mail-carrier
   description: job-description-mail-carrier
+  setPreference: false
   startingGear: CourierGear
   playTimeTracker: JobMailCarrier
   icon: "JobIconMailCarrier"

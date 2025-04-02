@@ -1,0 +1,26 @@
+- type: job
+  id: Technician
+  name: Technician
+  description: "Produce and maintain machinary around the keep while selling goods."
+  playTimeTracker: JobTechnician
+  requirements:
+  startingGear: TechnicianGear
+  icon: "JobIconStationEngineer"
+  alwaysUseSpawner: true
+  supervisors: job-supervisors-baron
+  access:
+  - Maintenance
+  - Cargo
+
+- type: startingGear
+  id: TechnicianGear
+  subGear:
+  - CargoTechPlasmamanGear
+  equipment:
+    jumpsuit: UniformSettlerJumpsuitBrown
+    back: ClothingBackpackCargoFilled
+    shoes: ClothingShoesColorBlack
+    id: CargoPDA
+    pocket1: AppraisalTool
+  satchel: ClothingBackpackSatchelCargoFilled
+  duffelbag: ClothingBackpackDuffelCargoFilled

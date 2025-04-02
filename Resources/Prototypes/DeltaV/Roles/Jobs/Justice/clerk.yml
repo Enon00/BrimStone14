@@ -2,6 +2,7 @@
   id: Clerk
   name: job-name-clerk
   description: job-description-clerk
+  setPreference: false
   playTimeTracker: JobClerk
   requirements:
     - !type:CharacterDepartmentTimeRequirement

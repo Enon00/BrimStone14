@@ -1,0 +1,118 @@
+- type: decal
+  id: DARKBasaltTileBox
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _BS14/Decals/bricktile.rsi
+    state: dark_box
+
+- type: decal
+  id: DARKBasaltTileCornerNe
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _BS14/Decals/bricktile.rsi
+    state: dark_corner_ne
+
+- type: decal
+  id: DARKBasaltTileCornerSe
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _BS14/Decals/bricktile.rsi
+    state: dark_corner_se
+
+- type: decal
+  id: DARKBasaltTileCornerNw
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _BS14/Decals/bricktile.rsi
+    state: dark_corner_nw
+
+- type: decal
+  id: DARKBasaltTileCornerSw
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _BS14/Decals/bricktile.rsi
+    state: dark_corner_sw
+
+- type: decal
+  id: DARKBasaltTileInnerNe
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _BS14/Decals/bricktile.rsi
+    state: dark_inner_ne
+
+- type: decal
+  id: DARKBasaltTileInnerSe
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _BS14/Decals/bricktile.rsi
+    state: dark_inner_se
+
+- type: decal
+  id: DARKBasaltTileInnerNw
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _BS14/Decals/bricktile.rsi
+    state: dark_inner_nw
+
+- type: decal
+  id: DARKBasaltTileInnerSw
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _BS14/Decals/bricktile.rsi
+    state: dark_inner_sw
+
+- type: decal
+  id: DARKBasaltTileEndN
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _BS14/Decals/bricktile.rsi
+    state: dark_end_n
+
+- type: decal
+  id: DARKBasaltTileEndE
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _BS14/Decals/bricktile.rsi
+    state: dark_end_e
+
+- type: decal
+  id: DARKBasaltTileEndS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _BS14/Decals/bricktile.rsi
+    state: dark_end_s
+
+- type: decal
+  id: DARKBasaltTileEndW
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _BS14/Decals/bricktile.rsi
+    state: dark_end_w
+
+- type: decal
+  id: DARKBasaltTileLineN
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _BS14/Decals/bricktile.rsi
+    state: dark_line_n
+
+- type: decal
+  id: DARKBasaltTileLineE
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _BS14/Decals/bricktile.rsi
+    state: dark_line_e
+
+- type: decal
+  id: DARKBasaltTileLineS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _BS14/Decals/bricktile.rsi
+    state: dark_line_s
+
+- type: decal
+  id: DARKBasaltTileLineW
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _BS14/Decals/bricktile.rsi
+    state: dark_line_w

@@ -1,0 +1,15 @@
+- type: stack
+  id: BasaltOreStack
+  name: basalt rock
+  icon: { sprite: _BS14/Objects/Materials/rock.rsi, state: sheet_3 }
+  spawn: BasaltOre1
+  maxCount: 30
+  itemSize: 3
+
+- type: stack
+  id: IronIngotStack
+  name: iron ingot
+  icon: { sprite: Objects/Materials/ingots.rsi, state: iron_3 }
+  spawn: IronIngot1
+  maxCount: 30
+  itemSize: 3

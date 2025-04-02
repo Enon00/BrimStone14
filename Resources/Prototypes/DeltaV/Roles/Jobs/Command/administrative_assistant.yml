@@ -2,6 +2,7 @@
   id: AdministrativeAssistant
   name: job-name-admin-assistant
   description: job-description-admin-assistant
+  setPreference: false
   playTimeTracker: JobAdminAssistant
   requirements:
     - !type:CharacterDepartmentTimeRequirement

@@ -1,0 +1,18 @@
+- type: entity
+  id: DARKFireAxeFlaming
+  name: blaze axe
+  parent: FireAxe
+  description: There small flakes of red paint left on this axe, perhaps it use to be painted
+  components:
+  - type: MeleeWeapon
+    wideAnimationRotation: 90
+  - type: IgniteOnMeleeHit
+    fireStacks: 1
+  - type: Sprite
+    sprite: _BS14/Objects/Weapons/Melee/blaze_axe.rsi
+    state: icon
+  - type: Clothing
+    sprite: _BS14/Objects/Weapons/Melee/blaze_axe.rsi
+    quickEquip: false
+    slots:
+    - back

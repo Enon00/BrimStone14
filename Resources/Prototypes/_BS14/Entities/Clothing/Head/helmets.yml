@@ -1,0 +1,64 @@
+
+- type: entity
+  parent: ClothingHeadBase
+  id: DARKClothingHeadHelmetGuard
+  name: guard helmet
+  description: Standard security gear. Protects the head from impacts.
+  components:
+  - type: Sprite
+    sprite: _BS14/Clothing/Head/Helmets/guard.rsi
+  - type: Clothing
+    sprite: _BS14/Clothing/Head/Helmets/guard_clean.rsi
+  - type: Armor #Values seem to let the user survive one extra hit if attacked consistently.
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.9
+  - type: Tag
+    tags:
+    - WhitelistChameleon
+
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHelmetGuardClean
+  name: marked guard helmet
+  description: Standard security gear. Protects the head from impacts.
+  components:
+  - type: Sprite
+    sprite: _BS14/Clothing/Head/Helmets/guard_clean.rsi
+  - type: Clothing
+    sprite: _BS14/Clothing/Head/Helmets/guard_clean.rsi
+  - type: Armor #Values seem to let the user survive one extra hit if attacked consistently.
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.9
+  - type: Tag
+    tags:
+    - WhitelistChameleon
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHelmetGuardHeavy
+  name: enclosed guard helmet
+  description: Standard security gear. Protects the head from impacts.
+  components:
+  - type: Sprite
+    sprite: _BS14/Clothing/Head/Helmets/guard_heavy.rsi
+  - type: Clothing
+    sprite: _BS14/Clothing/Head/Helmets/guard_heavy.rsi
+  - type: Armor #Values seem to let the user survive one extra hit if attacked consistently.
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.9
+  - type: Tag
+    tags:
+    - WhitelistChameleon

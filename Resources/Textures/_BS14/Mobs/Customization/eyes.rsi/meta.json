@@ -1,0 +1,19 @@
+{
+    "version": 1,
+    "license": "CC-BY-SA-3.0",
+    "copyright": "made by Enon00(github) for Brimstone14",
+    "size": {
+        "x": 32,
+        "y": 32
+    },
+    "states": [
+        {
+            "name": "unathi_eyes",
+            "directions": 4
+        },
+        {
+            "name": "tajaran_eyes",
+            "directions":  4
+        }
+    ]
+}

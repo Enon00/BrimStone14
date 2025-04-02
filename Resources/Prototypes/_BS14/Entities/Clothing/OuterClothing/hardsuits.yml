@@ -1,0 +1,89 @@
+#Civilian Hardsuits
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: DARKClothingOuterHardsuitFLY
+  name: SEVA-FLY hardsuit
+  description: Specifically designed for harsh surface enviroments, the FLY hardsuit is now no longer manufactured due to its many flaws.
+  components:
+  - type: Sprite
+    sprite: _BS14/Clothing/OuterClothing/Hardsuits/fly.rsi
+  - type: Clothing
+    sprite: _BS14/Clothing/OuterClothing/Hardsuits/fly.rsi
+  - type: ExplosionResistance
+    damageCoefficient: 0.9
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.8
+        Slash: 0.95
+        Piercing: 0.95
+        Caustic: 0.5
+        Heat: 0.75
+        Radiation: 0.5
+  - type: ClothingSpeedModifier
+    walkModifier: 0.70
+    sprintModifier: 0.55
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: DARKClothingHeadHelmetHardsuitFLY
+
+#Drakos Hardsuits
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: DARKClothingOuterHardsuitWyrm
+  name: wyrm hardsuit
+  description: A common hardsuit modified for combat
+  components:
+  - type: Sprite
+    sprite: _BS14/Clothing/OuterClothing/Hardsuits/wyrm.rsi
+  - type: Clothing
+    sprite: _BS14/Clothing/OuterClothing/Hardsuits/wyrm.rsi
+  - type: ExplosionResistance
+    damageCoefficient: 0.9
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.6
+        Slash: 0.6
+        Piercing: 0.6
+        Caustic: 0.6
+        Heat: 0.8
+        Radiation: 0.5
+  - type: ClothingSpeedModifier
+    walkModifier: 0.80
+    sprintModifier: 0.80
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: DARKClothingHeadHelmetHardsuitWyrm
+  - type: StaminaDamageResistance
+    coefficient: 0.5 # 50%
+
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: DARKClothingOuterHardsuitWyvern
+  name: wyvern hardsuit
+  description: Specially made hardsuit for knights of the Drakos dyntasy, it is capable of withstanding immense amounts of damage.
+  components:
+  - type: Sprite
+    sprite: _BS14/Clothing/OuterClothing/Hardsuits/wyvern.rsi
+  - type: Clothing
+    sprite: _BS14/Clothing/OuterClothing/Hardsuits/wyvern.rsi
+  - type: ExplosionResistance
+    damageCoefficient: 0.3
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.15
+        Slash: 0.15
+        Piercing: 0.15
+        Heat: 0.3
+        Radiation: 0.3
+        Caustic: 0.3
+  - type: ClothingSpeedModifier
+    walkModifier: 0.90
+    sprintModifier: 0.75
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: DARKClothingHeadHelmetHardsuitWyvern
+  - type: StaminaDamageResistance
+    coefficient: 0.5 # 50%

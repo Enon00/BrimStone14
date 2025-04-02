@@ -2,6 +2,7 @@
   id: BlueshieldOfficer
   name: Blueshield Officer
   description: "Act as a bodyguard and advisor for Command and CentCom VIPs."
+  setPreference: false
   playTimeTracker: JobBlueshieldOfficer
   requirements:
     - !type:CharacterDepartmentTimeRequirement

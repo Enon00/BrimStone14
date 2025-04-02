@@ -8,6 +8,7 @@
   - type: HumanoidAppearance
     species: Moth
   - type: Hunger
+  - type: Weariness
   - type: Thirst
   - type: Carriable # Carrying system from nyanotrasen.
   - type: Icon

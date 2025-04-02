@@ -1,0 +1,719 @@
+- type: entity
+  parent: DARKMultipartAirlock
+  id: DARLAirlockBlockARoomOneLocked
+  suffix: BlockA-RoomOne, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBlockARoomOne ]
+
+- type: entity
+  parent: DARKMultipartAirlock
+  id: DARLAirlockBlockARoomTwoLocked
+  suffix: BlockA-RoomTwo, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBlockARoomTwo ]
+
+- type: entity
+  parent: DARKMultipartAirlock
+  id: DARLAirlockBlockARoomThreeLocked
+  suffix: BlockA-RoomThree, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBlockARoomThree ]
+
+- type: entity
+  parent: DARKMultipartAirlock
+  id: DARLAirlockBlockARoomFourLocked
+  suffix: BlockA-RoomFour, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBlockARoomFour ]
+
+- type: entity
+  parent: DARKMultipartAirlock
+  id: DARLAirlockBlockARoomFiveLocked
+  suffix: BlockA-RoomFive, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBlockARoomFive ]
+
+- type: entity
+  parent: DARKMultipartAirlock
+  id: DARLAirlockBlockARoomSixLocked
+  suffix: BlockA-RoomSix, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBlockARoomSix ]
+
+- type: entity
+  parent: DARKMultipartAirlock
+  id: DARLAirlockBlockARoomSevenLocked
+  suffix: BlockA-RoomSeven, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBlockARoomSeven ]
+
+- type: entity
+  parent: DARKMultipartAirlock
+  id: DARLAirlockBlockARoomEightLocked
+  suffix: BlockA-RoomEight, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBlockARoomEight ]
+
+- type: entity
+  parent: DARKMultipartAirlock
+  id: DARLAirlockBlockARoomNineLocked
+  suffix: BlockA-RoomNine, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBlockARoomNine ]
+
+- type: entity
+  parent: DARKMultipartAirlock
+  id: DARLAirlockBlockARoomTenLocked
+  suffix: BlockA-RoomTen, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBlockARoomTen ]
+
+- type: entity
+  parent: DARKMultipartAirlock
+  id: DARLAirlockBlockARoomElevenLocked
+  suffix: BlockA-RoomEleven, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBlockARoomEleven ]
+
+- type: entity
+  parent: DARKMultipartAirlock
+  id: DARLAirlockBlockARoomTwelveLocked
+  suffix: BlockA-RoomTwelve, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBlockARoomTwelve ]
+
+- type: entity
+  parent: DARKMultipartAirlock
+  id: DARLAirlockBlockARoomThirteenLocked
+  suffix: BlockA-RoomThirteen, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBlockARoomThirteen ]
+
+- type: entity
+  parent: DARKMultipartAirlock
+  id: DARLAirlockBlockARoomFourteenLocked
+  suffix: BlockA-RoomFourteen, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBlockARoomFourteen ]
+
+- type: entity
+  parent: DARKMultipartAirlock
+  id: DARLAirlockBlockARoomFifteenLocked
+  suffix: BlockA-RoomFifteen, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBlockARoomFifteen ]
+
+- type: entity
+  parent: DARKMultipartAirlock
+  id: DARLAirlockBlockARoomSixteenLocked
+  suffix: BlockA-RoomSixteen, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBlockARoomSixteen ]
+
+- type: entity
+  parent: DARKMultipartAirlock
+  id: DARLAirlockBlockARoomSeventeenLocked
+  suffix: BlockA-RoomSeventeen, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBlockARoomSeventeen ]
+
+- type: entity
+  parent: DARKMultipartAirlock
+  id: DARLAirlockBlockARoomEighteenLocked
+  suffix: BlockA-RoomEighteen, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBlockARoomEighteen ]
+
+- type: entity
+  parent: DARKMultipartAirlock
+  id: DARLAirlockBlockARoomNineteenLocked
+  suffix: BlockA-RoomNineteen, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBlockARoomNineteen ]
+
+- type: entity
+  parent: DARKMultipartAirlock
+  id: DARLAirlockBlockARoomTwentyLocked
+  suffix: BlockA-RoomTwenty, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBlockARoomTwenty ]
+
+- type: entity
+  parent: DARKMultipartAirlock
+  id: DARLAirlockBlockBRoomOneLocked
+  suffix: BlockB-RoomOne, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBlockBRoomOne ]
+
+- type: entity
+  parent: DARKMultipartAirlock
+  id: DARLAirlockBlockBRoomTwoLocked
+  suffix: BlockB-RoomTwo, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBlockBRoomTwo ]
+
+- type: entity
+  parent: DARKMultipartAirlock
+  id: DARLAirlockBlockBRoomThreeLocked
+  suffix: BlockB-RoomThree, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBlockBRoomThree ]
+
+- type: entity
+  parent: DARKMultipartAirlock
+  id: DARLAirlockBlockBRoomFourLocked
+  suffix: BlockB-RoomFour, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBlockBRoomFour ]
+
+- type: entity
+  parent: DARKMultipartAirlock
+  id: DARLAirlockBlockBRoomFiveLocked
+  suffix: BlockB-RoomFive, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBlockBRoomFive ]
+
+- type: entity
+  parent: DARKMultipartAirlock
+  id: DARLAirlockBlockBRoomSixLocked
+  suffix: BlockB-RoomSix, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBlockBRoomSix ]
+
+- type: entity
+  parent: DARKMultipartAirlock
+  id: DARLAirlockBlockBRoomSevenLocked
+  suffix: BlockB-RoomSeven, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBlockBRoomSeven ]
+
+- type: entity
+  parent: DARKMultipartAirlock
+  id: DARLAirlockBlockBRoomEightLocked
+  suffix: BlockB-RoomEight, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBlockBRoomEight ]
+
+- type: entity
+  parent: DARKMultipartAirlock
+  id: DARLAirlockBlockBRoomNineLocked
+  suffix: BlockB-RoomNine, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBlockBRoomNine ]
+
+- type: entity
+  parent: DARKMultipartAirlock
+  id: DARLAirlockBlockBRoomTenLocked
+  suffix: BlockB-RoomTen, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBlockBRoomTen ]
+
+- type: entity
+  parent: DARKMultipartAirlock
+  id: DARLAirlockBlockBRoomElevenLocked
+  suffix: BlockB-RoomEleven, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBlockBRoomEleven ]
+
+- type: entity
+  parent: DARKMultipartAirlock
+  id: DARLAirlockBlockBRoomTwelveLocked
+  suffix: BlockB-RoomTwelve, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBlockBRoomTwelve ]
+
+- type: entity
+  parent: DARKMultipartAirlock
+  id: DARLAirlockBlockBRoomThirteenLocked
+  suffix: BlockB-RoomThirteen, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBlockBRoomThirteen ]
+
+- type: entity
+  parent: DARKMultipartAirlock
+  id: DARLAirlockBlockBRoomFourteenLocked
+  suffix: BlockB-RoomFourteen, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBlockBRoomFourteen ]
+
+- type: entity
+  parent: DARKMultipartAirlock
+  id: DARLAirlockBlockBRoomFifteenLocked
+  suffix: BlockB-RoomFifteen, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBlockBRoomFifteen ]
+
+- type: entity
+  parent: DARKMultipartAirlock
+  id: DARLAirlockBlockBRoomSixteenLocked
+  suffix: BlockB-RoomSixteen, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBlockBRoomSixteen ]
+
+- type: entity
+  parent: DARKMultipartAirlock
+  id: DARLAirlockBlockBRoomSeventeenLocked
+  suffix: BlockB-RoomSeventeen, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBlockBRoomSeventeen ]
+
+- type: entity
+  parent: DARKMultipartAirlock
+  id: DARLAirlockBlockBRoomEighteenLocked
+  suffix: BlockB-RoomEighteen, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBlockBRoomEighteen ]
+
+- type: entity
+  parent: DARKMultipartAirlock
+  id: DARLAirlockBlockBRoomNineteenLocked
+  suffix: BlockB-RoomNineteen, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBlockBRoomNineteen ]
+
+- type: entity
+  parent: DARKMultipartAirlock
+  id: DARLAirlockBlockBRoomTwentyLocked
+  suffix: BlockB-RoomTwenty, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBlockBRoomTwenty ]
+
+- type: entity
+  parent: DARKMultipartAirlock
+  id: DARLAirlockBlockCRoomOneLocked
+  suffix: BlockC-RoomOne, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBlockCRoomOne ]
+
+- type: entity
+  parent: DARKMultipartAirlock
+  id: DARLAirlockBlockCRoomTwoLocked
+  suffix: BlockC-RoomTwo, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBlockCRoomTwo ]
+
+- type: entity
+  parent: DARKMultipartAirlock
+  id: DARLAirlockBlockCRoomThreeLocked
+  suffix: BlockC-RoomThree, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBlockCRoomThree ]
+
+- type: entity
+  parent: DARKMultipartAirlock
+  id: DARLAirlockBlockCRoomFourLocked
+  suffix: BlockC-RoomFour, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBlockCRoomFour ]
+
+- type: entity
+  parent: DARKMultipartAirlock
+  id: DARLAirlockBlockCRoomFiveLocked
+  suffix: BlockC-RoomFive, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBlockCRoomFive ]
+
+- type: entity
+  parent: DARKMultipartAirlock
+  id: DARLAirlockBlockCRoomSixLocked
+  suffix: BlockC-RoomSix, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBlockCRoomSix ]
+
+- type: entity
+  parent: DARKMultipartAirlock
+  id: DARLAirlockBlockCRoomSevenLocked
+  suffix: BlockC-RoomSeven, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBlockCRoomSeven ]
+
+- type: entity
+  parent: DARKMultipartAirlock
+  id: DARLAirlockBlockCRoomEightLocked
+  suffix: BlockC-RoomEight, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBlockCRoomEight ]
+
+- type: entity
+  parent: DARKMultipartAirlock
+  id: DARLAirlockBlockCRoomNineLocked
+  suffix: BlockC-RoomNine, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBlockCRoomNine ]
+
+- type: entity
+  parent: DARKMultipartAirlock
+  id: DARLAirlockBlockCRoomTenLocked
+  suffix: BlockC-RoomTen, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBlockCRoomTen ]
+
+- type: entity
+  parent: DARKMultipartAirlock
+  id: DARLAirlockBlockCRoomElevenLocked
+  suffix: BlockC-RoomEleven, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBlockCRoomEleven ]
+
+- type: entity
+  parent: DARKMultipartAirlock
+  id: DARLAirlockBlockCRoomTwelveLocked
+  suffix: BlockC-RoomTwelve, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBlockCRoomTwelve ]
+
+- type: entity
+  parent: DARKMultipartAirlock
+  id: DARLAirlockBlockCRoomThirteenLocked
+  suffix: BlockC-RoomThirteen, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBlockCRoomThirteen ]
+
+- type: entity
+  parent: DARKMultipartAirlock
+  id: DARLAirlockBlockCRoomFourteenLocked
+  suffix: BlockC-RoomFourteen, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBlockCRoomFourteen ]
+
+- type: entity
+  parent: DARKMultipartAirlock
+  id: DARLAirlockBlockCRoomFifteenLocked
+  suffix: BlockC-RoomFifteen, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBlockCRoomFifteen ]
+
+- type: entity
+  parent: DARKMultipartAirlock
+  id: DARLAirlockBlockCRoomSixteenLocked
+  suffix: BlockC-RoomSixteen, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBlockCRoomSixteen ]
+
+- type: entity
+  parent: DARKMultipartAirlock
+  id: DARLAirlockBlockCRoomSeventeenLocked
+  suffix: BlockC-RoomSeventeen, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBlockCRoomSeventeen ]
+
+- type: entity
+  parent: DARKMultipartAirlock
+  id: DARLAirlockBlockCRoomEighteenLocked
+  suffix: BlockC-RoomEighteen, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBlockCRoomEighteen ]
+
+- type: entity
+  parent: DARKMultipartAirlock
+  id: DARLAirlockBlockCRoomNineteenLocked
+  suffix: BlockC-RoomNineteen, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBlockCRoomNineteen ]
+
+- type: entity
+  parent: DARKMultipartAirlock
+  id: DARLAirlockBlockCRoomTwentyLocked
+  suffix: BlockC-RoomTwenty, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBlockCRoomTwenty ]
+
+- type: entity
+  parent: DARKMultipartAirlock
+  id: DARLAirlockBlockDRoomOneLocked
+  suffix: BlockD-RoomOne, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBlockDRoomOne ]
+
+- type: entity
+  parent: DARKMultipartAirlock
+  id: DARLAirlockBlockDRoomTwoLocked
+  suffix: BlockD-RoomTwo, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBlockDRoomTwo ]
+
+- type: entity
+  parent: DARKMultipartAirlock
+  id: DARLAirlockBlockDRoomThreeLocked
+  suffix: BlockD-RoomThree, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBlockDRoomThree ]
+
+- type: entity
+  parent: DARKMultipartAirlock
+  id: DARLAirlockBlockDRoomFourLocked
+  suffix: BlockD-RoomFour, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBlockDRoomFour ]
+
+- type: entity
+  parent: DARKMultipartAirlock
+  id: DARLAirlockBlockDRoomFiveLocked
+  suffix: BlockD-RoomFive, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBlockDRoomFive ]
+
+- type: entity
+  parent: DARKMultipartAirlock
+  id: DARLAirlockBlockDRoomSixLocked
+  suffix: BlockD-RoomSix, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBlockDRoomSix ]
+
+- type: entity
+  parent: DARKMultipartAirlock
+  id: DARLAirlockBlockDRoomSevenLocked
+  suffix: BlockD-RoomSeven, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBlockDRoomSeven ]
+
+- type: entity
+  parent: DARKMultipartAirlock
+  id: DARLAirlockBlockDRoomEightLocked
+  suffix: BlockD-RoomEight, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBlockDRoomEight ]
+
+- type: entity
+  parent: DARKMultipartAirlock
+  id: DARLAirlockBlockDRoomNineLocked
+  suffix: BlockD-RoomNine, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBlockDRoomNine ]
+
+- type: entity
+  parent: DARKMultipartAirlock
+  id: DARLAirlockBlockDRoomTenLocked
+  suffix: BlockD-RoomTen, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBlockDRoomTen ]
+
+- type: entity
+  parent: DARKMultipartAirlock
+  id: DARLAirlockBlockDRoomElevenLocked
+  suffix: BlockD-RoomEleven, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBlockDRoomEleven ]
+
+- type: entity
+  parent: DARKMultipartAirlock
+  id: DARLAirlockBlockDRoomTwelveLocked
+  suffix: BlockD-RoomTwelve, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBlockDRoomTwelve ]
+
+- type: entity
+  parent: DARKMultipartAirlock
+  id: DARLAirlockBlockDRoomThirteenLocked
+  suffix: BlockD-RoomThirteen, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBlockDRoomThirteen ]
+
+- type: entity
+  parent: DARKMultipartAirlock
+  id: DARLAirlockBlockDRoomFourteenLocked
+  suffix: BlockD-RoomFourteen, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBlockDRoomFourteen ]
+
+- type: entity
+  parent: DARKMultipartAirlock
+  id: DARLAirlockBlockDRoomFifteenLocked
+  suffix: BlockD-RoomFifteen, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBlockDRoomFifteen ]
+
+- type: entity
+  parent: DARKMultipartAirlock
+  id: DARLAirlockBlockDRoomSixteenLocked
+  suffix: BlockD-RoomSixteen, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBlockDRoomSixteen ]
+
+- type: entity
+  parent: DARKMultipartAirlock
+  id: DARLAirlockBlockDRoomSeventeenLocked
+  suffix: BlockD-RoomSeventeen, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBlockDRoomSeventeen ]
+
+- type: entity
+  parent: DARKMultipartAirlock
+  id: DARLAirlockBlockDRoomEighteenLocked
+  suffix: BlockD-RoomEighteen, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBlockDRoomEighteen ]
+
+- type: entity
+  parent: DARKMultipartAirlock
+  id: DARLAirlockBlockDRoomNineteenLocked
+  suffix: BlockD-RoomNineteen, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBlockDRoomNineteen ]
+
+- type: entity
+  parent: DARKMultipartAirlock
+  id: DARLAirlockBlockDRoomTwentyLocked
+  suffix: BlockD-RoomTwenty, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBlockDRoomTwenty ]

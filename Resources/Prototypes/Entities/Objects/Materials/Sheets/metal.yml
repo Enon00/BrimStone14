@@ -60,6 +60,7 @@
   - type: FloorTile
     outputs:
     - Plating
+    - DARKPlanetPlating
   - type: Extractable
     grindableSolutionName: steel
   - type: SolutionContainerManager

@@ -1,0 +1,74 @@
+#Civilian Hardsuits
+- type: entity
+  parent: ClothingHeadHardsuitWithLightBase
+  id: DARKClothingHeadHelmetHardsuitFLY
+  name: fly hardsuit helmet
+  description: A insect like helmet for dangerous planets.
+  components:
+  - type: BreathMask
+  - type: Sprite
+    sprite: _BS14/Clothing/Head/Hardsuits/fly.rsi
+  - type: Clothing
+    sprite: _BS14/Clothing/Head/Hardsuits/fly.rsi
+  - type: PointLight
+    color: "#ffeead"
+  - type: PressureProtection
+    highPressureMultiplier: 0.525
+    lowPressureMultiplier: 1000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Piercing: 0.9
+        Heat: 0.9
+
+#Drakos Hardsuits
+- type: entity
+  parent: ClothingHeadHardsuitWithLightBase
+  id: DARKClothingHeadHelmetHardsuitWyrm
+  name: wyrm hardsuit helmet
+  description: A basic hardsuit helmet made for the Drakos guards.
+  components:
+  - type: BreathMask
+  - type: Sprite
+    sprite: _BS14/Clothing/Head/Hardsuits/wyrm.rsi
+  - type: Clothing
+    sprite: _BS14/Clothing/Head/Hardsuits/wyrm.rsi
+  - type: PointLight
+    color: "#ff702e"
+  - type: PressureProtection
+    highPressureMultiplier: 0.525
+    lowPressureMultiplier: 1000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.9
+
+- type: entity
+  parent: ClothingHeadHardsuitWithLightBase
+  id: DARKClothingHeadHelmetHardsuitWyvern
+  name: wyvern hardsuit helmet
+  description: Specially made for the Drakos elite, it depicts a draconic creature.
+  components:
+  - type: BreathMask
+  - type: Sprite
+    sprite: _BS14/Clothing/Head/Hardsuits/wyvern.rsi
+  - type: Clothing
+    sprite: _BS14/Clothing/Head/Hardsuits/wyvern.rsi
+  - type: PointLight
+    color: "#ff702e"
+  - type: PressureProtection
+    highPressureMultiplier: 0.525
+    lowPressureMultiplier: 1000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.9
+
+

@@ -1,0 +1,44 @@
+- type: gameMap
+  id: LoneTown
+  mapName: 'Lonetown'
+  mapPath: /Maps/lonetown.yml
+  minPlayers: 0
+  maxPlayers: 60
+  stations:
+    LoneTown:
+      stationProto: StandardPlanetLocation
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: "Barony of Lowthan"
+        - type: StationEmergencyShuttle
+          emergencyShuttlePath: /Maps/_BS14/EvacBaron.yml
+        - type: StationJobs
+          overflowJobs:
+            - Vagabond
+          availableJobs:
+          #overflow
+            Vagabond: [ -1, -1 ]
+          #guard
+            Guard: [ 6, 8 ]
+            Executioner: [ 1, 2]
+            GuardCaptain: [ 1, 1 ]
+            Advisor: [ 1, 1 ]
+            Baron: [ 1, 1 ]
+          #NT
+            NanoTrasenOverseer: [ 1, 1 ]
+            NanoTrasenEmployee: [ 1, 1 ]
+            BlueShield: [ 1, 1 ]
+          #Settlers
+            Beggar: [ 2, 6 ]
+            Farmer: [ 3, 3 ]
+            Physician: [ 4, 4 ]
+            DARKEL: [ 1, 1 ]
+            DARKMedicalDirector: [ 1, 1 ]
+            TavernKeeper: [ 1, 1 ]
+            Technician: [ 5, 5 ]
+            DARKEngineer: [ 2, 2 ]
+            DARKSalvager: [ 6, 6 ]
+            DARKChaplin: [ 1, 1 ]
+            DARKChef: [ 1, 1 ]
+            Tapper: [ 2, 2 ]
+            DARKChemist: [ 1, 1 ]

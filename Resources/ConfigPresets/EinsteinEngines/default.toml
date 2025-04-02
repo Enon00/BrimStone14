@@ -10,8 +10,8 @@ ramping_average_end_time = 180.0
 ramping_average_chaos    = 4.5
 
 [game]
-hostname           = "Einstein Engines (change this)"
-desc               = "An alternative upstream that favors content intended for RP servers. If you are reading this, please change it."
+hostname           = "Brim Stone 14"
+desc               = "An Immersive experince set upon lavaland, attempt to survive and thrive on the inhabital planet."
 soft_max_players   = 60
 lobbyenabled       = true
 lobbyduration      = 240
@@ -38,7 +38,7 @@ limit = 10.0
 
 [build]
 #! PLEASE set this for your fork
-fork_id = "EinsteinEngines"
+fork_id = "BrimStone14"
 
 [server]
 rules_file   = "DefaultRuleset"

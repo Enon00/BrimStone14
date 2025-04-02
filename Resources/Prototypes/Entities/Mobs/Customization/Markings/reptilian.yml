@@ -180,7 +180,7 @@
   forcedColoring: true
   speciesRestriction: [Reptilian]
   sprites:
-  - sprite: Mobs/Customization/reptilian_parts.rsi
+  - sprite: _BS14/Mobs/Customization/reptilian_parts.rsi
     state: snout_round
 
 - type: marking
@@ -190,7 +190,7 @@
   forcedColoring: true
   speciesRestriction: [Reptilian]
   sprites:
-  - sprite: Mobs/Customization/reptilian_parts.rsi
+  - sprite: _BS14/Mobs/Customization/reptilian_parts.rsi
     state: snout_sharp
 
 - type: marking

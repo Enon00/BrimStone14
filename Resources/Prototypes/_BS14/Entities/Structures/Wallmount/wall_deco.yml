@@ -1,0 +1,452 @@
+- type: entity
+  parent: PosterBase
+  id: RoyalBanner
+  name: royal banner
+  description: the family crest of the kingdom.
+  components:
+  - type: Sprite
+    state: royalbanner
+    sprite: _BS14/Structures/Wallmounts/royalbanner.rsi
+
+- type: entity
+  id: DARKWindowBars
+  parent: BaseStructure
+  name: window bars
+  description: Bars used to protect windows.
+  components:
+    - type: MeleeSound
+      soundGroups:
+        Brute:
+          path:
+            "/Audio/Weapons/grille_hit.ogg"
+    - type: Sprite
+      sprite: _BS14/Structures/Wallmounts/bars.rsi
+      state: icon
+    - type: Icon
+      sprite: _BS14/Structures/Wallmounts/bars.rsi
+      state: icon
+    - type: Damageable
+      damageContainer: Inorganic
+      damageModifierSet: Metallic
+    - type: Destructible
+      thresholds:
+        - trigger:
+            !type:DamageTrigger
+            damage: 200
+          behaviors:
+            - !type:DoActsBehavior
+              acts: ["Destruction"]
+#Wanted Posters
+
+- type: entity
+  id: DARKWantedPosterBroken
+  name: wanted poster
+  description: its broken
+  suffix: Wall broken
+  placement:
+    mode: SnapgridCenter
+  components:
+    - type: InteractionOutline
+    - type: Clickable
+    - type: Transform
+      anchored: true
+    - type: Sprite
+      sprite: _BS14/Structures/Wallmounts/wall_deco.rsi
+      state: wanted_broken
+    - type: Damageable
+      damageContainer: Inorganic
+    - type: Destructible
+      thresholds:
+        - trigger:
+            !type:DamageTrigger
+            damage: 100
+          behaviors:
+            - !type:PlaySoundBehavior
+              sound:
+                collection: GlassBreak
+            - !type:DoActsBehavior
+              acts: [ "Destruction" ]
+
+- type: entity
+  id: DARKWantedPosterClown
+  name: wanted poster
+  parent: DARKWantedPosterBroken
+  description: "Thats one creepy smile"
+  suffix: Clown
+  placement:
+    mode: SnapgridCenter
+  components:
+    - type: Sprite
+      sprite: _BS14/Structures/Wallmounts/wall_deco.rsi
+      state: wanted_clown
+    - type: PointLight
+      color: "#236624"
+      energy: 0.8
+      radius: 3
+      softness: 1
+      offset: "0, -0.5"
+    - type: Destructible
+      thresholds:
+        - trigger:
+            !type:DamageTrigger
+            damage: 100
+          behaviors:
+            - !type:PlaySoundBehavior
+              sound:
+                collection: GlassBreak
+            - !type:SpawnEntitiesBehavior
+              spawn:
+                DARKWantedPosterBroken:
+                  min: 1
+                  max: 1
+            - !type:DoActsBehavior
+              acts: [ "Destruction" ]
+
+- type: entity
+  id: DARKWantedPosterRobe
+  name: wanted poster
+  parent: DARKWantedPosterBroken
+  description: "how can I tell who this is if his face is hidden?"
+  suffix: Cultist
+  placement:
+    mode: SnapgridCenter
+  components:
+    - type: Sprite
+      sprite: _BS14/Structures/Wallmounts/wall_deco.rsi
+      state: wanted_robe
+    - type: PointLight
+      color: "#236624"
+      energy: 0.8
+      radius: 3
+      softness: 1
+      offset: "0, -0.5"
+    - type: Destructible
+      thresholds:
+        - trigger:
+            !type:DamageTrigger
+            damage: 100
+          behaviors:
+            - !type:PlaySoundBehavior
+              sound:
+                collection: GlassBreak
+            - !type:SpawnEntitiesBehavior
+              spawn:
+                DARKWantedPosterBroken:
+                  min: 1
+                  max: 1
+            - !type:DoActsBehavior
+              acts: [ "Destruction" ]
+
+- type: entity
+  id: DARKWantedPosterTider
+  name: wanted poster
+  parent: DARKWantedPosterBroken
+  description: "It appears that the wanted person is wearing a gas mask."
+  suffix: Tider
+  placement:
+    mode: SnapgridCenter
+  components:
+    - type: Sprite
+      sprite: _BS14/Structures/Wallmounts/wall_deco.rsi
+      state: wanted_tider
+    - type: PointLight
+      color: "#236624"
+      energy: 0.8
+      radius: 3
+      softness: 1
+      offset: "0, -0.5"
+    - type: Destructible
+      thresholds:
+        - trigger:
+            !type:DamageTrigger
+            damage: 100
+          behaviors:
+            - !type:PlaySoundBehavior
+              sound:
+                collection: GlassBreak
+            - !type:SpawnEntitiesBehavior
+              spawn:
+                DARKWantedPosterBroken:
+                  min: 1
+                  max: 1
+            - !type:DoActsBehavior
+              acts: [ "Destruction" ]
+
+- type: entity
+  id: DARKDecoMetalOne
+  name: ancient electrical box
+  description: "An ancient box, its wires are cut."
+  placement:
+    mode: SnapgridCenter
+  components:
+    - type: Sprite
+      sprite: _BS14/Structures/Wallmounts/wall_deco.rsi
+      state: metal_one
+    - type: Destructible
+      thresholds:
+        - trigger:
+            !type:DamageTrigger
+            damage: 100
+          behaviors:
+            - !type:PlaySoundBehavior
+              sound:
+                collection: MetalSlam
+            - !type:DoActsBehavior
+              acts: [ "Destruction" ]
+
+- type: entity
+  id: DARKDecoMetalTwo
+  name: ancient modem
+  description: "Appears to be a modem, though it appears to not be connecting."
+  placement:
+    mode: SnapgridCenter
+  components:
+    - type: Sprite
+      sprite: _BS14/Structures/Wallmounts/wall_deco.rsi
+      state: metal_two
+    - type: Destructible
+      thresholds:
+        - trigger:
+            !type:DamageTrigger
+            damage: 100
+          behaviors:
+            - !type:PlaySoundBehavior
+              sound:
+                collection: MetalSlam
+            - !type:DoActsBehavior
+              acts: [ "Destruction" ]
+
+- type: entity
+  id: DARKDecoMetalThree
+  name: ancient pipe
+  description: "Watch out for that steam."
+  placement:
+    mode: SnapgridCenter
+  components:
+    - type: Sprite
+      sprite: _BS14/Structures/Wallmounts/wall_deco.rsi
+      state: metal_three
+    - type: Destructible
+      thresholds:
+        - trigger:
+            !type:DamageTrigger
+            damage: 100
+          behaviors:
+            - !type:PlaySoundBehavior
+              sound:
+                collection: MetalSlam
+            - !type:DoActsBehavior
+              acts: [ "Destruction" ]
+
+- type: entity
+  id: DARKDecoMetalFour
+  name: ancient metal vent
+  description: "Its most likely older then you."
+  placement:
+    mode: SnapgridCenter
+  components:
+    - type: Sprite
+      sprite: _BS14/Structures/Wallmounts/wall_deco.rsi
+      state: metal_four
+    - type: Destructible
+      thresholds:
+        - trigger:
+            !type:DamageTrigger
+            damage: 100
+          behaviors:
+            - !type:PlaySoundBehavior
+              sound:
+                collection: MetalSlam
+            - !type:DoActsBehavior
+              acts: [ "Destruction" ]
+
+- type: entity
+  id: DARKDecoStoneOne
+  name: gargoyle
+  description: "creepy stonework but yet masterfully made."
+  placement:
+    mode: SnapgridCenter
+  components:
+    - type: Sprite
+      sprite: _BS14/Structures/Wallmounts/wall_deco.rsi
+      state: rock_one
+    - type: Destructible
+      thresholds:
+        - trigger:
+            !type:DamageTrigger
+            damage: 100
+          behaviors:
+            - !type:PlaySoundBehavior
+              sound:
+                collection: MetalSlam
+            - !type:DoActsBehavior
+              acts: [ "Destruction" ]
+
+- type: entity
+  id: DARKDecoStoneTwo
+  name: gargoyle
+  description: "creepy stonework but yet masterfully made."
+  placement:
+    mode: SnapgridCenter
+  components:
+    - type: Sprite
+      sprite: _BS14/Structures/Wallmounts/wall_deco.rsi
+      state: rock_two
+    - type: Destructible
+      thresholds:
+        - trigger:
+            !type:DamageTrigger
+            damage: 100
+          behaviors:
+            - !type:PlaySoundBehavior
+              sound:
+                collection: MetalSlam
+            - !type:DoActsBehavior
+              acts: [ "Destruction" ]
+
+- type: entity
+  id: DARKDecoStoneThree
+  name: gargoyle
+  description: "creepy stonework but yet masterfully made."
+  placement:
+    mode: SnapgridCenter
+  components:
+    - type: Sprite
+      sprite: _BS14/Structures/Wallmounts/wall_deco.rsi
+      state: rock_three
+    - type: Destructible
+      thresholds:
+        - trigger:
+            !type:DamageTrigger
+            damage: 100
+          behaviors:
+            - !type:PlaySoundBehavior
+              sound:
+                collection: MetalSlam
+            - !type:DoActsBehavior
+              acts: [ "Destruction" ]
+
+- type: entity
+  parent: PosterBase
+  id: DARKUniversalism
+  name: universalism symbol
+  description: The most common symbol of universalism, denoting saftey and refuge for all beliefs.
+  components:
+  - type: Sprite
+    sprite: _BS14/Structures/Wallmounts/wall_deco.rsi
+    state: universalism
+
+- type: entity
+  id: DARKDecoLetterBox
+  name: letterbox
+  description: "hopefully you'll only find mail."
+  placement:
+    mode: SnapgridCenter
+  components:
+    - type: Sprite
+      sprite: _BS14/Structures/Wallmounts/wall_deco.rsi
+      state: letterbox
+    - type: Clickable
+    - type: InteractionOutline
+    - type: Storage
+      grid:
+      - 0,0,2,2
+      maxItemSize: Huge
+    - type: ContainerContainer
+      containers:
+        storagebase: !type:Container
+          ents: []
+    - type: UserInterface
+      interfaces:
+        enum.StorageUiKey.Key:
+          type: StorageBoundUserInterface
+    - type: Destructible
+      thresholds:
+        - trigger:
+            !type:DamageTrigger
+            damage: 100
+          behaviors:
+            - !type:PlaySoundBehavior
+              sound:
+                collection: MetalSlam
+            - !type:DoActsBehavior
+              acts: [ "Destruction" ]
+            - !type:EmptyAllContainersBehaviour
+
+- type: entity
+  id: DARKDecoBigLetterBox
+  name: large letterbox
+  description: "hopefully you'll only find mail."
+  placement:
+    mode: SnapgridCenter
+  components:
+    - type: Sprite
+      sprite: _BS14/Structures/Wallmounts/wall_deco.rsi
+      state: big_letterbox
+    - type: Clickable
+    - type: InteractionOutline
+    - type: Storage
+      grid:
+      - 0,0,3,3
+      maxItemSize: Huge
+    - type: ContainerContainer
+      containers:
+        storagebase: !type:Container
+          ents: []
+    - type: UserInterface
+      interfaces:
+        enum.StorageUiKey.Key:
+          type: StorageBoundUserInterface
+    - type: Destructible
+      thresholds:
+        - trigger:
+            !type:DamageTrigger
+            damage: 100
+          behaviors:
+            - !type:PlaySoundBehavior
+              sound:
+                collection: MetalSlam
+            - !type:DoActsBehavior
+              acts: [ "Destruction" ]
+            - !type:EmptyAllContainersBehaviour
+
+- type: entity
+  id: DARKDecoWoodPanel
+  name: wood panel
+  description: "fancy."
+  placement:
+    mode: SnapgridCenter
+  components:
+    - type: Sprite
+      sprite: _BS14/Structures/Wallmounts/wall_deco.rsi
+      state: wood_panel
+    - type: Destructible
+      thresholds:
+        - trigger:
+            !type:DamageTrigger
+            damage: 100
+          behaviors:
+            - !type:PlaySoundBehavior
+              sound:
+                collection: WoodDestroy
+
+- type: entity
+  id: DARKDecoWoodPanelCorner
+  name: wood panel
+  description: "fancy."
+  placement:
+    mode: SnapgridCenter
+  components:
+    - type: Sprite
+      sprite: _BS14/Structures/Wallmounts/wall_deco.rsi
+      state: wood_paneldig
+    - type: Destructible
+      thresholds:
+        - trigger:
+            !type:DamageTrigger
+            damage: 100
+          behaviors:
+            - !type:PlaySoundBehavior
+              sound:
+                collection: WoodDestroy
+

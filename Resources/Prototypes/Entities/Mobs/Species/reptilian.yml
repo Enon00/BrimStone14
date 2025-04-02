@@ -8,6 +8,7 @@
   - type: HumanoidAppearance
     species: Reptilian
   - type: Hunger
+  - type: Weariness
   - type: Puller
     needsHands: false
   - type: Thirst
@@ -63,7 +64,6 @@
       301: 0.8
       295: 0.6
       285: 0.4
-  - type: Wagging
   - type: LanguageKnowledge
     speaks:
     - TauCetiBasic

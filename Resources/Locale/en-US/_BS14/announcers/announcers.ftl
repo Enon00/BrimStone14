@@ -1,0 +1,1 @@
+announcer-VoxBot-name=Automated

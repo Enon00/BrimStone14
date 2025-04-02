@@ -2,6 +2,7 @@
   id: Magistrate
   name: Magistrate
   description: "Ensure Space Law is being followed, Uphold Justice and Legality, Hold Hearings and Trials, Follow SOP, Ensure Command is Following Space Law."
+  setPreference: false
   playTimeTracker: JobMagistrate
   requirements:
     - !type:CharacterDepartmentTimeRequirement

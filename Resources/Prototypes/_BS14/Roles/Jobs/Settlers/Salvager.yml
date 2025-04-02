@@ -1,0 +1,24 @@
+- type: job
+  id: DARKSalvager
+  name: Salvager
+  description: "Mine raw resources, fight the dangerous of lavaland and eventually fall into a lavapit."
+  playTimeTracker: JobSalvager
+  startingGear: SalvagerDGear
+  icon: "JobIconShaftMiner"
+  alwaysUseSpawner: true
+  supervisors: job-supervisors-baron
+  access:
+  - Salvage
+
+- type: startingGear
+  id: SalvagerDGear
+  subGear:
+  - SalvageSpecialistPlasmamanGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitSalvageSpecialist
+    back: ClothingBackpackSalvageFilled
+    shoes: ClothingShoesBootsSalvage
+    id: SalvagePDA
+    neck: ClothingNeckCloakMiner
+  satchel: ClothingBackpackSatchelFilled
+  duffelbag: ClothingBackpackDuffelFilled

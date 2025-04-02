@@ -1,0 +1,28 @@
+- type: entity
+  id: CrateHydroponicsSeedsLavaland
+  parent: CrateHydroSecure
+  name: lavaland seeds crate
+  description: Any entrepreneuring botanist's dream. Contains many different exotic seeds. Requires Hydroponics access to open.
+  components:
+  - type: StorageFill
+    contents:
+      - id: HilrouteSeeds
+        amount: 2
+      - id: AgerSeeds
+        amount: 2
+      - id: TowercapSeeds
+        amount: 2
+      - id: AshwheaveSeeds
+        amount: 2
+      - id: DrayhadSeeds
+        amount: 2
+      - id: DarkMushohSeedPacket
+        amount: 2
+      - id: FlyAmanitaSeeds
+        amount: 2
+      - id: EitherSeeds
+        amount: 2
+      - id: BungoSeeds
+        amount: 2
+      - id: PotatoSeeds
+        amount: 2

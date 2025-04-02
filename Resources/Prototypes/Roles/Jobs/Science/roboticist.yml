@@ -2,6 +2,7 @@
   id: Roboticist
   name: job-name-roboticist
   description: job-description-roboticist
+  setPreference: false
   playTimeTracker: JobRoboticist
   requirements:
   - !type:CharacterDepartmentTimeRequirement

@@ -1,0 +1,148 @@
+- type: biomeTemplate
+  id: DARKLavaland
+  layers:
+    - !type:BiomeEntityLayer
+      threshold: 0.9
+      noise:
+        frequency: 1
+        seed: 1
+      allowedTiles:
+        - DARKPlanetfloor
+        - DARKPlanetDarkAsh
+      entities:
+        - BasaltOne
+        - BasaltTwo
+        - BasaltThree
+        - BasaltFour
+        - BasaltFive
+    - !type:BiomeDecalLayer
+      allowedTiles:
+        - DARKPlanetfloor
+        - DARKPlanetDarkAsh
+      threshold: 0.9
+      divisions: 1
+      noise:
+        seed: 2
+        frequency: 1
+      decals:
+        - Basalt1
+        - Basalt2
+        - Basalt3
+        - Basalt4
+        - Basalt5
+        - Basalt6
+        - Basalt7
+        - Basalt8
+        - Basalt9
+    - !type:BiomeEntityLayer
+      threshold: 0.95
+      noise:
+        seed: 3
+        noiseType: OpenSimplex2
+        frequency: 1
+      allowedTiles:
+        - DARKPlanetfloor
+        - DARKPlanetDarkAsh
+      entities:
+        - DARKFloraRockSolid01
+        - DARKFloraRockSolid02
+        - DARKFloraRockSolid03
+    - !type:BiomeEntityLayer
+      threshold: 0.2
+      noise:
+        seed: 4
+        frequency: 0.02
+        fractalType: FBm
+        octaves: 5
+        lacunarity: 2
+        gain: 0.4
+      allowedTiles:
+        - DARKPlanetfloor
+        - DARKPlanetDarkAsh
+      entities:
+        - FloorLavaEntity
+    # Rock formations
+    - !type:BiomeEntityLayer
+      allowedTiles:
+        - DARKPlanetfloor
+        - DARKPlanetDarkAsh
+      threshold: -0.25
+      noise:
+        seed: 5
+        noiseType: Cellular
+        frequency: 0.05
+        lacunarity: 2
+        fractalType: FBm
+        octaves: 5
+        cellularDistanceFunction: Euclidean
+        cellularReturnType: Distance2
+      entities:
+        - WallRockBasalt
+    - !type:BiomeDummyLayer
+      id: Loot
+    # Fill basalt
+    - !type:BiomeTileLayer
+      threshold: -1
+      tile: DARKPlanetfloor
+    # HighOre
+    - !type:BiomeEntityLayer
+      threshold: 0.92
+      noise:
+        seed: 7
+        noiseType: OpenSimplex2
+        frequency: 0.085
+        lacunarity: 4
+      allowedTiles:
+        - DARKPlanetfloor
+        - DARKPlanetDarkAsh
+      entities:
+        - WallRockBasaltPlasma
+        - WallRockBasaltGold
+        - WallRockBasaltSilver
+    # LowOre
+    - !type:BiomeEntityLayer
+      threshold: 0.90
+      noise:
+        seed: 8
+        noiseType: OpenSimplex2
+        frequency: 0.08
+        lacunarity: 4
+      allowedTiles:
+        - DARKPlanetfloor
+        - DARKPlanetDarkAsh
+      entities:
+        - WallRockBasaltTin
+        - WallRockBasaltCoal
+        - WallRockBasaltQuartz
+    # AllOre
+    - !type:BiomeEntityLayer
+      threshold: 0.99
+      noise:
+        seed: 9
+        noiseType: OpenSimplex2
+        frequency: 1
+        fractalType: FBm
+      allowedTiles:
+        - DARKPlanetfloor
+        - DARKPlanetDarkAsh
+      entities:
+        - WallRockBasaltArtifactFragment
+        - WallRockBasaltDiamond
+        - WallRockBasaltTin
+        - WallRockBasaltCoal
+        - WallRockBasaltQuartz
+        - WallRockBasaltPlasma
+        - WallRockBasaltGold
+        - WallRockBasaltSilver
+    # MonsterSpawns
+    - !type:BiomeEntityLayer
+      threshold: 0.99
+      noise:
+        seed: 10
+        noiseType: OpenSimplex2
+        frequency: 1
+      allowedTiles:
+        - DARKPlanetfloor
+        - DARKPlanetDarkAsh
+      entities:
+        - RandomLavalandMobSpawner

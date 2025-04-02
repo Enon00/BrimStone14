@@ -1,0 +1,11 @@
+- type: entity
+  parent: ClothingUniformEnvirosuitBase
+  id: ClothingUniformEnvirosuitGuard
+  name: guard plasma envirosuit
+  description: A special containment suit that allows plasma-based lifeforms to exist safely in an oxygenated environment.
+  components:
+  - type: Sprite
+    sprite: _BS14/Clothing/Uniform/_Envirosuits/guard.rsi
+  - type: Clothing
+    sprite: _BS14/Clothing/Uniform/_Envirosuits/guard.rsi
+

@@ -1,0 +1,31 @@
+- type: job
+  id: Physician
+  name: Physician
+  description: "Practice medical work, surgery and chemistry in order to keep the people healthy."
+  playTimeTracker: Physician
+  startingGear: PhysicianGear
+  icon: "JobIconMedicalDoctor"
+  alwaysUseSpawner: true
+  supervisors: job-supervisors-baron
+  access:
+  - Medical
+  special:
+  - !type:AddComponentSpecial
+    components:
+    - type: CPRTraining
+    - type: SurgerySpeedModifier
+      speedModifier: 1.75
+
+- type: startingGear
+  id: PhysicianGear
+  subGear:
+  - DoctorPlasmamanGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitMedicalDoctor
+    back: ClothingBackpackMedicalFilled
+    shoes: ClothingShoesColorWhite
+    id: MedicalPDA
+    belt: ClothingBeltMedicalFilled
+  innerClothingSkirt: ClothingUniformJumpskirtMedicalDoctor
+  satchel: ClothingBackpackSatchelMedicalFilled
+  duffelbag: ClothingBackpackDuffelMedicalFilled

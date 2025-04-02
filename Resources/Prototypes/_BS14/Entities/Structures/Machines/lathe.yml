@@ -1,0 +1,94 @@
+- type: entity
+  id: Fabricator
+  parent: BaseLatheLube
+  name: fabricator
+  description: A heavy duty machine used to produce larger parts and components.
+  components:
+  - type: Sprite
+    sprite: _BS14/Structures/Machines/fabricator.rsi
+    snapCardinals: true
+    layers:
+    - state: icon
+      map: ["enum.LatheVisualLayers.IsRunning"]
+    - state: unlit
+      shader: unshaded
+      map: ["enum.PowerDeviceVisualLayers.Powered"]
+    - state: inserting
+      map: ["enum.MaterialStorageVisualLayers.Inserting"]
+    - state: panel
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: Machine
+    board: AutolatheMachineCircuitboard
+  - type: LatheHeatProducing
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 1000
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          collection: MetalBreak
+      - !type:ChangeConstructionNodeBehavior
+        node: machineFrame
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-1.5,-0.45,1.5,0.45" 
+        density: 500
+        mask:
+        - MachineMask
+        layer:
+          - MachineLayer
+  - type: MaterialStorage
+    whitelist:
+      tags:
+        - Sheet
+        - RawMaterial
+        - Ingot
+  - type: Lathe
+    idleState: icon
+    runningState: building
+    staticRecipes:
+      - DARKSheetPlasteel
+      - DARKSheetSteel
+      - SheetRGlass
+      - DARKRod
+      - DARKGirderFlatpack
+      - DARKReinforcedGirderFlatpack
+      - ConveyorBeltAssembly
+
+- type: entity
+  parent: [BaseLathe, BaseMaterialSiloUtilizer]
+  id: DARKSheetifier
+  name: planet-meister 2000
+  description: A machine used for proper planet-side floors.
+  components:
+  - type: Sprite
+    sprite: Structures/Machines/sheetifier.rsi
+    layers:
+    - state: base_machine
+      map: ["enum.LatheVisualLayers.IsRunning"]
+    - state: buttons_on
+      shader: unshaded
+      map: ["enum.PowerDeviceVisualLayers.Powered"]
+  - type: Machine
+    board: SheetifierMachineCircuitboard
+  - type: MaterialStorage
+    dropOnDeconstruct: false #should drop ores instead of ingots/sheets
+    ignoreColor: true
+    canEjectStoredMaterials: false
+    whitelist:
+      tags:
+      - Raw
+      - Wooden
+  - type: Lathe
+    idleState: base_machine
+    runningState: base_machine_processing
+    staticRecipes:
+    - MaterialSheetMeat
+    - SheetPaper

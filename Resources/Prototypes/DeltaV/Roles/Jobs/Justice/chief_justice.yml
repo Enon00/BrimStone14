@@ -2,6 +2,7 @@
   id: ChiefJustice
   name: job-name-chief-justice
   description: job-description-chief-justice
+  setPreference: false
   playTimeTracker: JobChiefJustice
   weight: 20
   startingGear: CJGear

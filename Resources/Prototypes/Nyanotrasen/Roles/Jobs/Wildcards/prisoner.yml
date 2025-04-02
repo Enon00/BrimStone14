@@ -2,6 +2,7 @@
   id: Prisoner
   name: job-name-prisoner
   description: job-description-prisoner
+  setPreference: false
   playTimeTracker: JobPrisoner
   startingGear: PrisonerGear
   alwaysUseSpawner: true

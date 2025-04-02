@@ -1,0 +1,32 @@
+- type: job
+  id: DARKChemist
+  name: Chemist
+  description: "Mix, grind and explode chemicals into useful products"
+  playTimeTracker: JobDARKChemist
+  startingGear: DARKChemistGear
+  icon: "JobIconChemist"
+  alwaysUseSpawner: true
+  supervisors: Baron
+  access:
+  - Medical
+  - Chemistry
+  special:
+  - !type:AddComponentSpecial
+    components:
+    - type: CPRTraining
+    - type: SurgerySpeedModifier
+      speedModifier: 1.75
+
+- type: startingGear
+  id: DARKChemistGear
+  subGear:
+  - ChemistPlasmamanGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitChemistry
+    back: ClothingBackpackChemistryFilled
+    shoes: ClothingShoesColorWhite
+    id: ChemistryPDA
+    belt: ChemBag
+  innerClothingSkirt: ClothingUniformJumpskirtChemistry
+  satchel: ClothingBackpackSatchelChemistryFilled
+  duffelbag: ClothingBackpackDuffelChemistryFilled

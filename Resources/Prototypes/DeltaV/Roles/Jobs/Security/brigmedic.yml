@@ -2,6 +2,7 @@
   id: Brigmedic
   name: job-name-brigmedic
   description: job-description-brigmedic
+  setPreference: false
   playTimeTracker: JobBrigmedic
   requirements:
     - !type:CharacterDepartmentTimeRequirement

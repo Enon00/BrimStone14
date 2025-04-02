@@ -53,6 +53,7 @@
   - type: FloorTile
     outputs:
     - Lattice
+    - DARKLatticePlanet
     - FloorReinforced
   - type: StaticPrice
     price: 0

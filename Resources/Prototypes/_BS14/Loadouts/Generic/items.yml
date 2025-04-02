@@ -1,0 +1,42 @@
+- type: loadout
+  id: LoadoutItemCrowbar
+  category: Items
+  cost: 2
+  items:
+    - Crowbar
+  requirements:
+    - !type:CharacterJobRequirement
+      jobs:
+        - Vagabond
+
+- type: loadout
+  id: LoadoutItemOmnizineChemistryBottle
+  category: Items
+  cost: 8
+  items:
+    - OmnizineChemistryBottle
+  requirements:
+    - !type:CharacterJobRequirement
+      jobs:
+        - Vagabond
+
+- type: loadout
+  id: LoadoutItemSpaceCash100
+  category: Items
+  cost: 3
+  items:
+    - SpaceCash100
+
+- type: loadout
+  id: LoadoutItemSpaceCash10
+  category: Items
+  cost: 0
+  items:
+    - SpaceCash10
+
+- type: loadout
+  id: LoadoutItemBoxMRE
+  category: Items
+  cost: 4
+  items:
+    - BoxMRE

@@ -1,0 +1,22 @@
+{
+    "copyright": "made by Enon00(Github) for Brimstone14",
+    "license": "CC-BY-SA-3.0",
+    "version": 1,
+    "size": {
+        "x": 64,
+        "y": 64
+    },
+    "states": [
+        {
+            "name": "durand",
+            "directions": 4
+        },
+        {
+            "name": "durand-open"
+        },
+        {
+            "name": "durand-broken"
+        }
+    ]
+}
+

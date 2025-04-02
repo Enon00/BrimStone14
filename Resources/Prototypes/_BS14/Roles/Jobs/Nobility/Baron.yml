@@ -1,0 +1,42 @@
+- type: job
+  id: Baron
+  name: Baron
+  description: "The local governer of this barony, only one step of the ladder yet commands respect still the same."
+  playTimeTracker: JobBaron
+  startingGear: BaronGear
+  icon: "JobIconHeadOfSecurity"
+  alwaysUseSpawner: true
+  supervisors: King
+  access:
+  - Maintenance
+  - Keep
+  - Baron
+  - CaptainGuard
+  - Armory
+  - SettlerBlockA
+  - SettlerBlockB
+  - SettlerBlockC
+  - SettlerBlockD
+  - Cargo
+  - Chapel
+  - Hydroponics
+  - Janitor
+  - Medical
+  - Salvage
+  - Bar
+
+- type: startingGear
+  id: BaronGear
+  subGear:
+  - DARKGuardPlasmamanGear
+  equipment:
+    jumpsuit: UniformNobilityBaron
+    back: ClothingBackpackSecurity
+    shoes: ClothingShoesBootsLaceup
+    head: ClothingHeadCrown
+    outerClothing: ClothingOuterArmorBaronCarapace
+    gloves: ClothingHandsGlovesCombat
+    id: CaptainPDA
+    ears: DARKClothingHeadsetBaron
+  satchel: ClothingBackpackSatchelSecurity
+  duffelbag: ClothingBackpackDuffelSecurity

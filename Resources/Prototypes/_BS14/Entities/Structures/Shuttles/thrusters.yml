@@ -1,0 +1,20 @@
+- type: entity
+  id: ThrusterUnanchorable
+  parent: Thruster
+  suffix: Unanchorable
+  components:
+    - type: Rotatable
+      rotateWhileAnchored: false
+    - type: Anchorable
+      delay: 99999999999999
+    - type: Destructible
+      thresholds:
+      - trigger:
+          !type:DamageTrigger
+          damage: 500  # Considering we need a lot of thrusters didn't want to make an individual one too tanky
+        behaviors:
+          - !type:DoActsBehavior
+            acts: ["Destruction"]
+          - !type:PlaySoundBehavior
+            sound:
+              collection: MetalBreak

@@ -1,0 +1,103 @@
+- type: entity
+  parent: Airlock
+  id: DARKcivilianairlock
+  name: electronic door
+  components:
+  - type: Sprite
+    sprite: _BS14/Structures/Doors/Airlocks/Standard/maint.rsi
+
+- type: entity
+  parent: Airlock
+  id: DARKAirlockBlack
+  name: Electronic Door
+  components:
+  - type: Sprite
+    sprite: _BS14/Structures/Doors/Airlocks/Standard/airlockblack.rsi
+
+- type: entity
+  parent: Airlock
+  id: DARKexternalairlock
+  name: electronic door
+  components:
+  - type: Sprite
+    sprite: _BS14/Structures/Doors/Airlocks/Standard/airlock_external.rsi
+
+- type: entity
+  parent: Airlock
+  id: DARKAirlockMBlack
+  name: managment electronic Door
+  components:
+  - type: Sprite
+    sprite: _BS14/Structures/Doors/Airlocks/Standard/airlock_managment.rsi
+
+- type: entity
+  parent: Airlock
+  id: DARKAirlockBlue
+  name: Electronic Door
+  components:
+  - type: Sprite
+    sprite: _BS14/Structures/Doors/Airlocks/Standard/airlockblue.rsi
+
+- type: entity
+  parent: Airlock
+  id: DARKAirlockBrown
+  name: Electronic Door
+  components:
+  - type: Sprite
+    sprite: _BS14/Structures/Doors/Airlocks/Standard/airlockbrown.rsi
+
+- type: entity
+  parent: Airlock
+  id: DARKMultipartAirlock
+  name: Electronic Multipart Door
+  components:
+  - type: Sprite
+    sprite: _BS14/Structures/Doors/Airlocks/Standard/civil.rsi
+
+- type: entity
+  parent: Airlock
+  id: DARKGuardAirlock
+  name: Guard Airlock
+  components:
+  - type: Sprite
+    sprite: _BS14/Structures/Doors/Airlocks/Standard/secure.rsi
+
+- type: entity
+  parent: Airlock
+  id: DARKAirlockYellow
+  name: Airlock
+  components:
+  - type: Sprite
+    sprite: _BS14/Structures/Doors/Airlocks/Standard/basicyellow.rsi
+
+- type: entity
+  parent: Airlock
+  id: DARKAirlockGreen
+  name: Airlock
+  components:
+  - type: Sprite
+    sprite: _BS14/Structures/Doors/Airlocks/Standard/basicgreen.rsi
+
+- type: entity
+  parent: AirlockGlass
+  id: DARKAirlockGlass
+  name: glass electronic door
+  components:
+  - type: Sprite
+    sprite: _BS14/Structures/Doors/Airlocks/Standard/glass.rsi
+
+- type: entity
+  parent: AirlockGlassShuttle
+  id: DARKAirlockExternalGlassShuttleEscapeBARON
+  suffix: External, Baron-Escape, Glass, Docking
+  components:
+  - type: GridFill
+    path: /Maps/Shuttles/BSEvacShuttleGrid.yml
+
+- type: entity
+  parent: AirlockGlassShuttle
+  id: DARKDockingBay
+  suffix: EVAC, Baron-Escape
+  components:
+  - type: GridFill
+    path: /Maps/_BS14/Dockingbay.yml

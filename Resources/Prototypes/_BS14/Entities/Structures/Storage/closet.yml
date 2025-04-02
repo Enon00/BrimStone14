@@ -1,0 +1,61 @@
+- type: entity
+  id: DARKLockerGuardLocker
+  name: secure keep locker
+  parent: LockerBaseSecure
+  description: It's a personal storage unit for the guard.
+  components:
+  - type: Appearance
+  - type: EntityStorageVisuals
+    stateBaseClosed: syndicate
+    stateDoorOpen: syndicate_open
+    stateDoorClosed: syndicate_door
+  - type: AccessReader
+    access: [["Keep"]]
+
+- type: entity
+  id: DARKLockerKeepLocker
+  name: general keep locker
+  parent: LockerBaseSecure
+  description: It's a standard storage unit for evidence and other items.
+  components:
+  - type: Appearance
+  - type: Sprite
+    sprite: _BS14/Structures/Storage/closet.rsi
+  - type: AccessReader
+    access: [["Keep"]]
+  - type: EntityStorageVisuals
+    stateBaseClosed: red
+    stateDoorOpen: closet_open
+    stateDoorClosed: red_door
+
+- type: entity
+  id: DARKLockerBaron
+  name: baron's locker
+  parent: LockerBaseSecure
+  description: It's a personal storage unit.
+  components:
+  - type: Appearance
+  - type: Sprite
+    sprite: _BS14/Structures/Storage/closet.rsi
+  - type: AccessReader
+    access: [["Baron"]]
+  - type: EntityStorageVisuals
+    stateBaseClosed: baron
+    stateDoorOpen: baron_open
+    stateDoorClosed: baron_door
+
+- type: entity
+  id: DARKLockerKeepLockerNoble
+  name: noble locker
+  parent: LockerBaseSecure
+  description: It's a personal storage unit.
+  components:
+  - type: Appearance
+  - type: Sprite
+    sprite: _BS14/Structures/Storage/closet.rsi
+  - type: AccessReader
+    access: [["Keep"]]
+  - type: EntityStorageVisuals
+    stateBaseClosed: noble
+    stateDoorOpen: noble_open
+    stateDoorClosed: noble_door

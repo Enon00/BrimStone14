@@ -41,9 +41,9 @@
   suffix: Red
   components:
   - type: Sprite
-    sprite: Structures/Furniture/Carpets/red_carpet.rsi
+    sprite: _BS14/Structures/Furniture/Carpets/red_carpet.rsi
   - type: Icon
-    sprite: Structures/Furniture/Carpets/red_carpet.rsi
+    sprite: _BS14/Structures/Furniture/Carpets/red_carpet.rsi
   - type: Destructible
     thresholds:
       - trigger:
@@ -131,9 +131,9 @@
   components:
   - type: Clickable
   - type: Sprite
-    sprite: Structures/Furniture/Carpets/blue_carpet.rsi
+    sprite: _BS14/Structures/Furniture/Carpets/blue_carpet.rsi
   - type: Icon
-    sprite: Structures/Furniture/Carpets/blue_carpet.rsi
+    sprite: _BS14/Structures/Furniture/Carpets/blue_carpet.rsi
   - type: Destructible
     thresholds:
       - trigger:
@@ -161,9 +161,9 @@
   components:
   - type: Clickable
   - type: Sprite
-    sprite: Structures/Furniture/Carpets/green_carpet.rsi
+    sprite: _BS14/Structures/Furniture/Carpets/green_carpet.rsi
   - type: Icon
-    sprite: Structures/Furniture/Carpets/green_carpet.rsi
+    sprite: _BS14/Structures/Furniture/Carpets/green_carpet.rsi
   - type: Destructible
     thresholds:
       - trigger:
@@ -191,9 +191,9 @@
   components:
   - type: Clickable
   - type: Sprite
-    sprite: Structures/Furniture/Carpets/orange_carpet.rsi
+    sprite: _BS14/Structures/Furniture/Carpets/orange_carpet.rsi
   - type: Icon
-    sprite: Structures/Furniture/Carpets/orange_carpet.rsi
+    sprite: _BS14/Structures/Furniture/Carpets/orange_carpet.rsi
   - type: Destructible
     thresholds:
       - trigger:

@@ -2,6 +2,7 @@
   id: ForensicMantis
   name: job-name-mantis
   description: job-description-mantis
+  setPreference: false
   playTimeTracker: JobForensicMantis
   requirements:
     - !type:CharacterOverallTimeRequirement

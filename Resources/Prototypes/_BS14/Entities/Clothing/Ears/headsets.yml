@@ -1,0 +1,33 @@
+- type: entity
+  parent: ClothingHeadset
+  id: DARKClothingHeadsetKeep
+  name: guard's headset
+  description: This is used by the nobility and guards of the keep.
+  components:
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - EncryptionKeyGuard
+      - EncryptionKeyCommon
+  - type: Sprite
+    sprite: Clothing/Ears/Headsets/security.rsi
+  - type: Clothing
+    sprite: Clothing/Ears/Headsets/security.rsi
+
+- type: entity
+  parent: ClothingHeadset
+  id: DARKClothingHeadsetBaron
+  name: baron's headset
+  description: This is used by the nobility of the keep.
+  components:
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - EncryptionKeyGuard
+      - EncryptionKeyCommon
+      - EncryptionKeyCargo
+      - EncryptionKeyCommand
+  - type: Sprite
+    sprite: Clothing/Ears/Headsets/security.rsi
+  - type: Clothing
+    sprite: Clothing/Ears/Headsets/security.rsi

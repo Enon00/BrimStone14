@@ -3,6 +3,7 @@
   id: StationAi
   name: job-name-station-ai
   description: job-description-station-ai
+  setPreference: false
   playTimeTracker: JobStationAi
   canBeAntag: false
   icon: JobIconStationAi
@@ -16,6 +17,7 @@
   id: Borg
   name: job-name-borg
   description: job-description-borg
+  setPreference: false
   playTimeTracker: JobBorg
   canBeAntag: false
   icon: JobIconBorg

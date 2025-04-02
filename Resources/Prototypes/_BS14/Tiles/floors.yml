@@ -1,0 +1,436 @@
+- type: tile
+  id: FloorSteelDEV
+  name: tiles-steel-floor-DEV
+  sprite: /Textures/_BS14/Tiles/dev.png
+  baseTurf: DARKPlanetPlating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepFloor
+  itemDrop: FloorTileItemSteelDEV
+  heatCapacity: 10000
+
+- type: tile
+  id: DARKtile1
+  name: DARK planet steel tile
+  sprite: /Textures/_BS14/Tiles/steel_tile.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  baseTurf: DARKPlanetPlating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepTile
+  itemDrop: FloorTileItemSteel
+  heatCapacity: 10000
+
+- type: tile
+  id: DARKtile2
+  name: DARK planet mono tile
+  sprite: /Textures/_BS14/Tiles/steel_mono.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  baseTurf: DARKPlanetPlating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepTile
+  itemDrop: TileFloorOne
+  heatCapacity: 10000
+
+- type: tile
+  id: DARKtile3
+  name: DARK planet small tile
+  sprite: /Textures/_BS14/Tiles/steel_smalltile.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  baseTurf: DARKPlanetPlating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepTile
+  itemDrop: TileFloorOne
+  heatCapacity: 10000
+
+- type: tile
+  id: DARKtile4
+  name: DARK planet steel tile
+  sprite: /Textures/_BS14/Tiles/dark_tile.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  baseTurf: DARKPlanetPlating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepTile
+  itemDrop: TileFloorOne
+  heatCapacity: 10000
+
+- type: tile
+  id: DARKtile5
+  name: DARK planet mono tile
+  sprite: /Textures/_BS14/Tiles/dark_mono.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  baseTurf: DARKPlanetPlating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepTile
+  itemDrop: TileFloorOne
+  heatCapacity: 10000
+
+- type: tile
+  id: DARKtile6
+  name: DARK planet small tile
+  sprite: /Textures/_BS14/Tiles/dark_smalltile.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  baseTurf: DARKPlanetPlating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepTile
+  itemDrop: TileFloorOne
+  heatCapacity: 10000
+
+- type: tile
+  id: DARKtile7
+  name: DARK planet steel tile
+  sprite: /Textures/_BS14/Tiles/steel.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  baseTurf: DARKPlanetPlating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepHull
+  itemDrop: TileFloorOne
+  heatCapacity: 10000
+
+- type: tile
+  id: DARKtile8
+  name: DARK planet checkgrey
+  sprite: /Textures/_BS14/Tiles/checker_dark.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  baseTurf: DARKPlanetPlating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepTile
+  itemDrop: TileFloorOne
+  heatCapacity: 10000
+
+- type: tile
+  id: DARKtile9
+  name: DARK planet checkred
+  sprite: /Textures/_BS14/Tiles/checker_red.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  baseTurf: DARKPlanetPlating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepTile
+  itemDrop: TileFloorOne
+  heatCapacity: 10000
+
+- type: tile
+  id: DARKtile10
+  name: DARK planet rubber tile
+  sprite: /Textures/_BS14/Tiles/dark_rubber.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  baseTurf: DARKPlanetPlating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepFloor
+  itemDrop: TileFloorOne
+  heatCapacity: 10000
+
+- type: tile
+  id: DARKtile11
+  name: DARK planet rubber tile
+  sprite: /Textures/_BS14/Tiles/rubber.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  baseTurf: DARKPlanetPlating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepFloor
+  itemDrop: TileFloorOne
+  heatCapacity: 10000
+
+- type: tile
+  id: DARKtile12
+  name: DARK planet woodtile
+  sprite: /Textures/_BS14/Tiles/wood.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  baseTurf: DARKPlanetPlating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepWood
+  barestepSounds:
+    collection: BarestepWood
+  itemDrop: TileFloorOne
+  heatCapacity: 10000
+
+- type: tile
+  id: DARKtile13
+  name: DARK planet woodtile
+  sprite: /Textures/_BS14/Tiles/wood_tile.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  baseTurf: DARKPlanetPlating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepWood
+  barestepSounds:
+    collection: BarestepWood
+  itemDrop: TileFloorOne
+  heatCapacity: 10000
+
+- type: tile
+  id: DARKtile14
+  name: DARK planet white tile
+  sprite: /Textures/_BS14/Tiles/white_tile.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  baseTurf: DARKPlanetPlating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepTile
+  itemDrop: FloorTileItemSteel
+  heatCapacity: 10000
+
+- type: tile
+  id: DARKtile15
+  name: DARK planet white mono tile
+  sprite: /Textures/_BS14/Tiles/white_mono.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  baseTurf: DARKPlanetPlating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepTile
+  itemDrop: TileFloorOne
+  heatCapacity: 10000
+
+- type: tile
+  id: DARKtile16
+  name: DARK planet white small tile
+  sprite: /Textures/_BS14/Tiles/white_smalltile.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  baseTurf: DARKPlanetPlating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepTile
+  itemDrop: TileFloorOne
+  heatCapacity: 10000
+
+- type: tile
+  id: DARKtilesingular1
+  name: Dark planet generic floor
+  sprite: /Textures/_BS14/Tiles/generic.png
+  baseTurf: DARKPlanetPlating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepHull
+  itemDrop: CheckeredFloor
+  heatCapacity: 10000
+  tileRipResistance: 4500
+
+- type: tile
+  id: DARKtilesingular2
+  name: Dark planet generic floor
+  sprite: /Textures/_BS14/Tiles/dark_generic.png
+  baseTurf: DARKPlanetPlating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepHull
+  itemDrop: CheckeredFloor
+  heatCapacity: 10000
+
+- type: tile
+  id: DARKtilesingular3
+  name: Dark planet freezer
+  sprite: /Textures/_BS14/Tiles/freezer.png
+  baseTurf: DARKPlanetPlating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepHull
+  itemDrop: CheckeredFloor
+  heatCapacity: 10000
+
+- type: tile
+  id: DARKtilesingular4
+  name: Dark planet hex
+  sprite: /Textures/_BS14/Tiles/steel_hex.png
+  baseTurf: DARKPlanetPlating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepHull
+  itemDrop: CheckeredFloor
+  heatCapacity: 10000
+
+- type: tile
+  id: DARKtilesingular5
+  name: Dark planet hex
+  sprite: /Textures/_BS14/Tiles/rust_hex.png
+  baseTurf: DARKPlanetPlating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepHull
+  itemDrop: CheckeredFloor
+  heatCapacity: 10000
+
+- type: tile
+  id: DARKtilesingular6
+  name: Dark planet cobble
+  sprite: /Textures/_BS14/Tiles/cobble.png
+  baseTurf: DARKPlanetPlating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepAsteroid
+  itemDrop: CheckeredFloor
+  heatCapacity: 10000
+
+- type: tile
+  id: DARKtilesingular7
+  name: Dark planet fancy
+  sprite: /Textures/_BS14/Tiles/tile_fancy.png
+  baseTurf: DARKPlanetPlating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepAsteroid
+  itemDrop: CheckeredFloor
+  heatCapacity: 10000
+
+- type: tile
+  id: DARKtilesingular8
+  name: Dark planet tech
+  sprite: /Textures/_BS14/Tiles/blue_circuit.png
+  baseTurf: DARKPlanetPlating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepHull
+  itemDrop: CheckeredFloor
+  heatCapacity: 10000
+
+- type: tile
+  id: DARKtilesingular9
+  name: Dark planet tech
+  sprite: /Textures/_BS14/Tiles/red_circuit.png
+  baseTurf: DARKPlanetPlating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepHull
+  itemDrop: CheckeredFloor
+  heatCapacity: 10000
+
+- type: tile
+  id: DARKtilesingular10
+  name: Dark planet metal
+  sprite: /Textures/Tiles/metaldiamond.png
+  baseTurf: DARKPlanetPlating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepHull
+  itemDrop: CheckeredFloor
+  heatCapacity: 10000
+
+- type: tile
+  id: DARKtilesingular12
+  name: Dark planet red cobble
+  sprite: /Textures/_BS14/Tiles/cobble_red.png
+  baseTurf: DARKPlanetPlating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepAsteroid
+  itemDrop: CheckeredFloor
+  heatCapacity: 10000

@@ -1,0 +1,15 @@
+- type: latheRecipe
+  id: DARKGirderFlatpack
+  result: DARKGirderFlatpack
+  category: Tools
+  completetime: 3
+  materials:
+    Steel: 500
+
+- type: latheRecipe
+  id: DARKReinforcedGirderFlatpack
+  result: DARKReinforcedGirderFlatpack
+  category: Tools
+  completetime: 5
+  materials:
+    Steel: 750

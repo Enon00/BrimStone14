@@ -1,0 +1,32 @@
+- type: job
+  id: DARKChef
+  name: Chef
+  description: "Good food is the foundation of genuine happiness"
+  playTimeTracker: JobDARKChef
+  setPreference: false
+  startingGear: DARKChefGear
+  icon: "JobIconChef"
+  alwaysUseSpawner: true
+  supervisors: Baron
+  access:
+  - Kitchen
+  special:
+  - !type:AddComponentSpecial
+    components:
+    - type: ProfessionalChef #Nyano - End Summary.
+
+- type: startingGear
+  id: DARKChefGear
+  subGear:
+  - ChefPlasmamanGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitChef
+    head: ClothingHeadHatChef
+    back: ClothingBackpackFilled
+    shoes: ClothingShoesColorBlack
+    id: ChefPDA
+    outerClothing: ClothingOuterApronChef
+    belt: ClothingBeltChefFilled
+  innerClothingSkirt: ClothingUniformJumpskirtChef
+  satchel: ClothingBackpackSatchelFilled
+  duffelbag: ClothingBackpackDuffelFilled

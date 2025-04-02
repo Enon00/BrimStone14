@@ -11,7 +11,7 @@
           steps:
             - material: Steel
               amount: 2
-              doAfter: 1
+              doAfter: 10
 
     - node: girder
       entity: Girder
@@ -27,7 +27,7 @@
               anchored: false
           steps:
             - tool: Screwing
-              doAfter: 2
+              doAfter: 4
 
         - to: wall
           completed:
@@ -38,7 +38,7 @@
           steps:
             - material: Steel
               amount: 2
-              doAfter: 2
+              doAfter: 10
 
         - to: reinforcedGirder
           completed:
@@ -49,7 +49,7 @@
           steps:
             - material: Plasteel
               amount: 2
-              doAfter: 1
+              doAfter: 5
 
         - to: woodWall
           completed:
@@ -60,7 +60,7 @@
           steps:
             - material: WoodPlank
               amount: 2
-              doAfter: 2
+              doAfter: 10
 
         - to: uraniumWall
           completed:
@@ -95,7 +95,7 @@
           steps:
             - material: Plastic
               amount: 2
-              doAfter: 2
+              doAfter: 10
 
         - to: plasmaWall
           completed:
@@ -143,7 +143,7 @@
           steps:
             - material: MeatSheets
               amount: 2
-              doAfter: 2
+              doAfter: 10
 
         - to: paperWall #Nyano
           completed:
@@ -154,7 +154,7 @@
           steps:
             - material: Paper
               amount: 2
-              doAfter: 2
+              doAfter: 7
 
         - to: shuttleInteriorWall #Nyano
           completed:
@@ -165,12 +165,12 @@
           steps:
             - material: MetalRod
               amount: 2
-              doAfter: 1
+              doAfter: 5
             - tool: Screwing
-              doAfter: 1
+              doAfter: 5
             - material: Steel
               amount: 2
-              doAfter: 1
+              doAfter: 5
 
     - node: wall
       entity: WallSolid
@@ -305,7 +305,7 @@
             - tool: Welding
               doAfter: 10
             - tool: Screwing
-              doAfter: 1
+              doAfter: 5
 
     - node: reinforcedGirder
       entity: ReinforcedGirder
@@ -330,12 +330,12 @@
           steps:
             - material: MetalRod
               amount: 4
-              doAfter: 1
+              doAfter: 10
             - tool: Screwing
               doAfter: 2
             - material: Plasteel
               amount: 2
-              doAfter: 1
+              doAfter: 10
 
         - to: diagonalshuttleWall #Nyano
           completed:
@@ -346,12 +346,12 @@
           steps:
             - material: Steel
               amount: 1
-              doAfter: 1
+              doAfter: 10
             - tool: Welding
               doAfter: 4
             - material: Plasteel
               amount: 1
-              doAfter: 1
+              doAfter: 10
 
         - to: girder
           completed:
@@ -364,7 +364,7 @@
             - !type:EntityAnchored { }
           steps:
             - tool: Cutting
-              doAfter: 2
+              doAfter: 4
 
     - node: reinforcedWall
       entity: WallReinforced

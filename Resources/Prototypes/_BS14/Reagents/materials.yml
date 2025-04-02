@@ -1,0 +1,6 @@
+- type: material
+  id: IronIngotMaterial
+  stackEntity: IronIngot1
+  name: iron ingot
+  icon: { sprite: Objects/Materials/ingots.rsi, state: iron_3 }
+  price: 0.1

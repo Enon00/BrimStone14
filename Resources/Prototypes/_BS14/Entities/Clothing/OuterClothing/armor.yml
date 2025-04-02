@@ -1,0 +1,91 @@
+- type: entity
+  parent: [ClothingOuterBaseLarge, AllowSuitStorageClothing]
+  id: DARKClothingOuterArmorGuardUsed
+  name: guard armour
+  description: A suit of semi-flexible polycarbonate body armor with heavy padding to protect against melee attacks. Perfect for fighting delinquents around the keep.
+  components:
+  - type: Sprite
+    sprite: _BS14/Clothing/OuterClothing/Armor/guard_used.rsi
+  - type: Clothing
+    sprite: _BS14/Clothing/OuterClothing/Armor/guard_used.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.60
+        Slash: 0.60
+        Piercing: 0.70
+  - type: ExplosionResistance
+    damageCoefficient: 0.9
+  - type: GroupExamine
+
+- type: entity
+  parent: [ClothingOuterBaseLarge, AllowSuitStorageClothing]
+  id: ClothingOuterArmorGuardClean
+  name: head militia armour
+  description: A suit of semi-flexible polycarbonate body armor with heavy padding to protect against melee attacks. Perfect for fighting delinquents around the keep.
+  components:
+  - type: Sprite
+    sprite: _BS14/Clothing/OuterClothing/Armor/guard_clean.rsi
+  - type: Clothing
+    sprite: _BS14/Clothing/OuterClothing/Armor/guard_clean.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.60
+        Slash: 0.60
+        Piercing: 0.70
+        Heat: 0.8
+  - type: ExplosionResistance
+    damageCoefficient: 0.9
+  - type: GroupExamine
+
+- type: entity
+  parent: [ClothingOuterBaseLarge, AllowSuitStorageClothing]
+  id: ClothingOuterArmorGuardHeavy
+  name: head militia armour
+  description: A suit of semi-flexible polycarbonate body armor with heavy padding to protect against melee attacks. Perfect for fighting delinquents around the keep.
+  components:
+  - type: Sprite
+    sprite: _BS14/Clothing/OuterClothing/Armor/guard_heavy.rsi
+  - type: Clothing
+    sprite: _BS14/Clothing/OuterClothing/Armor/guard_heavy.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.6
+        Slash: 0.6
+        Piercing: 0.6
+        Heat: 0.80
+        Radiation: 0.80
+        Caustic: 0.85
+  - type: ExplosionResistance
+    damageCoefficient: 0.50
+  - type: ClothingSpeedModifier
+    walkModifier: 0.9
+    sprintModifier: 0.7
+
+- type: entity
+  parent: [ClothingOuterBaseLarge, AllowSuitStorageClothing]
+  id: ClothingOuterArmorBaronCarapace
+  name: baron carapace
+  description: "An armored chestpiece that provides protection whilst still offering maximum mobility and flexibility."
+  components:
+  - type: Sprite
+    sprite: _BS14/Clothing/OuterClothing/Armor/baron.rsi
+  - type: Clothing
+    sprite: _BS14/Clothing/OuterClothing/Armor/baron.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.5
+        Slash: 0.5
+        Piercing: 0.6
+        Heat: 0.5
+        Caustic: 0.9
+  - type: ClothingSpeedModifier
+    walkModifier: 1.0
+    sprintModifier: 1.0
+  - type: HeldSpeedModifier
+  - type: ExplosionResistance
+    damageCoefficient: 0.65
+  - type: GroupExamine

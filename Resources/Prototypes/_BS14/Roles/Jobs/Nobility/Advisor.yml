@@ -1,0 +1,25 @@
+- type: job
+  id: Advisor
+  name: Advisor
+  description: "Local advisors from diffrent courts, they help with administrative duties."
+  playTimeTracker: JobAdvisor
+  startingGear: AdvisorGear
+  icon: "JobIconWarden"
+  alwaysUseSpawner: true
+  supervisors: King
+  access:
+  - Keep
+  - SettlerBlockA
+  - SettlerBlockB
+  - SettlerBlockC
+  - SettlerBlockD
+
+- type: startingGear
+  id: AdvisorGear
+  subGear:
+  - DARKGuardPlasmamanGear
+  equipment:
+    jumpsuit: UniformNobilityCoat
+    shoes: ClothingShoesColorBlack
+    id: SecurityPDA
+    ears: DARKClothingHeadsetKeep

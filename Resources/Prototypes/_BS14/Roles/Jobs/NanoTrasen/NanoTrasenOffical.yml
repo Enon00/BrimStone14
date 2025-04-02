@@ -1,0 +1,38 @@
+- type: job
+  id: NanoTrasenOverseer
+  name: NanoTrasen Planetary Overseer
+  description: "An overseer of planetary operations."
+  playTimeTracker: JobNanoTrasenOverseer
+  requirements:
+    - !type:CharacterTraitRequirement
+      inverted: true
+      traits:
+        - Foreigner
+        - ForeignerLight
+        - Muted
+        - Blindness
+        - Pacifist
+        - BrittleBoneDisease
+  startingGear: NanoTrasenOverseerGear
+  icon: "JobIconNanotrasen"
+  joinNotifyCrew: true
+  alwaysUseSpawner: true
+  supervisors: job-supervisors-centcom
+  access:
+  - NanoTrasenAccess1
+  - NanoTrasenAccess2
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
+
+- type: startingGear
+  id: NanoTrasenOverseerGear
+  subGear:
+  - NanotrasenRepresentativePlasmamanGear
+  equipment:
+    id: CentcomPDA
+    jumpsuit: ClothingUniformJumpsuitNanotrasenRepresentative
+    shoes: ClothingShoesColorBlack
+    eyes: ClothingEyesGlassesMedSec
+    ears: ClothingHeadsetCentCom
+    pocket1: WeaponAntiqueLaser

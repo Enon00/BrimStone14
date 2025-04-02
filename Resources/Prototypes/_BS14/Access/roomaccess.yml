@@ -1,0 +1,345 @@
+# wyci they said jokes on them I don't know how to code
+- type: accessLevel
+  id: SettlerBlockA
+  name: Block A
+
+- type: accessLevel
+  id: SettlerBlockAOne
+  name: Room A-1
+
+- type: accessLevel
+  id: SettlerBlockATwo
+  name: Room A-2
+
+- type: accessLevel
+  id: SettlerBlockAThree
+  name: Room A-3
+
+- type: accessLevel
+  id: SettlerBlockAFour
+  name: Room A-4
+
+- type: accessLevel
+  id: SettlerBlockAFive
+  name: Room A-5
+
+- type: accessLevel
+  id: SettlerBlockASix
+  name: Room A-6
+
+- type: accessLevel
+  id: SettlerBlockASeven
+  name: Room A-7
+
+- type: accessLevel
+  id: SettlerBlockAEight
+  name: Room A-8
+
+- type: accessLevel
+  id: SettlerBlockANine
+  name: Room A-9
+
+- type: accessLevel
+  id: SettlerBlockATen
+  name: Room A-10
+
+- type: accessLevel
+  id: SettlerBlockAEleven
+  name: Room A-11
+
+- type: accessLevel
+  id: SettlerBlockATwelve
+  name: Room A-12
+
+- type: accessLevel
+  id: SettlerBlockAThirteen
+  name: Room A-13
+
+- type: accessLevel
+  id: SettlerBlockAFourteen
+  name: Room A-14
+
+- type: accessLevel
+  id: SettlerBlockAFifteen
+  name: Room A-15
+
+- type: accessLevel
+  id: SettlerBlockASixteen
+  name: Room A-16
+
+- type: accessLevel
+  id: SettlerBlockASeventeen
+  name: Room A-17
+
+- type: accessLevel
+  id: SettlerBlockAEighteen
+  name: Room A-18
+
+- type: accessLevel
+  id: SettlerBlockANineteen
+  name: Room A-19
+
+- type: accessLevel
+  id: SettlerBlockATwenty
+  name: Room A-20
+
+- type: accessLevel
+  id: SettlerBlockB
+  name: Block B
+
+- type: accessLevel
+  id: SettlerBlockBOne
+  name: Room B-1
+
+- type: accessLevel
+  id: SettlerBlockBTwo
+  name: Room B-2
+
+- type: accessLevel
+  id: SettlerBlockBThree
+  name: Room B-3
+
+- type: accessLevel
+  id: SettlerBlockBFour
+  name: Room B-4
+
+- type: accessLevel
+  id: SettlerBlockBFive
+  name: Room B-5
+
+- type: accessLevel
+  id: SettlerBlockBSix
+  name: Room B-6
+
+- type: accessLevel
+  id: SettlerBlockBSeven
+  name: Room B-7
+
+- type: accessLevel
+  id: SettlerBlockBEight
+  name: Room B-8
+
+- type: accessLevel
+  id: SettlerBlockBNine
+  name: Room B-9
+
+- type: accessLevel
+  id: SettlerBlockBTen
+  name: Room B-10
+
+- type: accessLevel
+  id: SettlerBlockBEleven
+  name: Room B-11
+
+- type: accessLevel
+  id: SettlerBlockBTwelve
+  name: Room B-12
+
+- type: accessLevel
+  id: SettlerBlockBThirteen
+  name: Room B-13
+
+- type: accessLevel
+  id: SettlerBlockBFourteen
+  name: Room B-14
+
+- type: accessLevel
+  id: SettlerBlockBFifteen
+  name: Room B-15
+
+- type: accessLevel
+  id: SettlerBlockBSixteen
+  name: Room B-16
+
+- type: accessLevel
+  id: SettlerBlockBSeventeen
+  name: Room B-17
+
+- type: accessLevel
+  id: SettlerBlockBEighteen
+  name: Room B-18
+
+- type: accessLevel
+  id: SettlerBlockBNineteen
+  name: Room B-19
+
+- type: accessLevel
+  id: SettlerBlockBTwenty
+  name: Room B-20
+
+- type: accessLevel
+  id: SettlerBlockC
+  name: Block C
+
+- type: accessLevel
+  id: SettlerBlockCOne
+  name: Room C-1
+
+- type: accessLevel
+  id: SettlerBlockCTwo
+  name: Room C-2
+
+- type: accessLevel
+  id: SettlerBlockCThree
+  name: Room C-3
+
+- type: accessLevel
+  id: SettlerBlockCFour
+  name: Room C-4
+
+- type: accessLevel
+  id: SettlerBlockCFive
+  name: Room C-5
+
+- type: accessLevel
+  id: SettlerBlockCSix
+  name: Room C-6
+
+- type: accessLevel
+  id: SettlerBlockCSeven
+  name: Room C-7
+
+- type: accessLevel
+  id: SettlerBlockCEight
+  name: Room C-8
+
+- type: accessLevel
+  id: SettlerBlockCNine
+  name: Room C-9
+
+- type: accessLevel
+  id: SettlerBlockCTen
+  name: Room C-10
+
+- type: accessLevel
+  id: SettlerBlockCEleven
+  name: Room C-11
+
+- type: accessLevel
+  id: SettlerBlockCTwelve
+  name: Room C-12
+
+- type: accessLevel
+  id: SettlerBlockCThirteen
+  name: Room C-13
+
+- type: accessLevel
+  id: SettlerBlockCFourteen
+  name: Room C-14
+
+- type: accessLevel
+  id: SettlerBlockCFifteen
+  name: Room C-15
+
+- type: accessLevel
+  id: SettlerBlockCSixteen
+  name: Room C-16
+
+- type: accessLevel
+  id: SettlerBlockCSeventeen
+  name: Room C-17
+
+- type: accessLevel
+  id: SettlerBlockCEighteen
+  name: Room C-18
+
+- type: accessLevel
+  id: SettlerBlockCNineteen
+  name: Room C-19
+
+- type: accessLevel
+  id: SettlerBlockCTwenty
+  name: Room C-20
+
+- type: accessLevel
+  id: SettlerBlockD
+  name: Block D
+
+- type: accessLevel
+  id: SettlerBlockDOne
+  name: Room D-1
+
+- type: accessLevel
+  id: SettlerBlockDTwo
+  name: Room D-2
+
+- type: accessLevel
+  id: SettlerBlockDThree
+  name: Room D-3
+
+- type: accessLevel
+  id: SettlerBlockDFour
+  name: Room D-4
+
+- type: accessLevel
+  id: SettlerBlockDFive
+  name: Room D-5
+
+- type: accessLevel
+  id: SettlerBlockDSix
+  name: Room D-6
+
+- type: accessLevel
+  id: SettlerBlockDSeven
+  name: Room D-7
+
+- type: accessLevel
+  id: SettlerBlockDEight
+  name: Room D-8
+
+- type: accessLevel
+  id: SettlerBlockDNine
+  name: Room D-9
+
+- type: accessLevel
+  id: SettlerBlockDTen
+  name: Room D-10
+
+- type: accessLevel
+  id: SettlerBlockDEleven
+  name: Room D-11
+
+- type: accessLevel
+  id: SettlerBlockDTwelve
+  name: Room D-12
+
+- type: accessLevel
+  id: SettlerBlockDThirteen
+  name: Room D-13
+
+- type: accessLevel
+  id: SettlerBlockDFourteen
+  name: Room D-14
+
+- type: accessLevel
+  id: SettlerBlockDFifteen
+  name: Room D-15
+
+- type: accessLevel
+  id: SettlerBlockDSixteen
+  name: Room D-16
+
+- type: accessLevel
+  id: SettlerBlockDSeventeen
+  name: Room D-17
+
+- type: accessLevel
+  id: SettlerBlockDEighteen
+  name: Room D-18
+
+- type: accessLevel
+  id: SettlerBlockDNineteen
+  name: Room D-19
+
+- type: accessLevel
+  id: SettlerBlockDTwenty
+  name: Room D-20
+
+- type: accessGroup
+  id: Settlers
+  tags:
+  - Farmer
+  - Physcian
+  - Salvager
+  - Tavernkeeper
+  - Technician

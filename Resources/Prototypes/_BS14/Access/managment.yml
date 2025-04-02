@@ -1,0 +1,15 @@
+- type: accessLevel
+  id: BarManagerAccess
+  name: BarManager
+
+- type: accessLevel
+  id: SalvageManagerAccess
+  name: SalvageManager
+
+- type: accessGroup
+  id: Managment
+  tags:
+  - Tavernkeeper
+  - QuartermasterM
+  - DARKMedicalDirector
+  - DARKEL

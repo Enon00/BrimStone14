@@ -1,0 +1,49 @@
+- type: job
+  id: DARKMedicalDirector
+  name: Medical Director
+  description: "Maintain the local populations health and insure the keep is healthy."
+  playTimeTracker: JobDARKCMO
+  requirements:
+    - !type:CharacterTraitRequirement
+      inverted: true
+      traits:
+        - Foreigner
+        - ForeignerLight
+  weight: 10
+  startingGear: ELGear
+  icon: "JobIconChiefMedicalOfficer"
+  alwaysUseSpawner: true
+  requireAdminNotify: true
+  supervisors: Advisor
+  canBeAntag: false
+  access:
+  - Medical
+  - Chemistry
+  - ChiefMedicalOfficer
+  - Paramedic 
+  - Psychologist 
+  - Cryogenics
+  special:
+  - !type:AddComponentSpecial
+    components:
+    - type: CPRTraining
+    - type: SurgerySpeedModifier
+      speedModifier: 2.5
+  afterLoadoutSpecial:
+  - !type:ModifyEnvirosuitSpecial
+    charges: 8
+  - !type:ModifyEnvirohelmSpecial
+    powerCell: PowerCellHigh
+
+- type: startingGear
+  id: ELGear
+  subGear:
+  - CMOPlasmamanGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitCMO
+    back: ClothingBackpackCMOFilled
+    shoes: ClothingShoesColorBrown
+    id: CMOPDA
+  innerClothingSkirt: ClothingUniformJumpskirtCMO
+  satchel: ClothingBackpackSatchelCMOFilled
+  duffelbag: ClothingBackpackDuffelCMOFilled

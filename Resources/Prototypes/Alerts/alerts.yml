@@ -22,6 +22,7 @@
     - category: Pressure
     - alertType: Bleed
     - category: Temperature
+    - category: Weariness
     - category: Hunger
     - category: Thirst
     - alertType: Magboots
@@ -368,6 +369,24 @@
     state: starving
   name: alerts-starving-name
   description: alerts-starving-desc
+
+- type: alert
+  id: Tired
+  category: Weariness
+  icons:
+  - sprite: /Textures/_BS14/Interface/Alerts/weariness.rsi
+    state: tired
+  name: Tired
+  description: You could take some time to sleep.
+
+- type: alert
+  id: Exhausted
+  category: Weariness
+  icons:
+  - sprite: /Textures/_BS14/Interface/Alerts/weariness.rsi
+    state: exhausted
+  name: Exhausted
+  description: Your body is slowing down, your eyelids are heavy, you need to sleep.
 
 - type: alert
   id: Thirsty

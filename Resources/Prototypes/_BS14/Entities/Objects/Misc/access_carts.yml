@@ -1,0 +1,1142 @@
+- type: entity
+  parent: Clothing
+  id: AccessCartBase
+  name: access keys
+  description: A card necessary to access a specific room.
+  abstract: true
+  components:
+  - type: Sprite
+    sprite: _BS14/Objects/Devices/cartridge.rsi
+  - type: Clothing
+    slots:
+    - idcard
+    sprite: Objects/Misc/id_cards.rsi
+  - type: Item
+    size: Small
+    heldPrefix: default
+    storedRotation: -90
+  - type: Access
+  - type: Tag
+    tags:
+    - DoorBumpOpener
+
+- type: entity
+  parent: AccessCartBase
+  id: AccessCartAOne
+  name: apartment key A-1
+  description: A card necessary to access a specific room.
+  components:
+  - type: Sprite
+    sprite: _BS14/Objects/Devices/cartridge.rsi
+    state: cart-a
+  - type: Access
+    tags:
+    - SettlerBlockA
+    - SettlerBlockAOne
+
+- type: entity
+  parent: AccessCartBase
+  id: AccessCartATwo
+  name: apartment key A-2
+  description: A card necessary to access a specific room.
+  components:
+  - type: Sprite
+    sprite: _BS14/Objects/Devices/cartridge.rsi
+    state: cart-a
+  - type: Access
+    tags:
+    - SettlerBlockA
+    - SettlerBlockATwo
+
+- type: entity
+  parent: AccessCartBase
+  id: AccessCartAThree
+  name: apartment key A-3
+  description: A card necessary to access a specific room.
+  components:
+  - type: Sprite
+    sprite: _BS14/Objects/Devices/cartridge.rsi
+    state: cart-a
+  - type: Access
+    tags:
+    - SettlerBlockA
+    - SettlerBlockAThree
+
+- type: entity
+  parent: AccessCartBase
+  id: AccessCartAFour
+  name: apartment key A-4
+  description: A card necessary to access a specific room.
+  components:
+  - type: Sprite
+    sprite: _BS14/Objects/Devices/cartridge.rsi
+    state: cart-a
+  - type: Access
+    tags:
+    - SettlerBlockA
+    - SettlerBlockAFour
+
+- type: entity
+  parent: AccessCartBase
+  id: AccessCartAFive
+  name: apartment key A-5
+  description: A card necessary to access a specific room.
+  components:
+  - type: Sprite
+    sprite: _BS14/Objects/Devices/cartridge.rsi
+    state: cart-a
+  - type: Access
+    tags:
+    - SettlerBlockA
+    - SettlerBlockAFive
+
+- type: entity
+  parent: AccessCartBase
+  id: AccessCartASix
+  name: apartment key A-6
+  description: A card necessary to access a specific room.
+  components:
+  - type: Sprite
+    sprite: _BS14/Objects/Devices/cartridge.rsi
+    state: cart-a
+  - type: Access
+    tags:
+    - SettlerBlockA
+    - SettlerBlockASix
+
+- type: entity
+  parent: AccessCartBase
+  id: AccessCartASeven
+  name: apartment key A-7
+  description: A card necessary to access a specific room.
+  components:
+  - type: Sprite
+    sprite: _BS14/Objects/Devices/cartridge.rsi
+    state: cart-a
+  - type: Access
+    tags:
+    - SettlerBlockA
+    - SettlerBlockASeven
+
+- type: entity
+  parent: AccessCartBase
+  id: AccessCartAEight
+  name: apartment key A-8
+  description: A card necessary to access a specific room.
+  components:
+  - type: Sprite
+    sprite: _BS14/Objects/Devices/cartridge.rsi
+    state: cart-a
+  - type: Access
+    tags:
+    - SettlerBlockA
+    - SettlerBlockAEight
+
+- type: entity
+  parent: AccessCartBase
+  id: AccessCartANine
+  name: apartment key A-9
+  description: A card necessary to access a specific room.
+  components:
+  - type: Sprite
+    sprite: _BS14/Objects/Devices/cartridge.rsi
+    state: cart-a
+  - type: Access
+    tags:
+    - SettlerBlockA
+    - SettlerBlockANine
+
+- type: entity
+  parent: AccessCartBase
+  id: AccessCartATen
+  name: apartment key A-10
+  description: A card necessary to access a specific room.
+  components:
+  - type: Sprite
+    sprite: _BS14/Objects/Devices/cartridge.rsi
+    state: cart-a
+  - type: Access
+    tags:
+    - SettlerBlockA
+    - SettlerBlockATen
+
+- type: entity
+  parent: AccessCartBase
+  id: AccessCartAEleven
+  name: apartment key A-11
+  description: A card necessary to access a specific room.
+  components:
+  - type: Sprite
+    sprite: _BS14/Objects/Devices/cartridge.rsi
+    state: cart-a
+  - type: Access
+    tags:
+    - SettlerBlockA
+    - SettlerBlockAEleven
+
+- type: entity
+  parent: AccessCartBase
+  id: AccessCartATwelve
+  name: apartment key A-12
+  description: A card necessary to access a specific room.
+  components:
+  - type: Sprite
+    sprite: _BS14/Objects/Devices/cartridge.rsi
+    state: cart-a
+  - type: Access
+    tags:
+    - SettlerBlockA
+    - SettlerBlockATwelve
+
+- type: entity
+  parent: AccessCartBase
+  id: AccessCartAThirteen
+  name: apartment key A-13
+  description: A card necessary to access a specific room.
+  components:
+  - type: Sprite
+    sprite: _BS14/Objects/Devices/cartridge.rsi
+    state: cart-a
+  - type: Access
+    tags:
+    - SettlerBlockA
+    - SettlerBlockAThirteen
+
+- type: entity
+  parent: AccessCartBase
+  id: AccessCartAFourteen
+  name: apartment key A-14
+  description: A card necessary to access a specific room.
+  components:
+  - type: Sprite
+    sprite: _BS14/Objects/Devices/cartridge.rsi
+    state: cart-a
+  - type: Access
+    tags:
+    - SettlerBlockA
+    - SettlerBlockAFourteen
+
+- type: entity
+  parent: AccessCartBase
+  id: AccessCartAFifteen
+  name: apartment key A-15
+  description: A card necessary to access a specific room.
+  components:
+  - type: Sprite
+    sprite: _BS14/Objects/Devices/cartridge.rsi
+    state: cart-a
+  - type: Access
+    tags:
+    - SettlerBlockA
+    - SettlerBlockAFifteen
+
+- type: entity
+  parent: AccessCartBase
+  id: AccessCartASixteen
+  name: apartment key A-16
+  description: A card necessary to access a specific room.
+  components:
+  - type: Sprite
+    sprite: _BS14/Objects/Devices/cartridge.rsi
+    state: cart-a
+  - type: Access
+    tags:
+    - SettlerBlockA
+    - SettlerBlockASixteen
+
+- type: entity
+  parent: AccessCartBase
+  id: AccessCartASeventeen
+  name: apartment key A-17
+  description: A card necessary to access a specific room.
+  components:
+  - type: Sprite
+    sprite: _BS14/Objects/Devices/cartridge.rsi
+    state: cart-a
+  - type: Access
+    tags:
+    - SettlerBlockA
+    - SettlerBlockASeventeen
+
+- type: entity
+  parent: AccessCartBase
+  id: AccessCartAEighteen
+  name: apartment key A-18
+  description: A card necessary to access a specific room.
+  components:
+  - type: Sprite
+    sprite: _BS14/Objects/Devices/cartridge.rsi
+    state: cart-a
+  - type: Access
+    tags:
+    - SettlerBlockA
+    - SettlerBlockAEighteen
+
+- type: entity
+  parent: AccessCartBase
+  id: AccessCartANineteen
+  name: apartment key A-19
+  description: A card necessary to access a specific room.
+  components:
+  - type: Sprite
+    sprite: _BS14/Objects/Devices/cartridge.rsi
+    state: cart-a
+  - type: Access
+    tags:
+    - SettlerBlockA
+    - SettlerBlockANineteen
+
+- type: entity
+  parent: AccessCartBase
+  id: AccessCartATwenty
+  name: apartment key A-20
+  description: A card necessary to access a specific room.
+  components:
+  - type: Sprite
+    sprite: _BS14/Objects/Devices/cartridge.rsi
+    state: cart-a
+  - type: Access
+    tags:
+    - SettlerBlockA
+    - SettlerBlockATwenty
+
+- type: entity
+  parent: AccessCartBase
+  id: AccessCartBOne
+  name: apartment key B-1
+  description: A card necessary to access a specific room.
+  components:
+  - type: Sprite
+    sprite: _BS14/Objects/Devices/cartridge.rsi
+    state: cart-b
+  - type: Access
+    tags:
+    - SettlerBlockB
+    - SettlerBlockBOne
+
+- type: entity
+  parent: AccessCartBase
+  id: AccessCartBTwo
+  name: apartment key B-2
+  description: A card necessary to access a specific room.
+  components:
+  - type: Sprite
+    sprite: _BS14/Objects/Devices/cartridge.rsi
+    state: cart-b
+  - type: Access
+    tags:
+    - SettlerBlockB
+    - SettlerBlockBTwo
+
+- type: entity
+  parent: AccessCartBase
+  id: AccessCartBThree
+  name: apartment key B-3
+  description: A card necessary to access a specific room.
+  components:
+  - type: Sprite
+    sprite: _BS14/Objects/Devices/cartridge.rsi
+    state: cart-b
+  - type: Access
+    tags:
+    - SettlerBlockB
+    - SettlerBlockBThree
+
+- type: entity
+  parent: AccessCartBase
+  id: AccessCartBFour
+  name: apartment key B-4
+  description: A card necessary to access a specific room.
+  components:
+  - type: Sprite
+    sprite: _BS14/Objects/Devices/cartridge.rsi
+    state: cart-b
+  - type: Access
+    tags:
+    - SettlerBlockB
+    - SettlerBlockBFour
+
+- type: entity
+  parent: AccessCartBase
+  id: AccessCartBFive
+  name: apartment key B-5
+  description: A card necessary to access a specific room.
+  components:
+  - type: Sprite
+    sprite: _BS14/Objects/Devices/cartridge.rsi
+    state: cart-b
+  - type: Access
+    tags:
+    - SettlerBlockB
+    - SettlerBlockBFive
+
+- type: entity
+  parent: AccessCartBase
+  id: AccessCartBSix
+  name: apartment key B-6
+  description: A card necessary to access a specific room.
+  components:
+  - type: Sprite
+    sprite: _BS14/Objects/Devices/cartridge.rsi
+    state: cart-b
+  - type: Access
+    tags:
+    - SettlerBlockB
+    - SettlerBlockBSix
+
+- type: entity
+  parent: AccessCartBase
+  id: AccessCartBSeven
+  name: apartment key B-7
+  description: A card necessary to access a specific room.
+  components:
+  - type: Sprite
+    sprite: _BS14/Objects/Devices/cartridge.rsi
+    state: cart-b
+  - type: Access
+    tags:
+    - SettlerBlockB
+    - SettlerBlockBSeven
+
+- type: entity
+  parent: AccessCartBase
+  id: AccessCartBEight
+  name: apartment key B-8
+  description: A card necessary to access a specific room.
+  components:
+  - type: Sprite
+    sprite: _BS14/Objects/Devices/cartridge.rsi
+    state: cart-b
+  - type: Access
+    tags:
+    - SettlerBlockB
+    - SettlerBlockBEight
+
+- type: entity
+  parent: AccessCartBase
+  id: AccessCartBNine
+  name: apartment key B-9
+  description: A card necessary to access a specific room.
+  components:
+  - type: Sprite
+    sprite: _BS14/Objects/Devices/cartridge.rsi
+    state: cart-b
+  - type: Access
+    tags:
+    - SettlerBlockB
+    - SettlerBlockBNine
+
+- type: entity
+  parent: AccessCartBase
+  id: AccessCartBTen
+  name: apartment key B-10
+  description: A card necessary to access a specific room.
+  components:
+  - type: Sprite
+    sprite: _BS14/Objects/Devices/cartridge.rsi
+    state: cart-b
+  - type: Access
+    tags:
+    - SettlerBlockB
+    - SettlerBlockBTen
+
+- type: entity
+  parent: AccessCartBase
+  id: AccessCartBEleven
+  name: apartment key B-11
+  description: A card necessary to access a specific room.
+  components:
+  - type: Sprite
+    sprite: _BS14/Objects/Devices/cartridge.rsi
+    state: cart-b
+  - type: Access
+    tags:
+    - SettlerBlockB
+    - SettlerBlockBEleven
+
+- type: entity
+  parent: AccessCartBase
+  id: AccessCartBTwelve
+  name: apartment key B-12
+  description: A card necessary to access a specific room.
+  components:
+  - type: Sprite
+    sprite: _BS14/Objects/Devices/cartridge.rsi
+    state: cart-b
+  - type: Access
+    tags:
+    - SettlerBlockB
+    - SettlerBlockBTwelve
+
+- type: entity
+  parent: AccessCartBase
+  id: AccessCartBThirteen
+  name: apartment key B-13
+  description: A card necessary to access a specific room.
+  components:
+  - type: Sprite
+    sprite: _BS14/Objects/Devices/cartridge.rsi
+    state: cart-b
+  - type: Access
+    tags:
+    - SettlerBlockB
+    - SettlerBlockBThirteen
+
+- type: entity
+  parent: AccessCartBase
+  id: AccessCartBFourteen
+  name: apartment key B-14
+  description: A card necessary to access a specific room.
+  components:
+  - type: Sprite
+    sprite: _BS14/Objects/Devices/cartridge.rsi
+    state: cart-b
+  - type: Access
+    tags:
+    - SettlerBlockB
+    - SettlerBlockBFourteen
+
+- type: entity
+  parent: AccessCartBase
+  id: AccessCartBFifteen
+  name: apartment key B-15
+  description: A card necessary to access a specific room.
+  components:
+  - type: Sprite
+    sprite: _BS14/Objects/Devices/cartridge.rsi
+    state: cart-b
+  - type: Access
+    tags:
+    - SettlerBlockB
+    - SettlerBlockBFifteen
+
+- type: entity
+  parent: AccessCartBase
+  id: AccessCartBSixteen
+  name: apartment key B-16
+  description: A card necessary to access a specific room.
+  components:
+  - type: Sprite
+    sprite: _BS14/Objects/Devices/cartridge.rsi
+    state: cart-b
+  - type: Access
+    tags:
+    - SettlerBlockB
+    - SettlerBlockBSixteen
+
+- type: entity
+  parent: AccessCartBase
+  id: AccessCartBSeventeen
+  name: apartment key B-17
+  description: A card necessary to access a specific room.
+  components:
+  - type: Sprite
+    sprite: _BS14/Objects/Devices/cartridge.rsi
+    state: cart-b
+  - type: Access
+    tags:
+    - SettlerBlockB
+    - SettlerBlockBSeventeen
+
+- type: entity
+  parent: AccessCartBase
+  id: AccessCartBEighteen
+  name: apartment key B-18
+  description: A card necessary to access a specific room.
+  components:
+  - type: Sprite
+    sprite: _BS14/Objects/Devices/cartridge.rsi
+    state: cart-b
+  - type: Access
+    tags:
+    - SettlerBlockB
+    - SettlerBlockBEighteen
+
+- type: entity
+  parent: AccessCartBase
+  id: AccessCartBNineteen
+  name: apartment key B-19
+  description: A card necessary to access a specific room.
+  components:
+  - type: Sprite
+    sprite: _BS14/Objects/Devices/cartridge.rsi
+    state: cart-b
+  - type: Access
+    tags:
+    - SettlerBlockB
+    - SettlerBlockBNineteen
+
+- type: entity
+  parent: AccessCartBase
+  id: AccessCartBTwenty
+  name: apartment key B-20
+  description: A card necessary to access a specific room.
+  components:
+  - type: Sprite
+    sprite: _BS14/Objects/Devices/cartridge.rsi
+    state: cart-b
+  - type: Access
+    tags:
+    - SettlerBlockB
+    - SettlerBlockBTwenty
+
+- type: entity
+  parent: AccessCartBase
+  id: AccessCartCOne
+  name: apartment key C-1
+  description: A card necessary to access a specific room.
+  components:
+  - type: Sprite
+    sprite: _BS14/Objects/Devices/cartridge.rsi
+    state: cart-c
+  - type: Access
+    tags:
+    - SettlerBlockC
+    - SettlerBlockCOne
+
+- type: entity
+  parent: AccessCartBase
+  id: AccessCartCTwo
+  name: apartment key C-2
+  description: A card necessary to access a specific room.
+  components:
+  - type: Sprite
+    sprite: _BS14/Objects/Devices/cartridge.rsi
+    state: cart-c
+  - type: Access
+    tags:
+    - SettlerBlockC
+    - SettlerBlockCTwo
+
+- type: entity
+  parent: AccessCartBase
+  id: AccessCartCThree
+  name: apartment key C-3
+  description: A card necessary to access a specific room.
+  components:
+  - type: Sprite
+    sprite: _BS14/Objects/Devices/cartridge.rsi
+    state: cart-c
+  - type: Access
+    tags:
+    - SettlerBlockC
+    - SettlerBlockCThree
+
+- type: entity
+  parent: AccessCartBase
+  id: AccessCartCFour
+  name: apartment key C-4
+  description: A card necessary to access a specific room.
+  components:
+  - type: Sprite
+    sprite: _BS14/Objects/Devices/cartridge.rsi
+    state: cart-c
+  - type: Access
+    tags:
+    - SettlerBlockC
+    - SettlerBlockCFour
+
+- type: entity
+  parent: AccessCartBase
+  id: AccessCartCFive
+  name: apartment key C-5
+  description: A card necessary to access a specific room.
+  components:
+  - type: Sprite
+    sprite: _BS14/Objects/Devices/cartridge.rsi
+    state: cart-c
+  - type: Access
+    tags:
+    - SettlerBlockC
+    - SettlerBlockCFive
+
+- type: entity
+  parent: AccessCartBase
+  id: AccessCartCSix
+  name: apartment key C-6
+  description: A card necessary to access a specific room.
+  components:
+  - type: Sprite
+    sprite: _BS14/Objects/Devices/cartridge.rsi
+    state: cart-c
+  - type: Access
+    tags:
+    - SettlerBlockC
+    - SettlerBlockCSix
+
+- type: entity
+  parent: AccessCartBase
+  id: AccessCartCSeven
+  name: apartment key C-7
+  description: A card necessary to access a specific room.
+  components:
+  - type: Sprite
+    sprite: _BS14/Objects/Devices/cartridge.rsi
+    state: cart-c
+  - type: Access
+    tags:
+    - SettlerBlockC
+    - SettlerBlockCSeven
+
+- type: entity
+  parent: AccessCartBase
+  id: AccessCartCEight
+  name: apartment key C-8
+  description: A card necessary to access a specific room.
+  components:
+  - type: Sprite
+    sprite: _BS14/Objects/Devices/cartridge.rsi
+    state: cart-c
+  - type: Access
+    tags:
+    - SettlerBlockC
+    - SettlerBlockCEight
+
+- type: entity
+  parent: AccessCartBase
+  id: AccessCartCNine
+  name: apartment key C-9
+  description: A card necessary to access a specific room.
+  components:
+  - type: Sprite
+    sprite: _BS14/Objects/Devices/cartridge.rsi
+    state: cart-c
+  - type: Access
+    tags:
+    - SettlerBlockC
+    - SettlerBlockCNine
+
+- type: entity
+  parent: AccessCartBase
+  id: AccessCartCTen
+  name: apartment key C-10
+  description: A card necessary to access a specific room.
+  components:
+  - type: Sprite
+    sprite: _BS14/Objects/Devices/cartridge.rsi
+    state: cart-c
+  - type: Access
+    tags:
+    - SettlerBlockC
+    - SettlerBlockCTen
+
+- type: entity
+  parent: AccessCartBase
+  id: AccessCartCEleven
+  name: apartment key C-11
+  description: A card necessary to access a specific room.
+  components:
+  - type: Sprite
+    sprite: _BS14/Objects/Devices/cartridge.rsi
+    state: cart-c
+  - type: Access
+    tags:
+    - SettlerBlockC
+    - SettlerBlockCEleven
+
+- type: entity
+  parent: AccessCartBase
+  id: AccessCartCTwelve
+  name: apartment key C-12
+  description: A card necessary to access a specific room.
+  components:
+  - type: Sprite
+    sprite: _BS14/Objects/Devices/cartridge.rsi
+    state: cart-c
+  - type: Access
+    tags:
+    - SettlerBlockC
+    - SettlerBlockCTwelve
+
+- type: entity
+  parent: AccessCartBase
+  id: AccessCartCThirteen
+  name: apartment key C-13
+  description: A card necessary to access a specific room.
+  components:
+  - type: Sprite
+    sprite: _BS14/Objects/Devices/cartridge.rsi
+    state: cart-c
+  - type: Access
+    tags:
+    - SettlerBlockC
+    - SettlerBlockCThirteen
+
+- type: entity
+  parent: AccessCartBase
+  id: AccessCartCFourteen
+  name: apartment key C-14
+  description: A card necessary to access a specific room.
+  components:
+  - type: Sprite
+    sprite: _BS14/Objects/Devices/cartridge.rsi
+    state: cart-c
+  - type: Access
+    tags:
+    - SettlerBlockC
+    - SettlerBlockCFourteen
+
+- type: entity
+  parent: AccessCartBase
+  id: AccessCartCFifteen
+  name: apartment key C-15
+  description: A card necessary to access a specific room.
+  components:
+  - type: Sprite
+    sprite: _BS14/Objects/Devices/cartridge.rsi
+    state: cart-c
+  - type: Access
+    tags:
+    - SettlerBlockC
+    - SettlerBlockCFifteen
+
+- type: entity
+  parent: AccessCartBase
+  id: AccessCartCSixteen
+  name: apartment key C-16
+  description: A card necessary to access a specific room.
+  components:
+  - type: Sprite
+    sprite: _BS14/Objects/Devices/cartridge.rsi
+    state: cart-c
+  - type: Access
+    tags:
+    - SettlerBlockC
+    - SettlerBlockCSixteen
+
+- type: entity
+  parent: AccessCartBase
+  id: AccessCartCSeventeen
+  name: apartment key C-17
+  description: A card necessary to access a specific room.
+  components:
+  - type: Sprite
+    sprite: _BS14/Objects/Devices/cartridge.rsi
+    state: cart-c
+  - type: Access
+    tags:
+    - SettlerBlockC
+    - SettlerBlockCSeventeen
+
+- type: entity
+  parent: AccessCartBase
+  id: AccessCartCEighteen
+  name: apartment key C-18
+  description: A card necessary to access a specific room.
+  components:
+  - type: Sprite
+    sprite: _BS14/Objects/Devices/cartridge.rsi
+    state: cart-c
+  - type: Access
+    tags:
+    - SettlerBlockC
+    - SettlerBlockCEighteen
+
+- type: entity
+  parent: AccessCartBase
+  id: AccessCartCNineteen
+  name: apartment key C-19
+  description: A card necessary to access a specific room.
+  components:
+  - type: Sprite
+    sprite: _BS14/Objects/Devices/cartridge.rsi
+    state: cart-c
+  - type: Access
+    tags:
+    - SettlerBlockC
+    - SettlerBlockCNineteen
+
+- type: entity
+  parent: AccessCartBase
+  id: AccessCartCTwenty
+  name: apartment key C-20
+  description: A card necessary to access a specific room.
+  components:
+  - type: Sprite
+    sprite: _BS14/Objects/Devices/cartridge.rsi
+    state: cart-c
+  - type: Access
+    tags:
+    - SettlerBlockC
+    - SettlerBlockCTwenty
+
+- type: entity
+  parent: AccessCartBase
+  id: AccessCartDOne
+  name: apartment key D-1
+  description: A card necessary to access a specific room.
+  components:
+  - type: Sprite
+    sprite: _BS14/Objects/Devices/cartridge.rsi
+    state: cart-d
+  - type: Access
+    tags:
+    - SettlerBlockD
+    - SettlerBlockDOne
+
+- type: entity
+  parent: AccessCartBase
+  id: AccessCartDTwo
+  name: apartment key D-2
+  description: A card necessary to access a specific room.
+  components:
+  - type: Sprite
+    sprite: _BS14/Objects/Devices/cartridge.rsi
+    state: cart-d
+  - type: Access
+    tags:
+    - SettlerBlockD
+    - SettlerBlockDTwo
+
+- type: entity
+  parent: AccessCartBase
+  id: AccessCartDThree
+  name: apartment key D-3
+  description: A card necessary to access a specific room.
+  components:
+  - type: Sprite
+    sprite: _BS14/Objects/Devices/cartridge.rsi
+    state: cart-d
+  - type: Access
+    tags:
+    - SettlerBlockD
+    - SettlerBlockDThree
+
+- type: entity
+  parent: AccessCartBase
+  id: AccessCartDFour
+  name: apartment key D-4
+  description: A card necessary to access a specific room.
+  components:
+  - type: Sprite
+    sprite: _BS14/Objects/Devices/cartridge.rsi
+    state: cart-d
+  - type: Access
+    tags:
+    - SettlerBlockD
+    - SettlerBlockDFour
+
+- type: entity
+  parent: AccessCartBase
+  id: AccessCartDFive
+  name: apartment key D-5
+  description: A card necessary to access a specific room.
+  components:
+  - type: Sprite
+    sprite: _BS14/Objects/Devices/cartridge.rsi
+    state: cart-d
+  - type: Access
+    tags:
+    - SettlerBlockD
+    - SettlerBlockDFive
+
+- type: entity
+  parent: AccessCartBase
+  id: AccessCartDSix
+  name: apartment key D-6
+  description: A card necessary to access a specific room.
+  components:
+  - type: Sprite
+    sprite: _BS14/Objects/Devices/cartridge.rsi
+    state: cart-d
+  - type: Access
+    tags:
+    - SettlerBlockD
+    - SettlerBlockDSix
+
+- type: entity
+  parent: AccessCartBase
+  id: AccessCartDSeven
+  name: apartment key D-7
+  description: A card necessary to access a specific room.
+  components:
+  - type: Sprite
+    sprite: _BS14/Objects/Devices/cartridge.rsi
+    state: cart-d
+  - type: Access
+    tags:
+    - SettlerBlockD
+    - SettlerBlockDSeven
+
+- type: entity
+  parent: AccessCartBase
+  id: AccessCartDEight
+  name: apartment key D-8
+  description: A card necessary to access a specific room.
+  components:
+  - type: Sprite
+    sprite: _BS14/Objects/Devices/cartridge.rsi
+    state: cart-d
+  - type: Access
+    tags:
+    - SettlerBlockD
+    - SettlerBlockDEight
+
+- type: entity
+  parent: AccessCartBase
+  id: AccessCartDNine
+  name: apartment key D-9
+  description: A card necessary to access a specific room.
+  components:
+  - type: Sprite
+    sprite: _BS14/Objects/Devices/cartridge.rsi
+    state: cart-d
+  - type: Access
+    tags:
+    - SettlerBlockD
+    - SettlerBlockDNine
+
+- type: entity
+  parent: AccessCartBase
+  id: AccessCartDTen
+  name: apartment key D-10
+  description: A card necessary to access a specific room.
+  components:
+  - type: Sprite
+    sprite: _BS14/Objects/Devices/cartridge.rsi
+    state: cart-d
+  - type: Access
+    tags:
+    - SettlerBlockD
+    - SettlerBlockDTen
+
+- type: entity
+  parent: AccessCartBase
+  id: AccessCartDEleven
+  name: apartment key D-11
+  description: A card necessary to access a specific room.
+  components:
+  - type: Sprite
+    sprite: _BS14/Objects/Devices/cartridge.rsi
+    state: cart-d
+  - type: Access
+    tags:
+    - SettlerBlockD
+    - SettlerBlockDEleven
+
+- type: entity
+  parent: AccessCartBase
+  id: AccessCartDTwelve
+  name: apartment key D-12
+  description: A card necessary to access a specific room.
+  components:
+  - type: Sprite
+    sprite: _BS14/Objects/Devices/cartridge.rsi
+    state: cart-d
+  - type: Access
+    tags:
+    - SettlerBlockD
+    - SettlerBlockDTwelve
+
+- type: entity
+  parent: AccessCartBase
+  id: AccessCartDThirteen
+  name: apartment key D-13
+  description: A card necessary to access a specific room.
+  components:
+  - type: Sprite
+    sprite: _BS14/Objects/Devices/cartridge.rsi
+    state: cart-d
+  - type: Access
+    tags:
+    - SettlerBlockD
+    - SettlerBlockDThirteen
+
+- type: entity
+  parent: AccessCartBase
+  id: AccessCartDFourteen
+  name: apartment key D-14
+  description: A card necessary to access a specific room.
+  components:
+  - type: Sprite
+    sprite: _BS14/Objects/Devices/cartridge.rsi
+    state: cart-d
+  - type: Access
+    tags:
+    - SettlerBlockD
+    - SettlerBlockDFourteen
+
+- type: entity
+  parent: AccessCartBase
+  id: AccessCartDFifteen
+  name: apartment key D-15
+  description: A card necessary to access a specific room.
+  components:
+  - type: Sprite
+    sprite: _BS14/Objects/Devices/cartridge.rsi
+    state: cart-d
+  - type: Access
+    tags:
+    - SettlerBlockD
+    - SettlerBlockDFifteen
+
+- type: entity
+  parent: AccessCartBase
+  id: AccessCartDSixteen
+  name: apartment key D-16
+  description: A card necessary to access a specific room.
+  components:
+  - type: Sprite
+    sprite: _BS14/Objects/Devices/cartridge.rsi
+    state: cart-d
+  - type: Access
+    tags:
+    - SettlerBlockD
+    - SettlerBlockDSixteen
+
+- type: entity
+  parent: AccessCartBase
+  id: AccessCartDSeventeen
+  name: apartment key D-17
+  description: A card necessary to access a specific room.
+  components:
+  - type: Sprite
+    sprite: _BS14/Objects/Devices/cartridge.rsi
+    state: cart-d
+  - type: Access
+    tags:
+    - SettlerBlockD
+    - SettlerBlockDSeventeen
+
+- type: entity
+  parent: AccessCartBase
+  id: AccessCartDEighteen
+  name: apartment key D-18
+  description: A card necessary to access a specific room.
+  components:
+  - type: Sprite
+    sprite: _BS14/Objects/Devices/cartridge.rsi
+    state: cart-d
+  - type: Access
+    tags:
+    - SettlerBlockD
+    - SettlerBlockDEighteen
+
+- type: entity
+  parent: AccessCartBase
+  id: AccessCartDNineteen
+  name: apartment key D-19
+  description: A card necessary to access a specific room.
+  components:
+  - type: Sprite
+    sprite: _BS14/Objects/Devices/cartridge.rsi
+    state: cart-d
+  - type: Access
+    tags:
+    - SettlerBlockD
+    - SettlerBlockDNineteen
+
+- type: entity
+  parent: AccessCartBase
+  id: AccessCartDTwenty
+  name: apartment key D-20
+  description: A card necessary to access a specific room.
+  components:
+  - type: Sprite
+    sprite: _BS14/Objects/Devices/cartridge.rsi
+    state: cart-d
+  - type: Access
+    tags:
+    - SettlerBlockD
+    - SettlerBlockDTwenty
+

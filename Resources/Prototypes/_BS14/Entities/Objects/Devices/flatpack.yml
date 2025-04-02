@@ -1,0 +1,29 @@
+- type: entity
+  parent: BaseFlatpack
+  id: DARKGirderFlatpack
+  name: girder flatpack
+  description: used to quickly and effectivley construct girders.
+  components:
+  - type: Flatpack
+    entity: Girder
+  - type: Sprite
+    layers:
+    - state: base
+    - state: overlay
+      color: "#EFB341"
+    - state: icon-default
+
+- type: entity
+  parent: BaseFlatpack
+  id: DARKReinforcedGirderFlatpack
+  name: reinforced girder flatpack
+  description: used to quickly and effectivley construct reinforced girders.
+  components:
+  - type: Flatpack
+    entity: ReinforcedGirder
+  - type: Sprite
+    layers:
+    - state: base
+    - state: overlay
+      color: "#EFB341"
+    - state: icon-default

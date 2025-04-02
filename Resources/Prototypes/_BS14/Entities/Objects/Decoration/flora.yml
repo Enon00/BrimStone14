@@ -1,0 +1,23 @@
+- type: entity
+  parent: BaseRock
+  id: DARKFloraRockSolid01
+  components:
+  - type: Sprite
+    sprite: _BS14/Objects/Decoration/flora_rockssolid.rsi
+    state: rocksolid01
+
+- type: entity
+  parent: BaseRock
+  id: DARKFloraRockSolid02
+  components:
+  - type: Sprite
+    sprite: _BS14/Objects/Decoration/flora_rockssolid.rsi
+    state: rocksolid02
+
+- type: entity
+  parent: BaseRock
+  id: DARKFloraRockSolid03
+  components:
+  - type: Sprite
+    sprite: _BS14/Objects/Decoration/flora_rockssolid.rsi
+    state: rocksolid03

@@ -66,8 +66,8 @@
         ruins:
           hide: true
           nameGrid: true
-          minCount: 2
-          maxCount: 2
+          minCount: 0
+          maxCount: 0
           stationGrid: false
           paths:
           - /Maps/Ruins/DeltaV/biodome_satellite.yml

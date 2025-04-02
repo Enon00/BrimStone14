@@ -1,0 +1,29 @@
+- type: job
+  id: QuartermasterM
+  name: Quartermaster
+  description: "Manage the production and selling of goods and lead maintance."
+  playTimeTracker: JobQuartermasterM
+  startingGear: QuartermasterMGear
+  icon: "JobIconQuarterMaster"
+  alwaysUseSpawner: true
+  supervisors: job-supervisors-baron
+  access:
+  - Maintenance
+  - Cargo
+  - Quartermaster
+
+- type: startingGear
+  id: QuartermasterMGear
+  subGear:
+  - QuartermasterPlasmamanGear
+  equipment:
+    head: ClothingHeadHatBeretLogi
+    jumpsuit: ClothingUniformJumpsuitQM
+    back: ClothingBackpackQuartermasterFilled
+    shoes: ClothingShoesColorBrown
+    id: QuartermasterPDA
+    belt: BoxFolderClipboard
+    pocket1: AppraisalTool
+  innerClothingSkirt: ClothingUniformJumpskirtQM
+  satchel: ClothingBackpackSatchelQuartermasterFilled
+  duffelbag: ClothingBackpackDuffelQuartermasterFilled

@@ -1,0 +1,10 @@
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadCrown
+  name: baron's crown
+  description: The symbol of royalty, he who wears it proves their legitimacy to rule.
+  components:
+  - type: Sprite
+    sprite: _BS14/Clothing/Head/Hats/crown.rsi
+  - type: Clothing
+    sprite: _BS14/Clothing/Head/Hats/crown.rsi

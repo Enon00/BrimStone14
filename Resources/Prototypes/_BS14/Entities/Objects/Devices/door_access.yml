@@ -1,0 +1,863 @@
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsBaron
+  suffix: Baron, Locked
+  noSpawn: true
+  components:
+  - type: AccessReader
+    access: [["Baron"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsCaptainGuard
+  suffix: CaptainGuard, Locked
+  noSpawn: true
+  components:
+  - type: AccessReader
+    access: [["CaptainGuard"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsKeep
+  suffix: Keep, Locked
+  noSpawn: true
+  components:
+  - type: AccessReader
+    access: [["Keep"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsNanoTrasenAccess1
+  suffix: NanoTrasenAccess1, Locked
+  noSpawn: true
+  components:
+  - type: AccessReader
+    access: [["NanoTrasenAccess1"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsBarManagerAccess
+  suffix: Tavern Keeper, Locked
+  noSpawn: true
+  components:
+  - type: AccessReader
+    access: [["BarManager"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsSalvageManagerAccess
+  suffix: Expedition Leader, Locked
+  noSpawn: true
+  components:
+  - type: AccessReader
+    access: [["SalvageManager"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsNanoTrasenAccess2
+  suffix: NanoTrasenAccess2, Locked
+  noSpawn: true
+  components:
+  - type: AccessReader
+    access: [["NanoTrasenAccess2"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsNanoTrasenAccess3
+  suffix: NanoTrasenAccess3, Locked
+  noSpawn: true
+  components:
+  - type: AccessReader
+    access: [["NanoTrasenAccess3"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsSettler
+  suffix: settler, Locked
+  noSpawn: true
+  components:
+  - type: AccessReader
+    access: [["Settler"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsBlockA
+  suffix: settlerA, Locked
+  noSpawn: true
+  components:
+  - type: AccessReader
+    access: [["SettlerBlockA"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsBlockARoomOne
+  suffix: settlerA-1, Locked
+  noSpawn: true
+  components:
+  - type: AccessReader
+    access: [["SettlerBlockAOne"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsBlockARoomTwo
+  suffix: settlerA-2, Locked
+  noSpawn: true
+  components:
+  - type: AccessReader
+    access: [["SettlerBlockATwo"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsBlockARoomThree
+  suffix: settlerA-3, Locked
+  noSpawn: true
+  components:
+  - type: AccessReader
+    access: [["SettlerBlockAThree"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsBlockARoomFour
+  suffix: settlerA-4, Locked
+  noSpawn: true
+  components:
+  - type: AccessReader
+    access: [["SettlerBlockAFour"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsBlockARoomFive
+  suffix: settlerA-5, Locked
+  noSpawn: true
+  components:
+  - type: AccessReader
+    access: [["SettlerBlockAFive"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsBlockARoomSix
+  suffix: settlerA-6, Locked
+  noSpawn: true
+  components:
+  - type: AccessReader
+    access: [["SettlerBlockASix"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsBlockARoomSeven
+  suffix: settlerA-7, Locked
+  noSpawn: true
+  components:
+  - type: AccessReader
+    access: [["SettlerBlockASeven"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsBlockARoomEight
+  suffix: settlerA-8, Locked
+  noSpawn: true
+  components:
+  - type: AccessReader
+    access: [["SettlerBlockAEight"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsBlockARoomNine
+  suffix: settlerA-9, Locked
+  noSpawn: true
+  components:
+  - type: AccessReader
+    access: [["SettlerBlockANine"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsBlockARoomTen
+  suffix: settlerA-10, Locked
+  noSpawn: true
+  components:
+  - type: AccessReader
+    access: [["SettlerBlockATen"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsBlockARoomEleven
+  suffix: settlerA-11, Locked
+  noSpawn: true
+  components:
+  - type: AccessReader
+    access: [["SettlerBlockAEleven"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsBlockARoomTwelve
+  suffix: settlerA-12, Locked
+  noSpawn: true
+  components:
+  - type: AccessReader
+    access: [["SettlerBlockATwelve"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsBlockARoomThirteen
+  suffix: settlerA-13, Locked
+  noSpawn: true
+  components:
+  - type: AccessReader
+    access: [["SettlerBlockAThirteen"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsBlockARoomFourteen
+  suffix: settlerA-14, Locked
+  noSpawn: true
+  components:
+  - type: AccessReader
+    access: [["SettlerBlockAFourteen"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsBlockARoomFifteen
+  suffix: settlerA-15, Locked
+  noSpawn: true
+  components:
+  - type: AccessReader
+    access: [["SettlerBlockAFifteen"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsBlockARoomSixteen
+  suffix: settlerA-16, Locked
+  noSpawn: true
+  components:
+  - type: AccessReader
+    access: [["SettlerBlockASixteen"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsBlockARoomSeventeen
+  suffix: settlerA-17, Locked
+  noSpawn: true
+  components:
+  - type: AccessReader
+    access: [["SettlerBlockASeventeen"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsBlockARoomEighteen
+  suffix: settlerA-18, Locked
+  noSpawn: true
+  components:
+  - type: AccessReader
+    access: [["SettlerBlockAEighteen"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsBlockARoomNineteen
+  suffix: settlerA-19, Locked
+  noSpawn: true
+  components:
+  - type: AccessReader
+    access: [["SettlerBlockANineteen"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsBlockARoomTwenty
+  suffix: settlerA-20, Locked
+  noSpawn: true
+  components:
+  - type: AccessReader
+    access: [["SettlerBlockATwenty"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsBlockB
+  suffix: settlerB, Locked
+  noSpawn: true
+  components:
+  - type: AccessReader
+    access: [["SettlerBlockB"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsBlockBRoomOne
+  suffix: settlerB-One, Locked
+  noSpawn: true
+  components:
+  - type: AccessReader
+    access: [["SettlerBlockBOne"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsBlockBRoomTwo
+  suffix: settlerB-Two, Locked
+  noSpawn: true
+  components:
+  - type: AccessReader
+    access: [["SettlerBlockBTwo"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsBlockBRoomThree
+  suffix: settlerB-Three, Locked
+  noSpawn: true
+  components:
+  - type: AccessReader
+    access: [["SettlerBlockBThree"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsBlockBRoomFour
+  suffix: settlerB-Four, Locked
+  noSpawn: true
+  components:
+  - type: AccessReader
+    access: [["SettlerBlockBFour"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsBlockBRoomFive
+  suffix: settlerB-Five, Locked
+  noSpawn: true
+  components:
+  - type: AccessReader
+    access: [["SettlerBlockBFive"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsBlockBRoomSix
+  suffix: settlerB-Six, Locked
+  noSpawn: true
+  components:
+  - type: AccessReader
+    access: [["SettlerBlockBSix"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsBlockBRoomSeven
+  suffix: settlerB-Seven, Locked
+  noSpawn: true
+  components:
+  - type: AccessReader
+    access: [["SettlerBlockBSeven"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsBlockBRoomEight
+  suffix: settlerB-Eight, Locked
+  noSpawn: true
+  components:
+  - type: AccessReader
+    access: [["SettlerBlockBEight"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsBlockBRoomNine
+  suffix: settlerB-Nine, Locked
+  noSpawn: true
+  components:
+  - type: AccessReader
+    access: [["SettlerBlockBNine"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsBlockBRoomTen
+  suffix: settlerB-Ten, Locked
+  noSpawn: true
+  components:
+  - type: AccessReader
+    access: [["SettlerBlockBTen"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsBlockBRoomEleven
+  suffix: settlerB-Eleven, Locked
+  noSpawn: true
+  components:
+  - type: AccessReader
+    access: [["SettlerBlockBEleven"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsBlockBRoomTwelve
+  suffix: settlerB-Twelve, Locked
+  noSpawn: true
+  components:
+  - type: AccessReader
+    access: [["SettlerBlockBTwelve"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsBlockBRoomThirteen
+  suffix: settlerB-Thirteen, Locked
+  noSpawn: true
+  components:
+  - type: AccessReader
+    access: [["SettlerBlockBThirteen"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsBlockBRoomFourteen
+  suffix: settlerB-Fourteen, Locked
+  noSpawn: true
+  components:
+  - type: AccessReader
+    access: [["SettlerBlockBFourteen"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsBlockBRoomFifteen
+  suffix: settlerB-Fifteen, Locked
+  noSpawn: true
+  components:
+  - type: AccessReader
+    access: [["SettlerBlockBFifteen"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsBlockBRoomSixteen
+  suffix: settlerB-Sixteen, Locked
+  noSpawn: true
+  components:
+  - type: AccessReader
+    access: [["SettlerBlockBSixteen"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsBlockBRoomSeventeen
+  suffix: settlerB-Seventeen, Locked
+  noSpawn: true
+  components:
+  - type: AccessReader
+    access: [["SettlerBlockBSeventeen"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsBlockBRoomEighteen
+  suffix: settlerB-Eighteen, Locked
+  noSpawn: true
+  components:
+  - type: AccessReader
+    access: [["SettlerBlockBEighteen"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsBlockBRoomNineteen
+  suffix: settlerB-Nineteen, Locked
+  noSpawn: true
+  components:
+  - type: AccessReader
+    access: [["SettlerBlockBNineteen"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsBlockBRoomTwenty
+  suffix: settlerB-Twenty, Locked
+  noSpawn: true
+  components:
+  - type: AccessReader
+    access: [["SettlerBlockBTwenty"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsBlockC
+  suffix: settlerC, Locked
+  noSpawn: true
+  components:
+  - type: AccessReader
+    access: [["SettlerBlockC"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsBlockCRoomOne
+  suffix: settlerC-One, Locked
+  noSpawn: true
+  components:
+  - type: AccessReader
+    access: [["SettlerBlockCOne"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsBlockCRoomTwo
+  suffix: settlerC-Two, Locked
+  noSpawn: true
+  components:
+  - type: AccessReader
+    access: [["SettlerBlockCTwo"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsBlockCRoomThree
+  suffix: settlerC-Three, Locked
+  noSpawn: true
+  components:
+  - type: AccessReader
+    access: [["SettlerBlockCThree"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsBlockCRoomFour
+  suffix: settlerC-Four, Locked
+  noSpawn: true
+  components:
+  - type: AccessReader
+    access: [["SettlerBlockCFour"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsBlockCRoomFive
+  suffix: settlerC-Five, Locked
+  noSpawn: true
+  components:
+  - type: AccessReader
+    access: [["SettlerBlockCFive"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsBlockCRoomSix
+  suffix: settlerC-Six, Locked
+  noSpawn: true
+  components:
+  - type: AccessReader
+    access: [["SettlerBlockCSix"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsBlockCRoomSeven
+  suffix: settlerC-Seven, Locked
+  noSpawn: true
+  components:
+  - type: AccessReader
+    access: [["SettlerBlockCSeven"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsBlockCRoomEight
+  suffix: settlerC-Eight, Locked
+  noSpawn: true
+  components:
+  - type: AccessReader
+    access: [["SettlerBlockCEight"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsBlockCRoomNine
+  suffix: settlerC-Nine, Locked
+  noSpawn: true
+  components:
+  - type: AccessReader
+    access: [["SettlerBlockCNine"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsBlockCRoomTen
+  suffix: settlerC-Ten, Locked
+  noSpawn: true
+  components:
+  - type: AccessReader
+    access: [["SettlerBlockCTen"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsBlockCRoomEleven
+  suffix: settlerC-Eleven, Locked
+  noSpawn: true
+  components:
+  - type: AccessReader
+    access: [["SettlerBlockCEleven"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsBlockCRoomTwelve
+  suffix: settlerC-Twelve, Locked
+  noSpawn: true
+  components:
+  - type: AccessReader
+    access: [["SettlerBlockCTwelve"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsBlockCRoomThirteen
+  suffix: settlerC-Thirteen, Locked
+  noSpawn: true
+  components:
+  - type: AccessReader
+    access: [["SettlerBlockCThirteen"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsBlockCRoomFourteen
+  suffix: settlerC-Fourteen, Locked
+  noSpawn: true
+  components:
+  - type: AccessReader
+    access: [["SettlerBlockCFourteen"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsBlockCRoomFifteen
+  suffix: settlerC-Fifteen, Locked
+  noSpawn: true
+  components:
+  - type: AccessReader
+    access: [["SettlerBlockCFifteen"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsBlockCRoomSixteen
+  suffix: settlerC-Sixteen, Locked
+  noSpawn: true
+  components:
+  - type: AccessReader
+    access: [["SettlerBlockCSixteen"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsBlockCRoomSeventeen
+  suffix: settlerC-Seventeen, Locked
+  noSpawn: true
+  components:
+  - type: AccessReader
+    access: [["SettlerBlockCSeventeen"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsBlockCRoomEighteen
+  suffix: settlerC-Eighteen, Locked
+  noSpawn: true
+  components:
+  - type: AccessReader
+    access: [["SettlerBlockCEighteen"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsBlockCRoomNineteen
+  suffix: settlerC-Nineteen, Locked
+  noSpawn: true
+  components:
+  - type: AccessReader
+    access: [["SettlerBlockCNineteen"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsBlockCRoomTwenty
+  suffix: settlerC-Twenty, Locked
+  noSpawn: true
+  components:
+  - type: AccessReader
+    access: [["SettlerBlockCTwenty"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsBlockD
+  suffix: settlerD, Locked
+  noSpawn: true
+  components:
+  - type: AccessReader
+    access: [["SettlerBlockD"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsBlockDRoomOne
+  suffix: settlerD-One, Locked
+  noSpawn: true
+  components:
+  - type: AccessReader
+    access: [["SettlerBlockDOne"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsBlockDRoomTwo
+  suffix: settlerD-Two, Locked
+  noSpawn: true
+  components:
+  - type: AccessReader
+    access: [["SettlerBlockDTwo"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsBlockDRoomThree
+  suffix: settlerD-Three, Locked
+  noSpawn: true
+  components:
+  - type: AccessReader
+    access: [["SettlerBlockDThree"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsBlockDRoomFour
+  suffix: settlerD-Four, Locked
+  noSpawn: true
+  components:
+  - type: AccessReader
+    access: [["SettlerBlockDFour"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsBlockDRoomFive
+  suffix: settlerD-Five, Locked
+  noSpawn: true
+  components:
+  - type: AccessReader
+    access: [["SettlerBlockDFive"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsBlockDRoomSix
+  suffix: settlerD-Six, Locked
+  noSpawn: true
+  components:
+  - type: AccessReader
+    access: [["SettlerBlockDSix"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsBlockDRoomSeven
+  suffix: settlerD-Seven, Locked
+  noSpawn: true
+  components:
+  - type: AccessReader
+    access: [["SettlerBlockDSeven"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsBlockDRoomEight
+  suffix: settlerD-Eight, Locked
+  noSpawn: true
+  components:
+  - type: AccessReader
+    access: [["SettlerBlockDEight"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsBlockDRoomNine
+  suffix: settlerD-Nine, Locked
+  noSpawn: true
+  components:
+  - type: AccessReader
+    access: [["SettlerBlockDNine"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsBlockDRoomTen
+  suffix: settlerD-Ten, Locked
+  noSpawn: true
+  components:
+  - type: AccessReader
+    access: [["SettlerBlockDTen"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsBlockDRoomEleven
+  suffix: settlerD-Eleven, Locked
+  noSpawn: true
+  components:
+  - type: AccessReader
+    access: [["SettlerBlockDEleven"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsBlockDRoomTwelve
+  suffix: settlerD-Twelve, Locked
+  noSpawn: true
+  components:
+  - type: AccessReader
+    access: [["SettlerBlockDTwelve"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsBlockDRoomThirteen
+  suffix: settlerD-Thirteen, Locked
+  noSpawn: true
+  components:
+  - type: AccessReader
+    access: [["SettlerBlockDThirteen"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsBlockDRoomFourteen
+  suffix: settlerD-Fourteen, Locked
+  noSpawn: true
+  components:
+  - type: AccessReader
+    access: [["SettlerBlockDFourteen"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsBlockDRoomFifteen
+  suffix: settlerD-Fifteen, Locked
+  noSpawn: true
+  components:
+  - type: AccessReader
+    access: [["SettlerBlockDFifteen"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsBlockDRoomSixteen
+  suffix: settlerD-Sixteen, Locked
+  noSpawn: true
+  components:
+  - type: AccessReader
+    access: [["SettlerBlockDSixteen"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsBlockDRoomSeventeen
+  suffix: settlerD-Seventeen, Locked
+  noSpawn: true
+  components:
+  - type: AccessReader
+    access: [["SettlerBlockDSeventeen"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsBlockDRoomEighteen
+  suffix: settlerD-Eighteen, Locked
+  noSpawn: true
+  components:
+  - type: AccessReader
+    access: [["SettlerBlockDEighteen"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsBlockDRoomNineteen
+  suffix: settlerD-Nineteen, Locked
+  noSpawn: true
+  components:
+  - type: AccessReader
+    access: [["SettlerBlockDNineteen"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsBlockDRoomTwenty
+  suffix: settlerD-Twenty, Locked
+  noSpawn: true
+  components:
+  - type: AccessReader
+    access: [["SettlerBlockDTwenty"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsAccess1
+  suffix: Access1, Locked
+  noSpawn: true
+  components:
+  - type: AccessReader
+    access: [["NanoTrasenAccess1"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsAccess2
+  suffix: Access2, Locked
+  noSpawn: true
+  components:
+  - type: AccessReader
+    access: [["NanoTrasenAccess2"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsAccess3
+  suffix: Access3, Locked
+  noSpawn: true
+  components:
+  - type: AccessReader
+    access: [["NanoTrasenAccess3"]]

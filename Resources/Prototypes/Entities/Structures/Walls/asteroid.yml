@@ -903,10 +903,10 @@
   parent: WallRock
   components:
     - type: Icon
-      sprite: Structures/Walls/rock.rsi
+      sprite: _BS14/Structures/Walls/rock.rsi
       state: rock_wall
     - type: Sprite
-      sprite: Structures/Walls/rock.rsi
+      sprite: _BS14/Structures/Walls/rock.rsi
       layers:
         - state: rock_wall
         - map: [ "enum.EdgeLayer.South" ]

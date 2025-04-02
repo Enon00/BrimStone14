@@ -1,0 +1,49 @@
+- type: department
+  id: NanoTrasen
+  description: department-NanoTrasen-description
+  color: "#275996"
+  roles:
+  - NanoTrasenOverseer
+  - BlueShield
+  - NanoTrasenEmployee
+
+- type: department
+  id: Nobility
+  description: department-Nobility-description
+  color: "#b31b35"
+  roles:
+  - Baron
+  - Advisor
+  - Guard
+  - Executioner
+  - GuardCaptain
+
+- type: department
+  id: Settlers
+  description: department-Settlers-description
+  color: "#496b3e"
+  roles:
+  - Chef
+  - Technician
+  - DARKEngineer
+  - DARKSalvager
+  - Physician
+  - DARKChemist
+  - Farmer
+  - TavernKeeper
+  - DARKChef
+  - DARKChaplin
+  - Beggar
+  - DARKMedicalDirector
+  - DARKEL
+  - Tapper
+
+
+- type: department
+  id: Independents
+  description: department-Independents-description
+  color: "#916c4e"
+  roles:
+  - Vagabond
+
+

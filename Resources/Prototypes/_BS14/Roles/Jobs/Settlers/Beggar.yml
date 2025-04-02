@@ -1,0 +1,16 @@
+- type: job
+  id: Beggar
+  name: Beggar
+  description: "You will likely pass away, the keep is not for idle hands."
+  playTimeTracker: Beggar
+  startingGear: BeggarGear
+  icon: "JobIconPassenger"
+  alwaysUseSpawner: true
+  supervisors: job-supervisors-baron
+
+- type: startingGear
+  id: BeggarGear
+  equipment:
+    jumpsuit: UniformBeggar
+
+

@@ -1,0 +1,78 @@
+- type: entity
+  id: MechDurand64
+  parent: [ BaseMech, CombatMech ]
+  name: Main-Armoured Durand
+  description: A giant version of the Durand used to tank damage and destory buildings, Dont get punched.
+  components:
+  - type: Sprite
+    drawdepth: Mobs
+    noRot: true
+    sprite: _BS14/Objects/Specific/Mech/mech64.rsi
+    layers:
+    - map: [ "enum.MechVisualLayers.Base" ]
+      state: durand
+    - map: ["enum.PaperLabelVisuals.Layer"]
+      sprite: Structures/Storage/Crates/labels.rsi
+      state: paper
+  - type: FootstepModifier
+    footstepSoundCollection:
+      path: /Audio/Mecha/sound_mecha_powerloader_step.ogg
+  - type: Mech
+    baseState: durand
+    openState: durand-open
+    brokenState: durand-broken
+    mechToPilotDamageMultiplier: 0.1
+    airtight: true
+    maxIntegrity: 1400
+    pilotWhitelist:
+      components:
+        - HumanoidAppearance
+  - type: MeleeWeapon
+    hidden: true
+    attackRate: 1
+    damage:
+      types:
+        Blunt: 80
+        Structural: 200
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 1.5
+    baseSprintSpeed: 2
+  - type: Damageable
+    damageModifierSet: MediumArmorNT
+  - type: CanMoveInAir
+  - type: MovementAlwaysTouching
+  - type: Repairable
+    fuelCost: 40
+    doAfterDelay: 15
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeCircle
+          radius: 0.60
+  - type: StaticPrice
+    price: 5000
+  - type: Tag
+    tags:
+    - DoorBumpOpener
+    - FootstepSound
+    - Durand
+
+- type: entity
+  id: Mech64DurandBattery
+  parent: MechDurand64
+  suffix: Battery
+  components:
+  - type: ContainerFill
+    containers:
+      mech-battery-slot:
+      - PowerCellHigh
+
+- type: entity
+  id: Mech64DurandFilled
+  parent: Mech64DurandBattery
+  suffix: Battery, Filled
+  components:
+  - type: Mech
+    startingEquipment:
+      - WeaponMechCombatShotgun

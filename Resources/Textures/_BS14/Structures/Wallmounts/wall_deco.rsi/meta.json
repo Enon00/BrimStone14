@@ -1,0 +1,68 @@
+{
+    "version": 1,
+    "license": "CC-BY-SA-3.0",
+    "copyright": "made by Enon00 (github) for BrimStone14",
+    "size": {
+        "x": 32,
+        "y": 32
+    },
+    "states": [
+        {
+            "name": "metal_one"
+        },
+        {
+            "name": "metal_two"
+        },
+        {
+            "name": "metal_three"
+        },
+        {
+            "name": "metal_four"
+        },
+        {
+            "name": "laws_broken"
+        },
+        {
+            "name": "laws_screen"
+        },
+        {
+            "name": "letterbox"
+        },
+        {
+            "name": "big_letterbox"
+        },
+        {
+            "name": "wanted_clown"
+        },
+        {
+            "name": "wanted_robe"
+        },
+        {
+            "name": "wanted_tider"
+        },
+        {
+            "name": "wanted_off"
+        },
+        {
+            "name": "wanted_broken"
+        },
+        {
+            "name": "rock_one"
+        },
+        {
+            "name": "rock_two"
+        },
+        {
+            "name": "rock_three"
+        },
+        {
+            "name": "universalism"
+        },
+        {
+            "name": "wood_panel"
+        },
+        {
+            "name": "wood_paneldig"
+        }
+    ]
+}

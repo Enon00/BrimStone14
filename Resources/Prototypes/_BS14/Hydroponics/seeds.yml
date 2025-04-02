@@ -1,0 +1,149 @@
+- type: seed
+  id: hilroute
+  name: hilroute seed
+  noun: hilroute seeds
+  displayName: hilroute
+  plantRsi: /Textures/_BS14/Objects/Specific/Hydroponics/hilroute.rsi
+  packetPrototype: HilrouteSeeds
+  productPrototypes:
+    - FoodHealoxygenRoot
+    - FoodHilrouteBerries
+  lifespan: 55
+  maturation: 3
+  production: 3
+  yield: 3
+  potency: 1
+  idealLight: 1
+  growthStages: 3
+  waterConsumption: 0.3
+  chemicals:
+    Fiber:
+      Min: 5
+      Max: 10
+      PotencyDivisor: 20
+
+- type: seed
+  id: ager
+  name: agercap seed
+  noun: agercap seeds
+  displayName: agercaps
+  plantRsi: /Textures/_BS14/Objects/Specific/Hydroponics/ager.rsi
+  packetPrototype: AgerSeeds
+  productPrototypes:
+    - FoodAgerCaps
+  lifespan: 55
+  maturation: 6
+  production: 4
+  yield: 8
+  potency: 5
+  idealLight: 1
+  growthStages: 3
+  waterConsumption: 0.2
+  chemicals:
+    Fiber:
+      Min: 5
+      Max: 10
+      PotencyDivisor: 20
+
+- type: seed
+  id: ashweave
+  name: ashweave seed
+  noun: ashweave seeds
+  displayName: ashweave
+  plantRsi: /Textures/_BS14/Objects/Specific/Hydroponics/ashwheave.rsi
+  packetPrototype: AshwheaveSeeds
+  productPrototypes:
+    - ProduceAshwheave
+  lifespan: 55
+  maturation: 8
+  production: 1
+  yield: 1
+  potency: 5
+  idealLight: 2
+  growthStages: 3
+  waterConsumption: 0.2
+  chemicals:
+    Fiber:
+      Min: 5
+      Max: 10
+      PotencyDivisor: 20
+
+- type: seed
+  id: drayhad
+  name: drayhad seed
+  noun: drayhad seeds
+  displayName: drayhad
+  plantRsi: /Textures/_BS14/Objects/Specific/Hydroponics/drayhad.rsi
+  packetPrototype: DrayhadSeeds
+  productPrototypes:
+    - ProduceDrayhad
+  harvestRepeat: Repeat
+  lifespan: 75
+  maturation: 3
+  production: 5
+  yield: 2
+  potency: 20
+  growthStages: 3
+  waterConsumption: 0.20
+  idealLight: 2
+  idealHeat: 298
+  chemicals:
+    Nicotine:
+      Min: 1
+      Max: 10
+      potencyDivisor: 10
+
+- type: seed
+  id: either
+  name: either seed
+  noun: either seeds
+  displayName: either
+  plantRsi: /Textures/_BS14/Objects/Specific/Hydroponics/either.rsi
+  packetPrototype: EitherSeeds
+  productPrototypes:
+    - DARKFoodEither
+  harvestRepeat: Repeat
+  lifespan: 50
+  maturation: 4
+  production: 2
+  potency: 10
+  yield: 3
+  idealLight: 2
+  idealHeat: 298
+  growthStages: 4
+  waterConsumption: 0.3
+  chemicals:
+    Nutriment:
+      Min: 5
+      Max: 10
+      potencyDivisor: 20
+    Enzyme:
+      Min: 5
+      Max: 10
+      potencyDivisor: 20
+
+- type: seed
+  id: DARKMushCotton
+  name: mushoh seed
+  noun: mushoh seeds
+  displayName: mushoh
+  plantRsi: /Textures/_BS14/Objects/Specific/Hydroponics/mushoh.rsi
+  packetPrototype: DarkMushohSeedPacket
+  productPrototypes:
+    - CottonBol
+  harvestRepeat: Repeat
+  lifespan: 50
+  maturation: 4
+  production: 2
+  potency: 5
+  yield: 3
+  idealLight: 2
+  idealHeat: 298
+  growthStages: 3
+  waterConsumption: 0.3
+  chemicals:
+    Fiber:
+      Min: 5
+      Max: 10
+      PotencyDivisor: 20
+

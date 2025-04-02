@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 64
+  },
+  "license": "CC-BY-SA-3.0",
+  "copyright": "made for Brimstone14 by Enon00(Github)",
+  "states": [
+    {
+      "name": "broken",
+      "directions": 1
+    },
+    {
+      "name": "burned",
+      "directions": 1
+    },
+    {
+      "name": "empty",
+      "directions": 1
+    },
+    {
+      "name": "base",
+      "directions": 1
+    },
+    {
+      "name": "glow",
+      "directions": 1
+    }
+  ]
+}

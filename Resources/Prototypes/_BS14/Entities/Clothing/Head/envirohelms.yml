@@ -1,0 +1,10 @@
+- type: entity
+  parent: ClothingHeadEnvirohelmBase
+  id: ClothingHeadEnvirohelmGuard
+  name: guard envirosuit helmet
+  description: The helmet for the Enviromental with the colours of the Drakos Dynasty.
+  components:
+  - type: Sprite
+    sprite: _BS14/Clothing/Head/_Envirohelms/guard.rsi
+  - type: Clothing
+    sprite: _BS14/Clothing/Head/_Envirohelms/guard.rsi

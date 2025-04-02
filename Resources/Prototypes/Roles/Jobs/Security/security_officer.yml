@@ -3,6 +3,7 @@
   name: job-name-security
   description: job-description-security
   playTimeTracker: JobSecurityOfficer
+  setPreference: false
   requirements:
     - !type:CharacterDepartmentTimeRequirement
       department: Security

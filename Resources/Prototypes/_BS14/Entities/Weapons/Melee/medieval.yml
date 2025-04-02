@@ -1,0 +1,91 @@
+- type: entity
+  name: halberd
+  parent: BaseItem
+  id: DARKVeryNormalHalberd
+  description: A poleaxe, versatilile if the user is trained for it.
+  components:
+  - type: Tag
+    tags:
+    - FireAxe
+  - type: Sharp
+  - type: Sprite
+    sprite: _BS14/Objects/Weapons/Melee/halberd.rsi
+    state: icon
+  - type: MeleeWeapon
+    wideAnimationRotation: -135
+    attackRate: 1.17
+    range: 1.75
+    damage:
+      types:
+        Blunt: 2
+        Slash: 13
+        Structural: 5
+    heavyRateModifier: 0.9
+    heavyDamageBaseModifier: 1.2
+    heavyStaminaCost: 7.5
+    angle: 100
+    soundHit:
+      collection: MetalThud
+  - type: DamageOtherOnHit
+    staminaCost: 9
+  - type: EmbeddableProjectile
+  - type: ThrowingAngle
+    angle: 225
+  - type: Wieldable
+  - type: IncreaseDamageOnWield
+    damage:
+      types:
+        Blunt: 2
+        Slash: 3
+        Structural: 10
+  - type: Item
+    size: Ginormous
+  - type: Clothing
+    sprite: Objects/Weapons/Melee/halberd.rsi
+    quickEquip: false
+    slots:
+    - back
+  - type: UseDelay
+    delay: 1
+
+- type: entity
+  name: mace
+  parent: BaseItem
+  id: DARKmace
+  description: A tool for being blunt.
+  components:
+  - type: Sprite
+    sprite: _BS14/Objects/Weapons/Melee/mace.rsi
+    state: icon
+  - type: MeleeWeapon
+    wideAnimationRotation: -135
+    attackRate: 0.8
+    damage:
+      types:
+        Blunt: 15
+    soundHit:
+      collection: MetalThud
+    bluntStaminaDamageFactor: 2
+    heavyRateModifier: 1
+    heavyDamageBaseModifier: 1.2
+    heavyStaminaCost: 7.5
+  - type: DamageOtherOnHit
+    staminaCost: 9
+  - type: Item
+    size: Normal
+  - type: Tag
+    tags:
+    - Truncheon
+  - type: Clothing
+    sprite: Objects/Weapons/Melee/truncheon.rsi
+    quickEquip: false
+    slots:
+    - Belt
+  - type: DisarmMalus
+    malus: 0.225
+  - type: Appearance
+  - type: StaticPrice
+    price: 80
+  - type: GuideHelp
+    guides:
+    - Security

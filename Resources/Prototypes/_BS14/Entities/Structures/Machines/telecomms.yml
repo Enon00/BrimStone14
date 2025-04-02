@@ -1,0 +1,12 @@
+- type: entity
+  parent: TelecomServer
+  id: DARKTelecomServerKeepFilled
+  suffix: Keep Filled
+  components:
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - EncryptionKeyCommon
+      - EncryptionKeyGuard
+      - EncryptionKeyCargo
+      - EncryptionKeyCommand

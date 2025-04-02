@@ -2,6 +2,7 @@
   id: Prosecutor
   name: job-name-prosecutor
   description: job-description-prosecutor
+  setPreference: false
   playTimeTracker: JobProsecutor
   startingGear: ProsecutorGear
   icon: "JobIconProsecutor"

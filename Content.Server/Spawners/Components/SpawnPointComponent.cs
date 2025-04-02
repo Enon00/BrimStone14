@@ -18,6 +18,12 @@ public sealed partial class SpawnPointComponent : Component, ISpawnPoint
     [DataField("spawn_type"), ViewVariables(VVAccess.ReadWrite)]
     public SpawnPointType SpawnType { get; set; } = SpawnPointType.Unset;
 
+    /// <summary>
+    /// Whether this spawn point should be deleted after spawning a player.
+    /// </summary>
+    [DataField("delete_on_spawn"), ViewVariables(VVAccess.ReadWrite)]
+    public bool DeleteOnSpawn { get; set; } = false;
+
     public JobPrototype? Job => string.IsNullOrEmpty(_jobId) ? null : _prototypeManager.Index<JobPrototype>(_jobId);
 
     public override string ToString()

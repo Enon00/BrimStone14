@@ -3,6 +3,7 @@
   id: MedicalBorg
   name: job-name-medical-borg
   description: job-description-medical-borg
+  setPreference: false
   playTimeTracker: JobMedicalBorg
   canBeAntag: false
   icon: JobIconMedicalBorg

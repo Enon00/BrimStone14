@@ -1,0 +1,32 @@
+- type: job
+  id: DARKChaplin
+  name: job-name-chaplain
+  description: job-description-chaplain
+  playTimeTracker: JobDARKSTARChaplain
+  startingGear: DARKChaplainGear
+  icon: "JobIconChaplain"
+  alwaysUseSpawner: true
+  supervisors: job-supervisors-baron
+  access:
+  - Chapel
+
+- type: startingGear
+  id: DARKChaplainGear
+  subGear:
+  - DARKChaplainPlasmamanGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitChaplain
+    back: ClothingBackpackChaplainFilled
+    shoes: ClothingShoesColorBlack
+    id: ChaplainPDA
+  innerClothingSkirt: ClothingUniformJumpskirtChaplain
+  satchel: ClothingBackpackSatchelChaplainFilled
+  duffelbag: ClothingBackpackDuffelChaplainFilled
+
+- type: startingGear
+  id: DARKChaplainPlasmamanGear
+  parent: BasePlasmamanGear
+  equipment:
+    jumpsuit: ClothingUniformEnvirosuitChaplain
+    head: ClothingHeadEnvirohelmChaplain
+    gloves: ClothingHandsGlovesEnviroglovesBlack

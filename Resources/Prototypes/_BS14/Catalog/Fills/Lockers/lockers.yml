@@ -1,0 +1,18 @@
+- type: entity
+  id: LockerBaronFilled
+  suffix: Filled
+  parent: DARKLockerBaron
+  components:
+  - type: StorageFill
+    contents:
+      - id: NukeDisk
+      - id: PinpointerNuclear
+      - id: BaronIDCard
+      - id: ClothingBeltSheathFilled
+      - id: CommsComputerCircuitboard
+      - id: PlushieNuke
+        prob: 0.1
+      - id: DoorRemoteCommand
+      - id: ClothingNeckCloakBaron
+      - id: LunchboxCommandFilledRandom
+        prob: 0.3

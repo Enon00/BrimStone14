@@ -1,0 +1,27 @@
+- type: job
+  id: DARKEL
+  name: Expedition Leader
+  description: "Lead mining operations and ensure plentful ores to the keep, without dying of course."
+  playTimeTracker: JobDARKEL
+  startingGear: DARKELGear
+  icon: "JobIconShaftMiner"
+  alwaysUseSpawner: true
+  supervisors: job-supervisors-baron
+  access:
+  - Salvage
+  - SalvageManager
+
+- type: startingGear
+  id: DARKELGear
+  subGear:
+  - SalvageSpecialistPlasmamanGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitSalvageSpecialist
+    neck: ClothingNeckCloakMiner
+    back: ClothingBackpackSalvageFilled
+    shoes: ClothingShoesBootsSalvage
+    id: SalvagePDA
+  satchel: ClothingBackpackSatchelFilled
+  duffelbag: ClothingBackpackDuffelFilled
+
+

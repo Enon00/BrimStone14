@@ -1,0 +1,65 @@
+{
+    "version": 1,
+    "size": {
+        "x": 32,
+        "y": 32
+    },
+    "copyright": "Taken from tgstation, modified sprites by Enon00 (Github)",
+    "license": "CC-BY-SA-3.0",
+    "states": [
+        {
+            "name": "closet"
+        },
+        {
+            "name": "closet_door"
+        },
+        {
+            "name": "closet_open"
+        },
+        {
+            "name": "baron"
+        },
+        {
+            "name": "baron_door"
+        },
+        {
+            "name": "baron_open"
+        },
+        {
+            "name": "noble"
+        },
+        {
+            "name": "noble_door"
+        },
+        {
+            "name": "noble_open"
+        },
+        {
+            "name": "generic"
+        },
+        {
+            "name": "generic_door"
+        },
+        {
+            "name": "generic_icon"
+        },
+        {
+            "name": "generic_open"
+        },
+        {
+            "name": "red"
+        },
+        {
+            "name": "red_door"
+        },
+        {
+            "name": "welded"
+        },
+        {
+            "name": "unlocked"
+        },
+        {
+            "name": "locked"
+        }
+    ]
+}

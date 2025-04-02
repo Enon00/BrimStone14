@@ -1,0 +1,71 @@
+- type: entity
+  name: lamp post
+  description: "A light fixture. Draws power and produces light when equipped with a light bulb."
+  id: DARKLampPostEmpty
+  suffix: Empty
+  parent: SmallLight
+  components:
+  - type: Sprite
+    sprite: _BS14/Objects/Decoration/deco64x.rsi
+    state: empty
+    noRot: true
+    offset: 0, 0.8
+  - type: AmbientSound
+    volume: -10
+    range: 2
+    sound:
+      path: /Audio/Ambience/Objects/light_hum.ogg
+  - type: PointLight
+    enabled: false
+    offset: "0, -1"
+  - type: Physics
+    bodyType: Static
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.25,-0.25,0.25,0.25"
+  - type: ContainerContainer
+    containers:
+      light_bulb: !type:ContainerSlot
+  - type: PoweredLight
+    bulb: Bulb
+    damage:
+      types:
+        Heat: 2
+  - type: ApcPowerReceiver
+  - type: ExtensionCableReceiver
+  - type: DeviceNetwork
+    deviceNetId: Wireless
+    receiveFrequencyId: SmartLight
+  - type: WirelessNetworkConnection
+    range: 200
+  - type: Appearance
+  - type: PoweredLightVisuals
+    spriteStateMap:
+      empty: empty
+      off: base
+      on: base
+      broken: broken
+      burned: burned
+  - type: DeviceLinkSink
+    ports:
+      - On
+      - Off
+      - Toggle
+
+- type: entity
+  id: DARKLampPost
+  suffix: ""
+  parent: DARKLampPostEmpty
+  components:
+  - type: Sprite
+    state: base
+  - type: PointLight
+    enabled: true
+  - type: PoweredLight
+    hasLampOnSpawn: LightBulb
+    damage:
+      types:
+        Heat: 2

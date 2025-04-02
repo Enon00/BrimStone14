@@ -1,0 +1,18 @@
+- type: entity
+  name: Random Lavaland Mob Spawner
+  id: RandomLavalandMobSpawner
+  parent: MarkerBase
+  components:
+  - type: Sprite
+    layers:
+      - state: red
+      - sprite: _BS14/Mobs/goldgrub.rsi
+  - type: RandomSpawner
+    offset: 0
+    prototypes:
+      - MobWatcherLavaland
+      - MobGoliath
+    chance: 1
+    rarePrototypes:
+      - MobGoldGrub
+    rareChance: 0.05

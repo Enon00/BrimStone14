@@ -1,0 +1,28 @@
+- type: job
+  id: Farmer
+  name: Farmer
+  description: "One of the most important jobs in the keep, produce diffrent goods that everyone needs."
+  playTimeTracker: Farmer
+  startingGear: FarmerGear
+  icon: "JobIconBotanist"
+  alwaysUseSpawner: true
+  supervisors: job-supervisors-baron
+  access:
+  - Hydroponics
+
+- type: startingGear
+  id: FarmerGear
+  subGear:
+  - BotanistPlasmamanGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitHydroponics
+    back: ClothingBackpackHydroponicsFilled
+    shoes: ClothingShoesColorBrown
+    id: BotanistPDA
+    outerClothing: ClothingOuterApronBotanist
+    belt: ClothingBeltPlantFilled
+  innerClothingSkirt: ClothingUniformJumpskirtHydroponics
+  satchel: ClothingBackpackSatchelHydroponicsFilled
+  duffelbag: ClothingBackpackDuffelHydroponicsFilled
+
+

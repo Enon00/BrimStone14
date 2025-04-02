@@ -1,0 +1,119 @@
+- type: entity
+  name: ager soup
+  parent: FoodBowlBase
+  id: FoodAgerSoup
+  description: A nice warm aleish soup with a mushroomy taste.
+  components:
+  - type: FlavorProfile
+    flavors:
+      - ale
+      - mushroom
+      - water
+  - type: Sprite
+    sprite: _BS14/Objects/Consumable/Food/soup.rsi
+    state: ager
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 15
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 10
+        - ReagentId: Ale
+          Quantity: 5
+        - ReagentId: Water
+          Quantity: 5
+  - type: Tag
+    tags:
+    - Soup
+
+- type: entity
+  name: cotton-ager soup
+  parent: FoodBowlBase
+  id: FoodAgerCottonSoup
+  description: A soup made from raw cotton in a flavourful ager broth. Enjoyed only by moths and the criminally tasteless.
+  components:
+  - type: FlavorProfile
+    flavors:
+      - cotton
+      - ale
+      - mushroom
+  - type: Sprite
+    sprite: _BS14/Objects/Consumable/Food/soup.rsi
+    state: ager-cotton
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 20
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 6
+        - ReagentId: Ale
+          Quantity: 6
+        - ReagentId: Water
+          Quantity: 3
+        - ReagentId: Fiber
+          Quantity: 5
+  - type: Tag
+    tags:
+      - ClothMade
+
+- type: entity
+  name: ager-xeno soup
+  parent: FoodBowlBase
+  id: FoodAgerXenoSoup
+  description: A nice warm aleish soup with a mushroomy taste.
+  components:
+  - type: FlavorProfile
+    flavors:
+      - ale
+      - spicy
+      - meaty
+  - type: Sprite
+    sprite: _BS14/Objects/Consumable/Food/soup.rsi
+    state: ager-stew
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 20
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 10
+        - ReagentId: Protein
+          Quantity: 5
+        - ReagentId: Ale
+          Quantity: 5
+        - ReagentId: Water
+          Quantity: 5
+  - type: Tag
+    tags:
+    - Soup
+
+- type: entity
+  name: hilroute salad
+  parent: FoodBowlBase
+  id: FoodHilrouteSoup
+  description: A rather dry yet healthy salad.
+  components:
+  - type: FlavorProfile
+    flavors:
+      - leafy
+  - type: Sprite
+    sprite: _BS14/Objects/Consumable/Food/soup.rsi
+    state: hilroute-salad
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 20
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 10
+        - ReagentId: Vitamin
+          Quantity: 6
+        - ReagentId: Omnizine
+          Quantity: 4
+  - type: Tag
+    tags:
+    - Fruit
+    - Soup
+

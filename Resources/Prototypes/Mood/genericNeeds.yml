@@ -6,17 +6,17 @@
 
 - type: moodEffect
   id: HungerOkay
-  moodChange: 7
+  moodChange: 0
   category: "Hunger"
 
 - type: moodEffect
   id: HungerPeckish
-  moodChange: -3
+  moodChange: -4
   category: "Hunger"
 
 - type: moodEffect
   id: HungerStarving
-  moodChange: -7
+  moodChange: -10
   category: "Hunger"
 
 # Thirst
@@ -27,18 +27,43 @@
 
 - type: moodEffect
   id: ThirstOkay
-  moodChange: 7
+  moodChange: 0
   category: "Thirst"
 
 - type: moodEffect
   id: ThirstThirsty
-  moodChange: -3
+  moodChange: -6
   category: "Thirst"
 
 - type: moodEffect
   id: ThirstParched
-  moodChange: -7
+  moodChange: -14
   category: "Thirst"
+
+# Weariness
+- type: moodEffect
+  id: WearinessEnergized
+  moodChange: 10
+  hidden: true
+  category: "Weariness"
+
+- type: moodEffect
+  id: WearinessOkay
+  moodChange: 0
+  hidden: true
+  category: "Weariness"
+
+- type: moodEffect
+  id: WearinessTired
+  moodChange: -15
+  hidden: true
+  category: "Weariness"
+
+- type: moodEffect
+  id: WearinessExhausted
+  moodChange: -30
+  hidden: true
+  category: "Weariness"
 
 # Health
 - type: moodEffect

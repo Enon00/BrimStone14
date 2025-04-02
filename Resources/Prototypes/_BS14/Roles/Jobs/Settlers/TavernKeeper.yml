@@ -1,0 +1,27 @@
+- type: job
+  id: TavernKeeper
+  name: Tavern Keeper
+  description: "Ensure that the local tavern is producing the finest meals and keeping people entertained."
+  playTimeTracker: JobDARKTK
+  startingGear: TavernKeeperGear
+  icon: "JobIconBartender"
+  alwaysUseSpawner: true
+  supervisors: Nobility
+  access:
+  - Bar
+  - BarManager
+
+- type: startingGear
+  id: TavernKeeperGear
+  subGear:
+  - ServiceWorkerPlasmamanGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitBartender
+    outerClothing: ClothingOuterVest
+    back: ClothingBackpackFilled
+    shoes: ClothingShoesColorBlack
+    id: BartenderPDA
+  innerClothingSkirt: ClothingUniformJumpskirtBartender
+  satchel: ClothingBackpackSatchelFilled
+  duffelbag: ClothingBackpackDuffelFilled
+

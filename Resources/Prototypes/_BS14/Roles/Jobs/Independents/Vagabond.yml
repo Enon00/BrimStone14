@@ -1,0 +1,20 @@
+- type: job
+  id: Vagabond
+  name: Vagabond
+  description: "Eccentric drifters and nomads, each one is unique to another."
+  playTimeTracker: JobVagabond
+  startingGear: VagabondGear
+  icon: "JobIconUnknown"
+  joinNotifyCrew: false
+  alwaysUseSpawner: true
+  supervisors: none
+
+- type: startingGear
+  id: VagabondGear
+  equipment:
+    jumpsuit: ClothingUniformTShirtKhakiPants
+    back: ClothingBackpackSalvageFilled
+    shoes: ClothingShoesBootsSalvage
+  satchel: ClothingBackpackSatchelSalvageFilled
+  duffelbag: ClothingBackpackDuffelSalvageFilled
+

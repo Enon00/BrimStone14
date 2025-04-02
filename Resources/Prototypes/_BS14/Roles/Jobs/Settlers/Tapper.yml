@@ -1,0 +1,12 @@
+- type: job
+  id: Tapper
+  name: Tapper
+  description: "Help maintain the customer base of the tavern."
+  playTimeTracker: JobTavernKeeper
+  startingGear: TavernKeeperGear
+  icon: "JobIconBartender"
+  alwaysUseSpawner: true
+  supervisors: TavernKeeper
+  access:
+  - Bar
+

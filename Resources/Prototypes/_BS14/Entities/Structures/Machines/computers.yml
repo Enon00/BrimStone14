@@ -1,0 +1,147 @@
+- type: entity
+  parent: BaseComputerAiAccess
+  id: DARKComputerLaws
+  name: law managment console
+  description: Manage the laws of the local area.
+  components:
+  - type: Sprite
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer
+    - map: ["computerLayerKeyboard"]
+      state: generic_keyboard
+    - map: ["computerLayerScreen"]
+      state: shuttle
+    - map: ["computerLayerKeys"]
+      state: generic_keys
+    - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      state: generic_panel_open
+  - type: PointLight
+    radius: 1.5
+    energy: 1.6
+    color: "#c94242"
+  - type: ActivatableUI
+    key: enum.SiliconLawsUiKey.Key
+  - type: UserInterface
+    interfaces:
+      enum.SiliconLawsUiKey.Key:
+        type: SiliconLawBoundUserInterface
+  - type: SiliconLawBound
+  - type: SiliconLawProvider
+    laws: StateLaws
+
+- type: entity
+  id: DARKLawsScreenBroken
+  name: state laws
+  description: its broken
+  suffix: Wall broken
+  placement:
+    mode: SnapgridCenter
+  components:
+    - type: InteractionOutline
+    - type: Clickable
+    - type: Transform
+      anchored: true
+    - type: Sprite
+      sprite: _BS14/Structures/Wallmounts/wall_deco.rsi
+      state: laws_broken
+    - type: Damageable
+      damageContainer: Inorganic
+    - type: Destructible
+      thresholds:
+        - trigger:
+            !type:DamageTrigger
+            damage: 100
+          behaviors:
+            - !type:PlaySoundBehavior
+              sound:
+                collection: GlassBreak
+            - !type:DoActsBehavior
+              acts: [ "Destruction" ]
+
+- type: entity
+  id: DARKLawsScreenStateLawsVarient
+  name: wanted poster
+  parent: DARKLawsScreenBroken
+  description: Laws of the land, somewhat vague.
+  suffix: StateLaws
+  placement:
+    mode: SnapgridCenter
+  components:
+    - type: Sprite
+      sprite: _BS14/Structures/Wallmounts/wall_deco.rsi
+      state: laws_screen
+    - type: PointLight
+      color: "#8c241f"
+      energy: 0.8
+      radius: 3
+      softness: 1
+      offset: "0, -0.5"
+    - type: ActivatableUI
+      key: enum.SiliconLawsUiKey.Key
+    - type: UserInterface
+      interfaces:
+        enum.SiliconLawsUiKey.Key:
+          type: SiliconLawBoundUserInterface
+    - type: SiliconLawBound
+    - type: SiliconLawProvider
+      laws: StateLaws
+    - type: Destructible
+      thresholds:
+        - trigger:
+            !type:DamageTrigger
+            damage: 100
+          behaviors:
+            - !type:PlaySoundBehavior
+              sound:
+                collection: GlassBreak
+            - !type:SpawnEntitiesBehavior
+              spawn:
+                DARKLawsScreenBroken:
+                  min: 1
+                  max: 1
+            - !type:DoActsBehavior
+              acts: [ "Destruction" ]
+
+#State Laws
+
+- type: siliconLaw
+  id: StateLaws1
+  order: 1
+  lawString: state-laws-1 
+
+- type: siliconLaw
+  id: StateLaws2
+  order: 2
+  lawString: state-laws-2
+
+- type: siliconLaw
+  id: StateLaws3
+  order: 3
+  lawString: state-laws-3 
+
+- type: siliconLaw
+  id: StateLaws4
+  order: 4
+  lawString: state-laws-4
+
+- type: siliconLaw
+  id: StateLaws5
+  order: 5
+  lawString: state-laws-5
+
+- type: siliconLaw
+  id: StateLaws6
+  order: 6
+  lawString: state-laws-6 
+
+- type: siliconLawset
+  id: StateLaws
+  laws:
+  - StateLaws1
+  - StateLaws2
+  - StateLaws3
+  - StateLaws4
+  - StateLaws5
+  - StateLaws6
+  obeysTo: laws-owner-crew

@@ -7,8 +7,7 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 50 # DeltaV - Damage Bumped, was 40
-        Structural: 200 # DeltaV - was 30
-    ignoreResistances: true # DeltaV - Hristov be spooky now
+        Piercing: 95
+        Structural: 100
   - type: StaminaDamageOnCollide
     damage: 50 # DeltaV - was 35

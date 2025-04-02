@@ -1,0 +1,2 @@
+loadout-category-Weapons = Weapons
+

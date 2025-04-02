@@ -1,0 +1,14 @@
+- type: construction
+  name: dark shutter
+  id: DARKShutters
+  graph: Shutters
+  startNode: start
+  targetNode: DARKShutters
+  category: construction-category-structures
+  description: This is a shutter - connect it to a button to open and close it.
+  icon:
+    sprite: _BS14/Structures/Doors/Shutters/shutters.rsi 
+    state: closed
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canBuildInImpassable: true

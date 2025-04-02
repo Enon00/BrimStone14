@@ -1,0 +1,54 @@
+- type: latheRecipe
+  id: DARKIngotIron1
+  result: IronIngot1
+  applyMaterialDiscount: false
+  completetime: 3
+  materials:
+    RawIron: 100
+
+- type: latheRecipe
+  id: DARKIngotIron30
+  result: IronIngot
+  completetime: 3
+  materials:
+    RawIron: 3000
+
+- type: latheRecipe
+  id: DARKSheetSteel
+  result: SheetSteel1
+  applyMaterialDiscount: false
+  completetime: 1.5
+  materials:
+    IronIngotMaterial: 200
+
+- type: latheRecipe
+  id: DARKSheetSteel30
+  result: SheetSteel
+  completetime: 6
+  materials:
+    IronIngotMaterial: 6000
+
+- type: latheRecipe
+  id: DARKRod
+  result: PartRodMetal1
+  applyMaterialDiscount: false
+  completetime: 1.5
+  materials:
+    Steel: 50
+
+- type: latheRecipe
+  id: DARKPartRodMetal30
+  result: SheetSteel
+  completetime: 1.5
+  materials:
+    Steel: 1500
+
+- type: latheRecipe
+  id: DARKSheetPlasteel
+  result: SheetPlasteel1
+  completetime: 14
+  materials:
+    Plasma: 100
+    Steel: 200
+
+

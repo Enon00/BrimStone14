@@ -1,0 +1,486 @@
+- type: entity
+  parent: DARKGuardAirlock
+  id: AirlockBaronLocked
+  suffix: Baron, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBaron ]
+
+- type: entity
+  parent: HighSecDoor
+  id: DARKHighSecBaronLocked
+  suffix: Baron, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBaron ]
+
+- type: entity
+  parent: DARKGuardAirlock
+  id: AirlockKeepLocked
+  suffix: Keep, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsKeep ]
+
+- type: entity
+  parent: DARKGuardAirlock
+  id: AirlockCaptainGuardLocked
+  suffix: CaptainGuard, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsCaptainGuard ]
+
+- type: entity
+  parent: DARKcivilianairlock
+  id: AirlockSettlerLocked
+  suffix: Settler, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsSettler ]
+
+- type: entity
+  parent: DARKexternalairlock
+  id: DARKAirlockExternalLocked
+  suffix: External, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsExternal ]
+
+- type: entity
+  parent: DARKexternalairlock
+  id: DARKAirlockExternalMaintenanceLocked
+  suffix: Maintenance, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsMaintenance ]
+
+- type: entity
+  parent: DARKAirlockMBlack
+  id: DARKAirlockMBlackQMLocked
+  suffix: Managment, QM Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsQuartermaster ]
+
+- type: entity
+  parent: DARKAirlockMBlack
+  id: DARKAirlockMBlackMDLocked
+  suffix: Managment, MD Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsChiefMedicalOfficer ]
+
+- type: entity
+  parent: DARKAirlockMBlack
+  id: DARKAirlockMBlackTKLocked
+  suffix: Managment, TK Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBarManagerAccess ]
+
+- type: entity
+  parent: DARKAirlockMBlack
+  id: DARKAirlockMBlackELLocked
+  suffix: Managment, EL Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsSalvageManagerAccess ]
+
+- type: entity
+  parent: DARKcivilianairlock
+  id: DARLAirlockMaintChapelLocked
+  suffix: Chapel, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsChapel ]
+
+- type: entity
+  parent: DARKAirlockYellow
+  id: DARKAirlockMaintLocked
+  suffix: Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsMaintenance ]
+
+- type: entity
+  parent: DARKMultipartAirlock
+  id: DARLAirlockBlockALocked
+  suffix: BlockA, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBlockA ]
+
+- type: entity
+  parent: DARKMultipartAirlock
+  id: DARLAirlockBlockBLocked
+  suffix: BlockB, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBlockB ]
+
+- type: entity
+  parent: DARKMultipartAirlock
+  id: DARLAirlockBlockCLocked
+  suffix: BlockC, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBlockC ]
+
+- type: entity
+  parent: DARKMultipartAirlock
+  id: DARLAirlockBlockDLocked
+  suffix: BlockD, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBlockD ]
+
+- type: entity
+  parent: DARKMultipartAirlock
+  id: DARKAirlockCargo
+  suffix: Cargo, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsCargo ]
+
+- type: entity
+  parent: DARKMultipartAirlock
+  id: DARKAirlockHydroponics
+  suffix: Farm, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsHydroponics ]
+
+- type: entity
+  parent: DARKMultipartAirlock
+  id: DARKAirlockMaintenance
+  suffix: MaintenanceORTechnician, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsMaintenance ]
+
+- type: entity
+  parent: DARKMultipartAirlock
+  id: DARKAirlockSalvage
+  suffix: Salvage, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsSalvage ]
+
+- type: entity
+  parent: DARKMultipartAirlock
+  id: DARKAirlockBar
+  suffix: Bar, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBar ]
+
+- type: entity
+  parent: DARKMultipartAirlock
+  id: DARKAirlockEngineer
+  suffix: Engineer, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsEngineering ]
+
+- type: entity
+  parent: DARKMultipartAirlock
+  id: DARKAirlockChef
+  suffix: Chef, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsKitchen ]
+
+- type: entity
+  parent: DARKAirlockGlass
+  id: DARKAirlockGlassKeep
+  suffix: Keep, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsKeep ]
+
+- type: entity
+  parent: DARKAirlockBlack
+  id: DARKAirlockBlackSettlerLocked
+  suffix: Settler, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsSettler ]
+
+- type: entity
+  parent: DARKAirlockBlack
+  id: DARKAirlockBlackChapelLocked
+  suffix: Chapel, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsChapel ]
+
+- type: entity
+  parent: DARKAirlockBlack
+  id: DARKAirlockBlackALocked
+  suffix: BlockA, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBlockA ]
+
+- type: entity
+  parent: DARKAirlockBlack
+  id: DARKAirlockBlackBLocked
+  suffix: BlockB, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBlockB ]
+
+- type: entity
+  parent: DARKAirlockBlack
+  id: DARKAirlockBlackCLocked
+  suffix: BlockC, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBlockC ]
+
+- type: entity
+  parent: DARKAirlockBlack
+  id: DARKAirlockBlackDLocked
+  suffix: BlockD, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBlockD ]
+
+- type: entity
+  parent: DARKAirlockBlack
+  id: DARKAirlockBlackCargo
+  suffix: Cargo, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsCargo ]
+
+- type: entity
+  parent: DARKAirlockBlack
+  id: DARKAirlockBlackMedical
+  suffix: Medical, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsMedical ]
+
+- type: entity
+  parent: DARKAirlockBlack
+  id: DARKAirlockBlackHydroponics
+  suffix: Farm, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsHydroponics ]
+
+- type: entity
+  parent: DARKAirlockBlack
+  id: DARKAirlockBlackMaints
+  suffix: Maintenance, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsMaintenance ]
+
+- type: entity
+  parent: DARKAirlockBlack
+  id: DARKAirlockBlackSalvage
+  suffix: Salvage, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsSalvage ]
+
+- type: entity
+  parent: DARKAirlockBlack
+  id: DARKAirlockBlackBar
+  suffix: Bar, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBar ]
+
+- type: entity
+  parent: DARKAirlockBlack
+  id: DARKAirlockBlackEngineer
+  suffix: Engineer, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsEngineering ]
+
+- type: entity
+  parent: DARKAirlockBlack
+  id: DARKAirlockBlackChef
+  suffix: Chef, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsKitchen ]
+
+- type: entity
+  parent: DARKAirlockBlack
+  id: DARKAirlockBlackKeep
+  suffix: Keep, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsKeep ]
+
+- type: entity
+  parent: DARKAirlockBlack
+  id: DARKAirlockBlackChem
+  suffix: Chem, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsChemistry ]
+
+- type: entity
+  parent: DARKAirlockGlass
+  id: DARKAirlockGlassMedical
+  suffix: Medical, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsMedical ]
+
+- type: entity
+  parent: DARKAirlockGlass
+  id: DARKAirlockGlassChemistry
+  suffix: Chemistry, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsChemistry ]
+
+- type: entity
+  parent: DARKAirlockBlue
+  id: DARKAirlockGlassNTOne
+  suffix: Level One, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsAccess1 ]
+
+- type: entity
+  parent: DARKAirlockBlue
+  id: DARKAirlockGlassNTTwo
+  suffix: Level Two, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsAccess2 ]
+
+- type: entity
+  parent: DARKAirlockBlue
+  id: DARKAirlockGlassNTThree
+  suffix: Level Three, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsAccess3 ]
+
+#Windoor
+- type: entity
+  parent: WindoorSecure
+  id: DARKWindoorSecureKeepLocked
+  suffix: Keep, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsKeep ]
+
+- type: entity
+  parent: Windoor
+  id: DARKWindoorKeepLocked
+  suffix: Keep, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsKeep ]
+
+- type: entity
+  parent: WindoorSecure
+  id: DARKWindoorSecureAccess1Locked
+  suffix: Access1, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsAccess1 ]
+
+- type: entity
+  parent: Windoor
+  id: DARKWindoorAccess1Locked
+  suffix: Access1, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsAccess1 ]
+
+- type: entity
+  parent: WindoorSecure
+  id: DARKWindoorSecureAccess2Locked
+  suffix: Access2, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsAccess2 ]
+
+- type: entity
+  parent: Windoor
+  id: DARKWindoorAccess2Locked
+  suffix: Access2, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsAccess2 ]
+
+- type: entity
+  parent: WindoorSecure
+  id: DARKWindoorSecureAccess3Locked
+  suffix: Access3, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsAccess3 ]
+
+- type: entity
+  parent: Windoor
+  id: DARKWindoorAccess3Locked
+  suffix: Access3, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsAccess3 ]

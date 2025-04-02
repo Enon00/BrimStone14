@@ -1,0 +1,45 @@
+#Soup
+- type: microwaveMealRecipe
+  id: RecipeAgerSoup
+  name: Ager Soup
+  result: FoodAgerSoup
+  time: 10
+  reagents:
+    Water: 5
+  solids:
+    FoodBowlBig: 1
+    FoodAgerCaps: 2
+
+- type: microwaveMealRecipe
+  id: RecipeAgerXenoSoup
+  name: Ager-Xeno Soup
+  result: FoodAgerXenoSoup
+  time: 10
+  reagents:
+    Water: 5
+  solids:
+    FoodBowlBig: 1
+    FoodAgerCaps: 2
+    FoodMeatXeno: 2
+
+- type: microwaveMealRecipe
+  id: RecipeAgerCottonSoup
+  name: Ager-Cotton Soup
+  result: FoodAgerCottonSoup
+  time: 10
+  reagents:
+    Water: 5
+  solids:
+    FoodBowlBig: 1
+    FoodAgerCaps: 2
+    MaterialCotton1: 2
+
+- type: microwaveMealRecipe
+  id: RecipeHilrouteSoup
+  name: Hilroute Salad
+  result: FoodHilrouteSoup
+  time: 10
+  solids:
+    FoodBowlBig: 1
+    FoodHilrouteBerries: 2
+    FoodHealoxygenRoot: 3

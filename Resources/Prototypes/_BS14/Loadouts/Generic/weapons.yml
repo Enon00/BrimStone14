@@ -1,0 +1,135 @@
+- type: loadout
+  id: LoadoutItemDARKFireAxeFlaming
+  category: Weapons
+  cost: 13
+  items:
+    - DARKFireAxeFlaming
+  requirements:
+    - !type:CharacterJobRequirement
+      jobs:
+        - Executioner
+
+- type: loadout
+  id: LoadoutItemDARKmace
+  category: Weapons
+  cost: 8
+  items:
+    - DARKmace
+  requirements:
+    - !type:CharacterJobRequirement
+      jobs:
+        - Executioner
+
+- type: loadout
+  id: LoadoutItemShiv
+  category: Weapons
+  cost: 1
+  items:
+    - Shiv
+  requirements:
+    - !type:CharacterJobRequirement
+      jobs:
+        - Vagabond
+
+- type: loadout
+  id: LoadoutItemCombatKnife
+  category: Weapons
+  cost: 2
+  items:
+    - CombatKnife
+  requirements:
+    - !type:CharacterJobRequirement
+      jobs:
+        - Vagabond
+
+- type: loadout
+  id: LoadoutItemSurvivalKnife
+  category: Weapons
+  cost: 2
+  items:
+    - SurvivalKnife
+  requirements:
+    - !type:CharacterJobRequirement
+      jobs:
+        - Vagabond
+
+- type: loadout
+  id: LoadoutItemWeaponMakeshiftLaser
+  category: Weapons
+  cost: 6
+  items:
+    - WeaponMakeshiftLaser
+  requirements:
+    - !type:CharacterJobRequirement
+      jobs:
+        - Vagabond
+
+- type: loadout
+  id: LoadoutItemWeaponLaserSvalinn
+  category: Weapons
+  cost: 8
+  items:
+    - WeaponLaserSvalinn
+  requirements:
+    - !type:CharacterJobRequirement
+      jobs:
+        - Vagabond
+
+- type: loadout
+  id: LoadoutItemWeaponPistolFlintlock
+  category: Weapons
+  cost: 8
+  items:
+    - WeaponPistolFlintlock
+  requirements:
+    - !type:CharacterJobRequirement
+      jobs:
+        - Vagabond
+
+- type: loadout
+  id: LoadoutItemWeaponPistolMk58
+  category: Weapons
+  cost: 8
+  items:
+    - WeaponPistolMk58
+  requirements:
+    - !type:CharacterJobRequirement
+      jobs:
+        - Vagabond
+
+- type: loadout
+  id: LoadoutItemWeaponRevolverDeckard
+  category: Weapons
+  cost: 8
+  items:
+    - WeaponRevolverDeckard
+  requirements:
+    - !type:CharacterJobRequirement
+      jobs:
+        - Vagabond
+
+- type: loadout
+  id: LoadoutItemWeaponSniperMosin
+  category: Weapons
+  cost: 8
+  items:
+    - WeaponSniperMosin
+  requirements:
+    - !type:CharacterJobRequirement
+      jobs:
+        - Vagabond
+
+- type: loadout
+  id: LoadoutItemWeaponShotgunImprovised
+  category: Weapons
+  cost: 10
+  items:
+    - WeaponShotgunImprovised
+  requirements:
+    - !type:CharacterJobRequirement
+      jobs:
+        - Vagabond
+
+
+
+

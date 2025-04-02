@@ -1,0 +1,43 @@
+- type: job
+  id: BlueShield
+  name: Blueshield Officer
+  description: "Act as a bodyguard for important NanoTrasen staff memebers."
+  playTimeTracker: JobBlueShield
+  requirements:
+    - !type:CharacterTraitRequirement
+      inverted: true
+      traits:
+        - Foreigner
+        - ForeignerLight
+        - Muted
+        - Blindness
+        - Pacifist
+        - BrittleBoneDisease
+  startingGear: DSBlueshieldGear
+  icon: "JobIconNanotrasen"
+  joinNotifyCrew: true
+  alwaysUseSpawner: true
+  supervisors: job-supervisors-centcom
+  access:
+  - NanoTrasenAccess1
+  - NanoTrasenAccess2
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
+
+- type: startingGear
+  id: DSBlueshieldGear
+  subGear:
+  - BlueshieldPlasmamanGear
+  equipment:
+    back: ClothingBackpackBlueshield
+    jumpsuit: ClothingUniformJumpsuitBlueshieldOfficer
+    shoes: ClothingShoesBootsCombatFilled
+    eyes: ClothingEyesGlassesMedSec
+    ears: ClothingHeadsetCentCom
+    gloves: ClothingHandsGlovesCombat
+    id: BlueshieldPDA
+    belt: ClothingBeltSecurityFilled
+    pocket1: EnergySword
+    pocket2: WeaponPulsePistol
+

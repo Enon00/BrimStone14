@@ -1,0 +1,299 @@
+- type: entity
+  id: DARKSpawnPointGuardDS
+  parent: SpawnPointJobBase
+  name: guard spawn
+  components:
+  - type: SpawnPoint
+    job_id: Guard
+    delete_on_spawn: true
+  - type: Sprite
+    layers:
+      - state: green
+      - state: security_cadet
+
+- type: entity
+  id: DARKSpawnPointGuardCaptain
+  parent: SpawnPointJobBase
+  name: guard captain spawn
+  components:
+  - type: SpawnPoint
+    job_id: GuardCaptain
+    delete_on_spawn: true
+  - type: Sprite
+    layers:
+      - state: green
+      - state: security_cadet
+
+- type: entity
+  id: DARKSpawnPointBaron
+  parent: SpawnPointJobBase
+  name: baron spawn
+  components:
+  - type: SpawnPoint
+    job_id: Baron
+    delete_on_spawn: true
+  - type: Sprite
+    layers:
+      - state: green
+      - state: security_cadet
+
+- type: entity
+  id: DARKSpawnPointExecutioner
+  parent: SpawnPointJobBase
+  name: executioner spawn
+  components:
+  - type: SpawnPoint
+    job_id: Executioner
+    delete_on_spawn: true
+  - type: Sprite
+    layers:
+      - state: green
+      - state: security_cadet
+
+- type: entity
+  id: DARKSpawnPointAdvisor
+  parent: SpawnPointJobBase
+  name: advisor spawn
+  components:
+  - type: SpawnPoint
+    job_id: Advisor
+    delete_on_spawn: true
+  - type: Sprite
+    layers:
+      - state: green
+      - state: security_cadet
+
+- type: entity
+  id: DARKSpawnPointBeggar
+  parent: SpawnPointJobBase
+  name: beggar spawn
+  components:
+  - type: SpawnPoint
+    job_id: Beggar
+  - type: Sprite
+    layers:
+      - state: green
+      - state: passenger
+
+- type: entity
+  id: DARKSpawnPointChaplin
+  parent: SpawnPointJobBase
+  name: chaplin spawn
+  components:
+  - type: SpawnPoint
+    job_id: DARKChaplin
+    delete_on_spawn: true
+  - type: Sprite
+    layers:
+      - state: green
+      - state: passenger
+
+- type: entity
+  id: DARKSpawnPointFarmer
+  parent: SpawnPointJobBase
+  name: farmer spawn
+  components:
+  - type: SpawnPoint
+    job_id: Farmer
+    delete_on_spawn: true
+  - type: Sprite
+    layers:
+      - state: green
+      - state: botanist
+
+- type: entity
+  id: DARKSpawnPointPhysician
+  parent: SpawnPointJobBase
+  name: physician spawn
+  components:
+  - type: SpawnPoint
+    job_id: Physician
+    delete_on_spawn: true
+  - type: Sprite
+    layers:
+      - state: green
+      - state: doctor
+
+- type: entity
+  id: DARKSpawnPointSalvager
+  parent: SpawnPointJobBase
+  name: salvager spawn
+  components:
+  - type: SpawnPoint
+    job_id: DARKSalvager
+    delete_on_spawn: true
+  - type: Sprite
+    layers:
+      - state: green
+      - state: salvagespecialist
+
+- type: entity
+  id: DARKSpawnPointTavernKeeper
+  parent: SpawnPointJobBase
+  name: tavernkeeper spawn
+  components:
+  - type: SpawnPoint
+    job_id: TavernKeeper
+    delete_on_spawn: true
+  - type: Sprite
+    layers:
+      - state: green
+      - state: passenger
+
+- type: entity
+  id: DARKSpawnPointTapper
+  parent: SpawnPointJobBase
+  name: tapper spawn
+  components:
+  - type: SpawnPoint
+    job_id: Tapper
+    delete_on_spawn: true
+  - type: Sprite
+    layers:
+      - state: green
+      - state: passenger
+
+- type: entity
+  id: DARKSpawnPointTechnician
+  parent: SpawnPointJobBase
+  name: Technician spawn
+  components:
+  - type: SpawnPoint
+    job_id: Technician
+    delete_on_spawn: true
+  - type: Sprite
+    layers:
+      - state: green
+      - state: passenger
+
+- type: entity
+  id: DARKSpawnPointEngineer
+  parent: SpawnPointJobBase
+  name: Engineer spawn
+  components:
+  - type: SpawnPoint
+    job_id: DARKEngineer
+    delete_on_spawn: true
+  - type: Sprite
+    layers:
+      - state: green
+      - state: engineer
+
+- type: entity
+  id: DARKSpawnPointChemist
+  parent: SpawnPointJobBase
+  name: Chemist spawn
+  components:
+  - type: SpawnPoint
+    job_id: DARKChemist
+    delete_on_spawn: true
+  - type: Sprite
+    layers:
+      - state: green
+      - state: chemist
+
+- type: entity
+  id: DARKSpawnPointChef
+  parent: SpawnPointJobBase
+  name: Chef spawn
+  components:
+  - type: SpawnPoint
+    job_id: DARKChef
+    delete_on_spawn: true
+  - type: Sprite
+    layers:
+      - state: green
+      - state: chef
+
+- type: entity
+  id: DARKSpawnPointVagabond
+  parent: SpawnPointJobBase
+  name: vagabond spawn
+  components:
+  - type: SpawnPoint
+    job_id: Vagabond
+  - type: Sprite
+    layers:
+      - state: green
+      - state: passenger
+
+- type: entity
+  id: DARKSpawnPointNanoTrasenOffical
+  parent: SpawnPointJobBase
+  name: NTOverseer spawn
+  components:
+  - type: SpawnPoint
+    job_id: NanoTrasenOverseer
+    delete_on_spawn: true
+  - type: Sprite
+    layers:
+      - state: green
+      - state: ertleader
+
+- type: entity
+  id: DARKSpawnPointBlueShield
+  parent: SpawnPointJobBase
+  name: NTBlueshield spawn
+  components:
+  - type: SpawnPoint
+    job_id: BlueShield
+    delete_on_spawn: true
+  - type: Sprite
+    layers:
+      - state: green
+      - state: ertleader
+
+- type: entity
+  id: DARKSpawnPointNanoTrasenEmployee
+  parent: SpawnPointJobBase
+  name: NTEmployee spawn
+  components:
+  - type: SpawnPoint
+    job_id: NanoTrasenEmployee
+    delete_on_spawn: true
+  - type: Sprite
+    layers:
+      - state: green
+      - state: passenger
+
+- type: entity
+  id: DARKSpawnPointExpeditionLeader
+  parent: SpawnPointJobBase
+  name: ExpeditionLeader spawn
+  components:
+  - type: SpawnPoint
+    job_id: DARKEL
+    delete_on_spawn: true
+  - type: Sprite
+    layers:
+      - state: green
+      - state: passenger
+
+- type: entity
+  id: DARKSpawnPointMedicalDirector
+  parent: SpawnPointJobBase
+  name: MedicalDirector spawn
+  components:
+  - type: SpawnPoint
+    job_id: DARKMedicalDirector
+    delete_on_spawn: true
+  - type: Sprite
+    layers:
+      - state: green
+      - state: passenger
+
+- type: entity
+  id: DARKSpawnPointQuartermasterM
+  parent: SpawnPointJobBase
+  name: Quartermaster spawn
+  components:
+  - type: SpawnPoint
+    job_id: QuartermasterM
+    delete_on_spawn: true
+  - type: Sprite
+    layers:
+      - state: green
+      - state: passenger
+
+
+
