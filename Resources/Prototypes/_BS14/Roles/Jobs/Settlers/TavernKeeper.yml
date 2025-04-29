@@ -16,7 +16,7 @@
   subGear:
   - ServiceWorkerPlasmamanGear
   equipment:
-    jumpsuit: ClothingUniformJumpsuitBartender
+    jumpsuit: ClothingUniformJumpsuitWaiter
     outerClothing: ClothingOuterVest
     back: ClothingBackpackFilled
     shoes: ClothingShoesColorBlack

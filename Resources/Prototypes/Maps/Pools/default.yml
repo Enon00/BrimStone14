@@ -4,6 +4,7 @@
   id: DefaultMapPool
   maps:
   - LoneTown
+#  - sasLavatest
 #  - Arena
 #  - Asterisk
 #  - Core

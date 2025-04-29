@@ -2,11 +2,25 @@
   id: Tapper
   name: Tapper
   description: "Help maintain the customer base of the tavern."
-  playTimeTracker: JobTavernKeeper
-  startingGear: TavernKeeperGear
+  playTimeTracker: JobTapperKeeper
+  startingGear: TapperGear
   icon: "JobIconBartender"
   alwaysUseSpawner: true
   supervisors: TavernKeeper
   access:
   - Bar
+
+- type: startingGear
+  id: TapperGear
+  subGear:
+  - ServiceWorkerPlasmamanGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitBartender
+    outerClothing: ClothingOuterVest
+    back: ClothingBackpackFilled
+    shoes: ClothingShoesColorBlack
+    id: BartenderPDA
+  innerClothingSkirt: ClothingUniformJumpskirtBartender
+  satchel: ClothingBackpackSatchelFilled
+  duffelbag: ClothingBackpackDuffelFilled
 

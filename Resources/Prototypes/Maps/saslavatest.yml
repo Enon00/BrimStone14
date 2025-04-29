@@ -1,0 +1,19 @@
+- type: gameMap
+  id: sasLavatest
+  mapName: 'Lavatest'
+  mapPath: /Maps/lavatest.yml
+  minPlayers: 0
+  maxPlayers: 60
+  stations:
+    LoneTown:
+      stationProto: StandardPlanetLocation
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: "Barony of Lowthan"
+        - type: StationEmergencyShuttle
+          emergencyShuttlePath: /Maps/_BS14/EvacBaron.yml
+        - type: StationJobs
+          overflowJobs:
+            - Vagabond
+          availableJobs:
+            Vagabond: [ 4, 4 ]

@@ -17,6 +17,10 @@
       - !type:Oxygenate
         conditions:
         - !type:OrganType
+          type: Unathi
+      - !type:Oxygenate
+        conditions:
+        - !type:OrganType
           type: Animal
       - !type:Oxygenate
         conditions:
@@ -278,6 +282,10 @@
         conditions:
         - !type:OrganType
           type: Vox
+      - !type:Oxygenate
+        conditions:
+        - !type:OrganType
+          type: Unathi
       - !type:Oxygenate
         conditions:
         - !type:OrganType

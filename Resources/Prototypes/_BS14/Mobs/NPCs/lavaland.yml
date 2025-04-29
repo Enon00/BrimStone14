@@ -1,6 +1,6 @@
 - type: entity
   name: gold grub
-  parent: SimpleMobBase
+  parent: BaseMobAsteroid
   id: MobGoldGrub
   description: Rare grubs which defecate gold.
   components:
@@ -9,7 +9,7 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base", "movement"]
       state: goldgrub
-      sprite: _BS14/Mobs/Lavaland/goldgrub.rsi
+      sprite: _BS14/Mobs/Aliens/Lavaland/goldgrub.rsi
   - type: SpriteMovement
     movementLayers:
       movement:
@@ -74,7 +74,7 @@
 
 - type: entity
   name: grub
-  parent: SimpleMobBase
+  parent: BaseMobAsteroid
   id: MobGrub
   description: A grub which eats rocks.
   components:
@@ -83,7 +83,7 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: grub
-      sprite: _BS14/Mobs/Lavaland/grub.rsi
+      sprite: _BS14/Mobs/Aliens/Lavaland/grub.rsi
   - type: Tag
     tags:
     - DoorBumpOpener

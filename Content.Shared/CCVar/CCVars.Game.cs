@@ -1,4 +1,4 @@
-﻿using Content.Shared.Roles;
+using Content.Shared.Roles;
 using Robust.Shared.Configuration;
 
 namespace Content.Shared.CCVar;
@@ -311,7 +311,7 @@ public sealed partial class CCVars
     ///     How many points a character should start with.
     /// </summary>
     public static readonly CVarDef<int> GameTraitsDefaultPoints =
-        CVarDef.Create("game.traits_default_points", 10, CVar.REPLICATED);
+        CVarDef.Create("game.traits_default_points", 3, CVar.REPLICATED);
 
     /// <summary>
     ///     Whether the game will SMITE people who used cheat engine to spawn with all of the traits.
@@ -331,7 +331,7 @@ public sealed partial class CCVars
     ///     How many points to give to each player for loadouts.
     /// </summary>
     public static readonly CVarDef<int> GameLoadoutsPoints =
-        CVarDef.Create("game.loadouts_points", 14, CVar.REPLICATED);
+        CVarDef.Create("game.loadouts_points", 12, CVar.REPLICATED);
 
 
     /// <summary>

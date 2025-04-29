@@ -1,4 +1,4 @@
-﻿using Robust.Shared.Configuration;
+using Robust.Shared.Configuration;
 
 namespace Content.Shared.CCVar;
 
@@ -8,7 +8,7 @@ public sealed partial class CCVars
     ///     Controls whether the server will deny any players that are not whitelisted in the DB.
     /// </summary>
     public static readonly CVarDef<bool> WhitelistEnabled =
-        CVarDef.Create("whitelist.enabled", false, CVar.REPLICATED);
+        CVarDef.Create("whitelist.enabled", true, CVar.REPLICATED);
 
     /// <summary>
     ///     Specifies the whitelist prototypes to be used by the server. This should be a comma-separated list of prototypes.

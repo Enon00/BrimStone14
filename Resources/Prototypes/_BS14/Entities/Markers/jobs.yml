@@ -5,7 +5,6 @@
   components:
   - type: SpawnPoint
     job_id: Guard
-    delete_on_spawn: true
   - type: Sprite
     layers:
       - state: green
@@ -18,7 +17,6 @@
   components:
   - type: SpawnPoint
     job_id: GuardCaptain
-    delete_on_spawn: true
   - type: Sprite
     layers:
       - state: green
@@ -31,7 +29,6 @@
   components:
   - type: SpawnPoint
     job_id: Baron
-    delete_on_spawn: true
   - type: Sprite
     layers:
       - state: green
@@ -44,7 +41,6 @@
   components:
   - type: SpawnPoint
     job_id: Executioner
-    delete_on_spawn: true
   - type: Sprite
     layers:
       - state: green
@@ -57,7 +53,6 @@
   components:
   - type: SpawnPoint
     job_id: Advisor
-    delete_on_spawn: true
   - type: Sprite
     layers:
       - state: green
@@ -82,7 +77,6 @@
   components:
   - type: SpawnPoint
     job_id: DARKChaplin
-    delete_on_spawn: true
   - type: Sprite
     layers:
       - state: green
@@ -95,7 +89,6 @@
   components:
   - type: SpawnPoint
     job_id: Farmer
-    delete_on_spawn: true
   - type: Sprite
     layers:
       - state: green
@@ -108,7 +101,6 @@
   components:
   - type: SpawnPoint
     job_id: Physician
-    delete_on_spawn: true
   - type: Sprite
     layers:
       - state: green
@@ -121,7 +113,6 @@
   components:
   - type: SpawnPoint
     job_id: DARKSalvager
-    delete_on_spawn: true
   - type: Sprite
     layers:
       - state: green
@@ -134,7 +125,6 @@
   components:
   - type: SpawnPoint
     job_id: TavernKeeper
-    delete_on_spawn: true
   - type: Sprite
     layers:
       - state: green
@@ -147,7 +137,6 @@
   components:
   - type: SpawnPoint
     job_id: Tapper
-    delete_on_spawn: true
   - type: Sprite
     layers:
       - state: green
@@ -160,7 +149,6 @@
   components:
   - type: SpawnPoint
     job_id: Technician
-    delete_on_spawn: true
   - type: Sprite
     layers:
       - state: green
@@ -173,7 +161,6 @@
   components:
   - type: SpawnPoint
     job_id: DARKEngineer
-    delete_on_spawn: true
   - type: Sprite
     layers:
       - state: green
@@ -186,7 +173,6 @@
   components:
   - type: SpawnPoint
     job_id: DARKChemist
-    delete_on_spawn: true
   - type: Sprite
     layers:
       - state: green
@@ -199,7 +185,6 @@
   components:
   - type: SpawnPoint
     job_id: DARKChef
-    delete_on_spawn: true
   - type: Sprite
     layers:
       - state: green
@@ -224,7 +209,6 @@
   components:
   - type: SpawnPoint
     job_id: NanoTrasenOverseer
-    delete_on_spawn: true
   - type: Sprite
     layers:
       - state: green
@@ -237,7 +221,6 @@
   components:
   - type: SpawnPoint
     job_id: BlueShield
-    delete_on_spawn: true
   - type: Sprite
     layers:
       - state: green
@@ -250,7 +233,6 @@
   components:
   - type: SpawnPoint
     job_id: NanoTrasenEmployee
-    delete_on_spawn: true
   - type: Sprite
     layers:
       - state: green
@@ -263,7 +245,6 @@
   components:
   - type: SpawnPoint
     job_id: DARKEL
-    delete_on_spawn: true
   - type: Sprite
     layers:
       - state: green
@@ -276,7 +257,6 @@
   components:
   - type: SpawnPoint
     job_id: DARKMedicalDirector
-    delete_on_spawn: true
   - type: Sprite
     layers:
       - state: green
@@ -289,7 +269,6 @@
   components:
   - type: SpawnPoint
     job_id: QuartermasterM
-    delete_on_spawn: true
   - type: Sprite
     layers:
       - state: green

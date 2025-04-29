@@ -41,7 +41,7 @@ public sealed partial class CCVars
     /// <summary>
     /// Time it takes the shuttle to spin up it's hyper drive and jump
     /// </summary>
-    public static readonly CVarDef<float> ArrivalsStartupTime=
+    public static readonly CVarDef<float> ArrivalsStartupTime =
         CVarDef.Create("shuttle.arrivals_startup_time", 5.5f, CVar.SERVERONLY);
 
     /// <summary>
@@ -140,7 +140,7 @@ public sealed partial class CCVars
     /// How long the emergency shuttle remains docked with the station, in seconds.
     /// </summary>
     public static readonly CVarDef<float> EmergencyShuttleDockTime =
-        CVarDef.Create("shuttle.emergency_dock_time", 240f, CVar.SERVERONLY);
+        CVarDef.Create("shuttle.emergency_dock_time", 200f, CVar.SERVERONLY);
 
     /// <summary>
     /// How long after the console is authorized for the shuttle to early launch.

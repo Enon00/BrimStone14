@@ -119,7 +119,7 @@
   description: It's a snappy jumpsuit with a sturdy set of overalls. It's very dirty.
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/salvage.rsi
+    sprite: DeltaV/Clothing/Uniforms/Jumpsuit/explorer.rsi
 
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase]

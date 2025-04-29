@@ -14,7 +14,7 @@
       part: TorsoReptilian
       organs:
         heart: OrganAnimalHeart
-        lungs: OrganHumanLungs
+        lungs: OrganUnathiLungs
         stomach: OrganReptilianStomach
         liver: OrganAnimalLiver
         kidneys: OrganHumanKidneys

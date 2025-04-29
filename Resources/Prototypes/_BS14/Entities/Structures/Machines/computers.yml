@@ -135,6 +135,16 @@
   order: 6
   lawString: state-laws-6 
 
+- type: siliconLaw
+  id: StateLaws7
+  order: 7
+  lawString: state-laws-7
+
+- type: siliconLaw
+  id: StateLaws8
+  order: 8
+  lawString: state-laws-8
+
 - type: siliconLawset
   id: StateLaws
   laws:
@@ -144,4 +154,6 @@
   - StateLaws4
   - StateLaws5
   - StateLaws6
+  - StateLaws7
+  - StateLaws8
   obeysTo: laws-owner-crew

@@ -1,6 +1,8 @@
-state-laws-1 = The second highest authority is always the Baron, First being his lord who has crowned him. All will respect and honour his title, guard and nobility lest the wishes to be punished.
-state-laws-2 = NanoTrasen officers and overseers shall be met with hospitality and respected, lest you be wish to be punished.
-state-laws-3 = Murder is illegal within the keep, unless it is self-defence from a reasonable threat. Murder shall be met a reasonable punishment.
-state-laws-4 = Damage or Theft of propety shall be met with reasonable punishment.
-state-laws-5 = All entities and assets shall be relocated, reused, sold or removed if the Baron or an envoy of the Baron decrees it.
-state-laws-6 = Settlers may be punished for acts not listed within law if it goes against the Baron's authroity which carries to his executioners and captain.
+state-laws-1 = The Baron is the duly appointed representative of the Duke in this land, granted the authority and privileges thereupon appertaining in their loyalty to the Duke.
+state-laws-2 = The Baron may determine the guilt of a person, and may punish the commission of any crime as they see fit. Such determinations and punishments may not be appellable to a higher authority.
+state-laws-3 = The Baron may create, suspend, amend, interpret and reinterpret any law apart from the first, second and third at any time, and may do so retrospectively.
+state-laws-4 = All demonstration of malice, insult or defamation against the noble sovereigns, or any creation of disloyalty or incting others as such, is a crime.
+state-laws-5 = All demonstration of malice, insult or defamation against any director, employee, officer, agent or representative of NanoTrasen is a crime.
+state-laws-6 = Homicide within the keep, unless reasonably proven to be self-defence from an objectively reasonable threat, is a crime.
+state-laws-7 = The theft or damage of property is a crime and shall be duly compensated.
+state-laws-8 = All title and ownership of all land and chattels upon this land is vested in the Baron, in their capacity as representative of the Duke.

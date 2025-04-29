@@ -46,6 +46,9 @@
   - type: Appearance
   - type: Extractable
     grindableSolutionName: steel
+  - type: Construction
+    graph: DARKSteelSheet
+    node: start
   - type: SolutionContainerManager
     solutions:
       steel:

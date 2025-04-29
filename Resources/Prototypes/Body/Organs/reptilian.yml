@@ -21,3 +21,42 @@
         reagents:
         - ReagentId: UncookedAnimalProteins
           Quantity: 5
+
+- type: entity
+  id: OrganUnathiLungs
+  parent: BaseHumanOrgan
+  name: unathi lungs
+  description: "Exeptional lungs, capable of withstanding a variety of atmospheres."
+  components:
+  - type: Sprite
+    sprite: Mobs/Species/Reptilian/organs.rsi
+    layers:
+      - state: lung-l-unathi
+      - state: lung-r-unathi
+  - type: Organ # Shitmed
+    slotId: lungs
+  - type: Lung
+    alert: LowNitrogen
+  - type: Metabolizer
+    removeEmpty: true
+    solutionOnBody: false
+    solution: "Lung"
+    metabolizerTypes: [ Unathi ]
+    groups:
+    - id: Gas
+      rateModifier: 100.0
+  - type: SolutionContainerManager
+    solutions:
+      organ:
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 10
+      Lung:
+        maxVol: 100.0
+        canReact: false
+      food:
+        maxVol: 5
+        reagents:
+        - ReagentId: UncookedAnimalProteins
+          Quantity: 5
+

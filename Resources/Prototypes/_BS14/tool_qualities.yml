@@ -1,0 +1,6 @@
+- type: tool
+  id: Hammering 
+  name: hammering 
+  toolName: hammering
+  spawn: DARKHammer
+  icon: { sprite: _BS14/Objects/Tools/hammer.rsi, state: icon }

@@ -26,7 +26,7 @@
             Baron: [ 1, 1 ]
           #NT
             NanoTrasenOverseer: [ 1, 1 ]
-            NanoTrasenEmployee: [ 1, 1 ]
+            NanoTrasenEmployee: [ 0, 0 ]
             BlueShield: [ 1, 1 ]
           #Settlers
             Beggar: [ 2, 6 ]
@@ -41,4 +41,5 @@
             DARKChaplin: [ 1, 1 ]
             DARKChef: [ 1, 1 ]
             Tapper: [ 2, 2 ]
-            DARKChemist: [ 1, 1 ]
+            DARKChemist: [ 2, 2 ]
+            QuartermasterM: [ 1, 1 ]

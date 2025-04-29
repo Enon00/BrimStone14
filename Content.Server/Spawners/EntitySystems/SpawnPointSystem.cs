@@ -25,13 +25,14 @@ public sealed class SpawnPointSystem : EntitySystem
 
         // TODO: Cache all this if it ends up important.
         var points = EntityQueryEnumerator<SpawnPointComponent, TransformComponent>();
-        var possibleSpawns = new List<(EntityUid Uid, EntityCoordinates Coordinates, SpawnPointComponent SpawnPoint)>();
+        var possiblePositions = new List<EntityCoordinates>();
 
-        while (points.MoveNext(out var uid, out var spawnPoint, out var xform))
+        while ( points.MoveNext(out var uid, out var spawnPoint, out var xform))
         {
             if (args.Station != null && _stationSystem.GetOwningStation(uid, xform) != args.Station)
                 continue;
 
+            // Delta-V: Allow setting a desired SpawnPointType
             if (args.DesiredSpawnPointType != SpawnPointType.Unset)
             {
                 var isMatchingJob = spawnPoint.SpawnType == SpawnPointType.Job &&
@@ -42,34 +43,49 @@ public sealed class SpawnPointSystem : EntitySystem
                     case SpawnPointType.Job when isMatchingJob:
                     case SpawnPointType.LateJoin when spawnPoint.SpawnType == SpawnPointType.LateJoin:
                     case SpawnPointType.Observer when spawnPoint.SpawnType == SpawnPointType.Observer:
-                        possibleSpawns.Add((uid, xform.Coordinates, spawnPoint));
+                        possiblePositions.Add(xform.Coordinates);
                         break;
                     default:
                         continue;
                 }
             }
 
-            if (possibleSpawns.Count == 0)
+            if (_gameTicker.RunLevel == GameRunLevel.InRound && spawnPoint.SpawnType == SpawnPointType.LateJoin)
             {
-                Log.Error("No valid spawn points found!");
-                return;
+                possiblePositions.Add(xform.Coordinates);
             }
 
-            // Select a random spawn point
-            var (selectedUid, spawnLoc, selectedSpawnPoint) = _random.Pick(possibleSpawns);
-
-            // Spawn the player mob
-            args.SpawnResult = _stationSpawning.SpawnPlayerMob(
-                spawnLoc,
-                args.Job,
-                args.HumanoidCharacterProfile,
-                args.Station);
-
-            // If the spawn was successful and `DeleteOnSpawn` is enabled, delete the entity
-            if (args.SpawnResult != null && selectedSpawnPoint.DeleteOnSpawn)
+            if (_gameTicker.RunLevel != GameRunLevel.InRound &&
+                spawnPoint.SpawnType == SpawnPointType.Job &&
+                (args.Job == null || spawnPoint.Job is not null && spawnPoint.Job == args.Job))
             {
-                EntityManager.DeleteEntity(selectedUid);
+                possiblePositions.Add(xform.Coordinates);
             }
         }
+
+        if (possiblePositions.Count == 0)
+        {
+            // Ok we've still not returned, but we need to put them /somewhere/.
+            // TODO: Refactor gameticker spawning code so we don't have to do this!
+            var points2 = EntityQueryEnumerator<SpawnPointComponent, TransformComponent>();
+
+            if (points2.MoveNext(out _, out var xform))
+            {
+                possiblePositions.Add(xform.Coordinates);
+            }
+            else
+            {
+                Log.Error("No spawn points were available!");
+                return;
+            }
+        }
+
+        var spawnLoc = _random.Pick(possiblePositions);
+
+        args.SpawnResult = _stationSpawning.SpawnPlayerMob(
+            spawnLoc,
+            args.Job,
+            args.HumanoidCharacterProfile,
+            args.Station);
     }
 }

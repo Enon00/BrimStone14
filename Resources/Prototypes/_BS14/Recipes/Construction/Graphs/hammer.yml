@@ -1,0 +1,13 @@
+﻿- type: constructionGraph
+  id: DARKSteelSheet
+  start: start
+  graph:
+  - node: start
+    entity: IronIngot1
+    edges:
+    - to: iron
+      steps:
+      - tool: Hammering
+        doAfter: 3
+  - node: iron
+    entity: SheetSteel1

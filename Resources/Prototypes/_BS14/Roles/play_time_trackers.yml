@@ -44,6 +44,9 @@
   id: JobTechnician
 
 - type: playTimeTracker
+  id: JobTapperKeeper
+
+- type: playTimeTracker
   id: JobDARKSTARChaplain
 
 - type: playTimeTracker

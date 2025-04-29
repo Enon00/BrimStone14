@@ -23,16 +23,24 @@
 - type: loadout
   id: LoadoutItemSpaceCash100
   category: Items
-  cost: 3
+  cost: 2
   items:
     - SpaceCash100
 
 - type: loadout
-  id: LoadoutItemSpaceCash10
+  id: LoadoutItemSpaceCash1000
   category: Items
-  cost: 0
+  cost: 4
   items:
-    - SpaceCash10
+    - SpaceCash1000
+  requirements:
+    - !type:CharacterJobRequirement
+      jobs:
+        - DARKEL
+        - DARKMedicalDirector
+        - QuartermasterM
+        - TavernKeeper
+
 
 - type: loadout
   id: LoadoutItemBoxMRE
@@ -40,3 +48,18 @@
   cost: 4
   items:
     - BoxMRE
+
+- type: loadout
+  id: LoadoutItemBedrollFolded
+  category: Items
+  cost: 2
+  items:
+    - N14BedrollFolded
+  requirements:
+    - !type:CharacterJobRequirement
+      jobs:
+        - Vagabond
+        - Beggar
+
+
+
